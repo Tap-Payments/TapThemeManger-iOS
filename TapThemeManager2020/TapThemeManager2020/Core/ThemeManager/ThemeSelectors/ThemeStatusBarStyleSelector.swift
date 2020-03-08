@@ -6,12 +6,14 @@
 //  Copyright © 2020 Osama Rabie. All rights reserved.
 //
 
-import UIKit
+import enum UIKit.UIStatusBarStyle
 
+/// This class is responsible for fetching a UIStatusBarStyle from a theme file or theme array
 @objc public final class ThemeStatusBarStyleSelector: ThemeSelector {
     
     var animated = true
     
+    /// This class is responsible for fetching a UIStatusBarStyle from a theme file
     public convenience init(keyPath: String) {
         self.init(value: { ThemeStatusBarStyleSelector.statusBarStyle(from: TapThemeManager.stringValue(for: keyPath) ?? "") })
     }
@@ -20,6 +22,7 @@ import UIKit
         self.init(value: { map(TapThemeManager.value(for: keyPath)) })
     }
     
+    /// This class is responsible for fetching a UIStatusBarStyle from array
     public convenience init(styles: UIStatusBarStyle...) {
         self.init(value: { TapThemeManager.element(for: styles) })
     }
@@ -40,6 +43,12 @@ import UIKit
         self.init(keyPath: value)
     }
     
+    
+    /**
+    - Converts a given string value to an actual UIStatusBarStyle
+    - Parameter stringStyle: A string value to reprenset the needed UIStatusBarStyle
+    - Returns: UIStatusBarStyle.default .lightContent, .darkContent
+    */
     class func statusBarStyle(from stringStyle: String) -> UIStatusBarStyle {
         switch stringStyle.lowercased() {
         case "default"      : return .default
