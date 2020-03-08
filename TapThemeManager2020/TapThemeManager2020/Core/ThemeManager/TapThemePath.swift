@@ -11,6 +11,13 @@ import Foundation
 /// The enum to decide if we are loading the theme from JSON, PLIST
 @objc public final class TapThemePath: NSObject {
 
+    
+    /// A theme URL in case we needed to add more options to load from afterwise.
+    public var themeURL: Foundation.URL? {
+        return nil
+    }
+    
+    
     /**
     - The method for rettrning the path of a plist file
     - Parameter fileName: The name of the plist file that has the needed theme
