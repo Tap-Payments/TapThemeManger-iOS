@@ -40,6 +40,7 @@
 		E860F6B724151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B624151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift */; };
 		E860F6B924151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B824151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift */; };
 		E860F6BB2415207300214C3C /* ThemeStateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6BA2415207300214C3C /* ThemeStateSelector.swift */; };
+		E860F6BD2415231B00214C3C /* ThemeStatusBarStyleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6BC2415231B00214C3C /* ThemeStatusBarStyleSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		E860F6B624151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeNavigationBarAppearanceSelector.swift; sourceTree = "<group>"; };
 		E860F6B824151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeScrollViewIndicatorStyleSelector.swift; sourceTree = "<group>"; };
 		E860F6BA2415207300214C3C /* ThemeStateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeStateSelector.swift; sourceTree = "<group>"; };
+		E860F6BC2415231B00214C3C /* ThemeStatusBarStyleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeStatusBarStyleSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +251,7 @@
 				E860F6B624151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift */,
 				E860F6B824151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift */,
 				E860F6BA2415207300214C3C /* ThemeStateSelector.swift */,
+				E860F6BC2415231B00214C3C /* ThemeStatusBarStyleSelector.swift */,
 			);
 			path = ThemeSelectors;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				E860F6B32415199100214C3C /* ThemeImageSelector.swift in Sources */,
 				E860F6B724151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift in Sources */,
 				E860F6AD24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift in Sources */,
+				E860F6BD2415231B00214C3C /* ThemeStatusBarStyleSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
