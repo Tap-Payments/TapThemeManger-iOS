@@ -78,14 +78,14 @@ import UIKit
      */
     public convenience init(rgba_throws rgba: String) throws {
         guard rgba.hasPrefix("#") else {
-            throw UIColorInputError.missingHashMarkAsPrefix
+            throw UIColorHexInputError.noHashMark
         }
         
         let hexString: String = String(rgba[rgba.index(rgba.startIndex, offsetBy: 1)...])
         var hexValue:  UInt32 = 0
         
         guard Scanner(string: hexString).scanHexInt32(&hexValue) else {
-            throw UIColorInputError.unableToScanHexValue
+            throw UIColorHexInputError.notValidHexValue
         }
         
         switch (hexString.count) {
@@ -98,8 +98,18 @@ import UIKit
         case 8:
             self.init(hex8: hexValue)
         default:
-            throw UIColorInputError.mismatchedHexStringLength
+            throw UIColorHexInputError.notSupportedHexLength
         }
     }
-    
+}
+
+/**
+ MissingHashMarkAsPrefix:   "Invalid RGB string, missing '#' as prefix"
+ UnableToScanHexValue:      "Scan hex error"
+ MismatchedHexStringLength: "Invalid RGB string, number of characters after '#' should be either 3, 4, 6 or 8"
+ */
+public enum UIColorHexInputError : Error {
+    case noHashMark,
+    notValidHexValue,
+    notSupportedHexLength
 }
