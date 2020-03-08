@@ -1,20 +1,16 @@
 PODS:
   - MBProgressHUD (1.2.0)
-  - SSZipArchive (2.2.2)
 
 DEPENDENCIES:
   - MBProgressHUD
-  - SSZipArchive
 
 SPEC REPOS:
   trunk:
     - MBProgressHUD
-    - SSZipArchive
 
 SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
 
-PODFILE CHECKSUM: 425f47ab1f213bbd60d43079e709fb98e3a16e34
+PODFILE CHECKSUM: b49f7ac46ca6a4e9fe7167cb65d0927562ee1483
 
 COCOAPODS: 1.8.4

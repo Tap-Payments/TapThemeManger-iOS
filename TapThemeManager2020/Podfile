@@ -6,6 +6,5 @@ target 'TapThemeManager2020' do
   use_frameworks!
 
   # Pods for TapThemeManager2020
-pod 'SSZipArchive'
 pod 'MBProgressHUD'
 end

@@ -22,6 +22,8 @@
 		E860F6862414CB0700214C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E860F6852414CB0700214C3C /* Assets.xcassets */; };
 		E860F6892414CB0700214C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E860F6872414CB0700214C3C /* LaunchScreen.storyboard */; };
 		E860F68C2414CB0700214C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E860F68B2414CB0700214C3C /* main.m */; };
+		E860F6942414CECB00214C3C /* TapThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6932414CECB00214C3C /* TapThemeManager.swift */; };
+		E860F6972414D05B00214C3C /* TapThemePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6962414D05B00214C3C /* TapThemePath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		E860F6882414CB0700214C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E860F68A2414CB0700214C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E860F68B2414CB0700214C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E860F6932414CECB00214C3C /* TapThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapThemeManager.swift; sourceTree = "<group>"; };
+		E860F6962414D05B00214C3C /* TapThemePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapThemePath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 		E860F6522414C46A00214C3C /* TapThemeManager2020 */ = {
 			isa = PBXGroup;
 			children = (
+				E860F6912414CD2300214C3C /* Resources */,
+				E860F6902414CD1100214C3C /* Core */,
 				E860F6532414C46A00214C3C /* TapThemeManager2020.h */,
 				E860F6542414C46A00214C3C /* Info.plist */,
 			);
@@ -157,6 +163,38 @@
 				E860F68B2414CB0700214C3C /* main.m */,
 			);
 			path = TapThemeManagerObjCDemo;
+			sourceTree = "<group>";
+		};
+		E860F6902414CD1100214C3C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E860F6952414D04900214C3C /* enums */,
+				E860F6922414CD9800214C3C /* ThemeManager */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E860F6912414CD2300214C3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E860F6922414CD9800214C3C /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				E860F6932414CECB00214C3C /* TapThemeManager.swift */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
+		E860F6952414D04900214C3C /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				E860F6962414D05B00214C3C /* TapThemePath.swift */,
+			);
+			path = enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +276,7 @@
 				TargetAttributes = {
 					E860F64F2414C46A00214C3C = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					E860F65E2414CAE000214C3C = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -327,6 +366,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E860F6972414D05B00214C3C /* TapThemePath.swift in Sources */,
+				E860F6942414CECB00214C3C /* TapThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BD40F5B16530FEEAAC66290 /* Pods-TapThemeManager2020.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G46S76PUH4;
@@ -530,6 +572,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapThemeManager2020;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -539,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F6A304A233DB6ACF7B0E759 /* Pods-TapThemeManager2020.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G46S76PUH4;
