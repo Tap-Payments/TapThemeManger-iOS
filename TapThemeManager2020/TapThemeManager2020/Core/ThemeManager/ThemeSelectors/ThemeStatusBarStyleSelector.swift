@@ -11,6 +11,7 @@ import enum UIKit.UIStatusBarStyle
 /// This class is responsible for fetching a UIStatusBarStyle from a theme file or theme array
 @objc public final class ThemeStatusBarStyleSelector: ThemeSelector {
     
+    /// Defines if the stats bar should update with animation or instantly
     var animated = true
     
     /// This class is responsible for fetching a UIStatusBarStyle from a theme file
@@ -57,7 +58,6 @@ import enum UIKit.UIStatusBarStyle
         default: return .default
         }
     }
-    
 }
 
 public extension ThemeStatusBarStyleSelector {
