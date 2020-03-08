@@ -92,13 +92,40 @@ import UIKit
         }
     }
     
+    /**
+    - The method for getting a UIFont value from the current theme dictionary. The fonts can be provided whether NAME,SIZE or SIZE or NAME
+    - Parameter keyPath: The key of the UIFont needed
+    - Returns: The UIFont value of the key, and nil if doesn't exist
+    */
+    public class func fontValue(for keyPath: String) -> UIFont? {
+        // First of all, check if the font textual info presented
+        guard let parsedFontString = stringValue(for: keyPath) else { return nil }
+        return fontValue(from: parsedFontString)
+    }
+    
+    internal class func fontValue(from string: String) -> UIFont {
+        // Check if the theme file provides both font name and font size
+        let elements = string.components(separatedBy: ",")
+        if elements.count == 2 {
+            return UIFont(name: elements[0], size: CGFloat(Float(elements[1])!))!
+        }
+        
+        // Check if the theme file provides ONLY size, then we just provide the system font with tthe given size
+        if let fontSize = Float(string), fontSize > 0 {
+            return UIFont.systemFont(ofSize: CGFloat(fontSize))
+        }
+        
+        // Not to break, we return default font and size
+        let value = "UICTFontTextStyle" + string.capitalized
+        return UIFont.preferredFont(forTextStyle: UIFont.TextStyle(rawValue: value))
+    }
     
     /**
     - The method for getting a UIImage value from a given URL
     - Parameter fromLocalURL: The path of the UIImage needed
     - Returns: The UIImage value of the key, and nil if doesn't exist
     */
-    private class func imageValue(fromLocalURL:String) -> UIImage? {
+    internal class func imageValue(fromLocalURL:String) -> UIImage? {
         guard let parsedImage = UIImage(contentsOfFile: fromLocalURL) else {
             print("TapThemeManager WARNING: Not found image at file path: \(fromLocalURL)")
             return nil
@@ -112,12 +139,16 @@ import UIKit
     - Parameter imageName: The needed image name
     - Returns: The UIImage value of the key, and nil if doesn't exist
     */
-    private class func imageValue(imageName:String) -> UIImage? {
+    internal class func imageValue(imageName:String) -> UIImage? {
         guard let parsedImage = UIImage(named: imageName) else {
             print("TapThemeManager WARNING: Not found image name at main bundle: \(imageName)")
             return nil
         }
         return parsedImage
     }
+    
+    
+    
+    
     
 }
