@@ -41,7 +41,6 @@ import UIKit
         self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
     
-    
     /**
      #RRGGBB input --> #RRGGBBAA output.
      - parameter hex6: Six-digit hexadecimal value.
@@ -54,6 +53,53 @@ import UIKit
         let blue    = CGFloat( hex6 & 0x0000FF       ) / divisor
 
         self.init(red: red, green: green, blue: blue, alpha: alpha)
+    }
+    
+    /**
+     #RRGGBBAA input --> UIColor output.
+     
+     - parameter hex8: #RRGGBBAA
+     */
+    public convenience init(hex8: UInt32) {
+        let divisor = CGFloat(255)
+        let red     = CGFloat((hex8 & 0xFF000000) >> 24) / divisor
+        let green   = CGFloat((hex8 & 0x00FF0000) >> 16) / divisor
+        let blue    = CGFloat((hex8 & 0x0000FF00) >>  8) / divisor
+        let alpha   = CGFloat( hex8 & 0x000000FF       ) / divisor
+
+        self.init(red: red, green: green, blue: blue, alpha: alpha)
+    }
+    
+    
+    /**
+     The global added Init method that takes in any of the allowed HEX strings and returns a valid UIColor
+     
+     - parameter rgba: #RGB, #RGBA, #RRGGBB, #RRGGBBAA
+     */
+    public convenience init(rgba_throws rgba: String) throws {
+        guard rgba.hasPrefix("#") else {
+            throw UIColorInputError.missingHashMarkAsPrefix
+        }
+        
+        let hexString: String = String(rgba[rgba.index(rgba.startIndex, offsetBy: 1)...])
+        var hexValue:  UInt32 = 0
+        
+        guard Scanner(string: hexString).scanHexInt32(&hexValue) else {
+            throw UIColorInputError.unableToScanHexValue
+        }
+        
+        switch (hexString.count) {
+        case 3:
+            self.init(hex3: UInt16(hexValue))
+        case 4:
+            self.init(hex4: UInt16(hexValue))
+        case 6:
+            self.init(hex6: hexValue)
+        case 8:
+            self.init(hex8: hexValue)
+        default:
+            throw UIColorInputError.mismatchedHexStringLength
+        }
     }
     
 }
