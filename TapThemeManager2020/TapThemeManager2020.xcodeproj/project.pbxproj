@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		B92ED1D82A90C2B41E1F1A93 /* Pods_TapThemeManager2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEFA9278958BC8943B39A3B /* Pods_TapThemeManager2020.framework */; };
 		E860F6552414C46A00214C3C /* TapThemeManager2020.h in Headers */ = {isa = PBXBuildFile; fileRef = E860F6532414C46A00214C3C /* TapThemeManager2020.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E860F6622414CAE000214C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6612414CAE000214C3C /* AppDelegate.swift */; };
+		E860F6642414CAE000214C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6632414CAE000214C3C /* SceneDelegate.swift */; };
+		E860F6662414CAE000214C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6652414CAE000214C3C /* ViewController.swift */; };
+		E860F6692414CAE000214C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E860F6672414CAE000214C3C /* Main.storyboard */; };
+		E860F66B2414CAE100214C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E860F66A2414CAE100214C3C /* Assets.xcassets */; };
+		E860F66E2414CAE100214C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E860F66C2414CAE100214C3C /* LaunchScreen.storyboard */; };
+		E860F67B2414CB0600214C3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E860F67A2414CB0600214C3C /* AppDelegate.m */; };
+		E860F67E2414CB0600214C3C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E860F67D2414CB0600214C3C /* SceneDelegate.m */; };
+		E860F6812414CB0600214C3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E860F6802414CB0600214C3C /* ViewController.m */; };
+		E860F6842414CB0600214C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E860F6822414CB0600214C3C /* Main.storyboard */; };
+		E860F6862414CB0700214C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E860F6852414CB0700214C3C /* Assets.xcassets */; };
+		E860F6892414CB0700214C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E860F6872414CB0700214C3C /* LaunchScreen.storyboard */; };
+		E860F68C2414CB0700214C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E860F68B2414CB0700214C3C /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +31,26 @@
 		E860F6502414C46A00214C3C /* TapThemeManager2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapThemeManager2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E860F6532414C46A00214C3C /* TapThemeManager2020.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapThemeManager2020.h; sourceTree = "<group>"; };
 		E860F6542414C46A00214C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E860F65F2414CAE000214C3C /* TapThemeManagerSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapThemeManagerSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E860F6612414CAE000214C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E860F6632414CAE000214C3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E860F6652414CAE000214C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E860F6682414CAE000214C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E860F66A2414CAE100214C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E860F66D2414CAE100214C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E860F66F2414CAE100214C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E860F6772414CB0600214C3C /* TapThemeManagerObjCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapThemeManagerObjCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E860F6792414CB0600214C3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E860F67A2414CB0600214C3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E860F67C2414CB0600214C3C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E860F67D2414CB0600214C3C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E860F67F2414CB0600214C3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E860F6802414CB0600214C3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E860F6832414CB0600214C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E860F6852414CB0700214C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E860F6882414CB0700214C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E860F68A2414CB0700214C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E860F68B2414CB0700214C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +59,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B92ED1D82A90C2B41E1F1A93 /* Pods_TapThemeManager2020.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E860F65C2414CAE000214C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E860F6742414CB0600214C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +85,6 @@
 				9BD40F5B16530FEEAAC66290 /* Pods-TapThemeManager2020.debug.xcconfig */,
 				9F6A304A233DB6ACF7B0E759 /* Pods-TapThemeManager2020.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -54,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				E860F6522414C46A00214C3C /* TapThemeManager2020 */,
+				E860F6602414CAE000214C3C /* TapThemeManagerSwiftDemo */,
+				E860F6782414CB0600214C3C /* TapThemeManagerObjCDemo */,
 				E860F6512414C46A00214C3C /* Products */,
 				5837DB6230B3ED273C72A611 /* Pods */,
 				7A30BB86EB6B00C40111EE17 /* Frameworks */,
@@ -64,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				E860F6502414C46A00214C3C /* TapThemeManager2020.framework */,
+				E860F65F2414CAE000214C3C /* TapThemeManagerSwiftDemo.app */,
+				E860F6772414CB0600214C3C /* TapThemeManagerObjCDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +125,38 @@
 				E860F6542414C46A00214C3C /* Info.plist */,
 			);
 			path = TapThemeManager2020;
+			sourceTree = "<group>";
+		};
+		E860F6602414CAE000214C3C /* TapThemeManagerSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E860F6612414CAE000214C3C /* AppDelegate.swift */,
+				E860F6632414CAE000214C3C /* SceneDelegate.swift */,
+				E860F6652414CAE000214C3C /* ViewController.swift */,
+				E860F6672414CAE000214C3C /* Main.storyboard */,
+				E860F66A2414CAE100214C3C /* Assets.xcassets */,
+				E860F66C2414CAE100214C3C /* LaunchScreen.storyboard */,
+				E860F66F2414CAE100214C3C /* Info.plist */,
+			);
+			path = TapThemeManagerSwiftDemo;
+			sourceTree = "<group>";
+		};
+		E860F6782414CB0600214C3C /* TapThemeManagerObjCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E860F6792414CB0600214C3C /* AppDelegate.h */,
+				E860F67A2414CB0600214C3C /* AppDelegate.m */,
+				E860F67C2414CB0600214C3C /* SceneDelegate.h */,
+				E860F67D2414CB0600214C3C /* SceneDelegate.m */,
+				E860F67F2414CB0600214C3C /* ViewController.h */,
+				E860F6802414CB0600214C3C /* ViewController.m */,
+				E860F6822414CB0600214C3C /* Main.storyboard */,
+				E860F6852414CB0700214C3C /* Assets.xcassets */,
+				E860F6872414CB0700214C3C /* LaunchScreen.storyboard */,
+				E860F68A2414CB0700214C3C /* Info.plist */,
+				E860F68B2414CB0700214C3C /* main.m */,
+			);
+			path = TapThemeManagerObjCDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,16 +192,57 @@
 			productReference = E860F6502414C46A00214C3C /* TapThemeManager2020.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E860F65E2414CAE000214C3C /* TapThemeManagerSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E860F6722414CAE100214C3C /* Build configuration list for PBXNativeTarget "TapThemeManagerSwiftDemo" */;
+			buildPhases = (
+				E860F65B2414CAE000214C3C /* Sources */,
+				E860F65C2414CAE000214C3C /* Frameworks */,
+				E860F65D2414CAE000214C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapThemeManagerSwiftDemo;
+			productName = TapThemeManagerSwiftDemo;
+			productReference = E860F65F2414CAE000214C3C /* TapThemeManagerSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E860F6762414CB0600214C3C /* TapThemeManagerObjCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E860F68D2414CB0700214C3C /* Build configuration list for PBXNativeTarget "TapThemeManagerObjCDemo" */;
+			buildPhases = (
+				E860F6732414CB0600214C3C /* Sources */,
+				E860F6742414CB0600214C3C /* Frameworks */,
+				E860F6752414CB0600214C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapThemeManagerObjCDemo;
+			productName = TapThemeManagerObjCDemo;
+			productReference = E860F6772414CB0600214C3C /* TapThemeManagerObjCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E860F6472414C46A00214C3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Osama Rabie";
 				TargetAttributes = {
 					E860F64F2414C46A00214C3C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E860F65E2414CAE000214C3C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E860F6762414CB0600214C3C = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -138,6 +261,8 @@
 			projectRoot = "";
 			targets = (
 				E860F64F2414C46A00214C3C /* TapThemeManager2020 */,
+				E860F65E2414CAE000214C3C /* TapThemeManagerSwiftDemo */,
+				E860F6762414CB0600214C3C /* TapThemeManagerObjCDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +272,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E860F65D2414CAE000214C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E860F66E2414CAE100214C3C /* LaunchScreen.storyboard in Resources */,
+				E860F66B2414CAE100214C3C /* Assets.xcassets in Resources */,
+				E860F6692414CAE000214C3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E860F6752414CB0600214C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E860F6892414CB0700214C3C /* LaunchScreen.storyboard in Resources */,
+				E860F6862414CB0700214C3C /* Assets.xcassets in Resources */,
+				E860F6842414CB0600214C3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +330,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E860F65B2414CAE000214C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E860F6662414CAE000214C3C /* ViewController.swift in Sources */,
+				E860F6622414CAE000214C3C /* AppDelegate.swift in Sources */,
+				E860F6642414CAE000214C3C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E860F6732414CB0600214C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E860F6812414CB0600214C3C /* ViewController.m in Sources */,
+				E860F67B2414CB0600214C3C /* AppDelegate.m in Sources */,
+				E860F68C2414CB0700214C3C /* main.m in Sources */,
+				E860F67E2414CB0600214C3C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E860F6672414CAE000214C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E860F6682414CAE000214C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E860F66C2414CAE100214C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E860F66D2414CAE100214C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E860F6822414CB0600214C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E860F6832414CB0600214C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E860F6872414CB0700214C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E860F6882414CB0700214C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E860F6562414C46A00214C3C /* Debug */ = {
@@ -360,6 +561,80 @@
 			};
 			name = Release;
 		};
+		E860F6702414CAE100214C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				INFOPLIST_FILE = TapThemeManagerSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapThemeManagerSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E860F6712414CAE100214C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				INFOPLIST_FILE = TapThemeManagerSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapThemeManagerSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E860F68E2414CB0700214C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				INFOPLIST_FILE = TapThemeManagerObjCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapThemeManagerObjCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E860F68F2414CB0700214C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				INFOPLIST_FILE = TapThemeManagerObjCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapThemeManagerObjCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -377,6 +652,24 @@
 			buildConfigurations = (
 				E860F6592414C46A00214C3C /* Debug */,
 				E860F65A2414C46A00214C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E860F6722414CAE100214C3C /* Build configuration list for PBXNativeTarget "TapThemeManagerSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E860F6702414CAE100214C3C /* Debug */,
+				E860F6712414CAE100214C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E860F68D2414CB0700214C3C /* Build configuration list for PBXNativeTarget "TapThemeManagerObjCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E860F68E2414CB0700214C3C /* Debug */,
+				E860F68F2414CB0700214C3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
