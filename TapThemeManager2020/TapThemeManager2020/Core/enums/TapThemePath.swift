@@ -23,8 +23,8 @@ public enum TapThemePath {
         }
     }
     
-    public func plistPath(name: String) -> String? {
-        return filePath(fileName: name, ofType: "plist")
+    public func plistPath(fileName: String) -> String? {
+        return filePath(fileName: fileName, ofType: "plist")
     }
     
     public func jsonPath(fileName: String) -> String? {
