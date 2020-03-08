@@ -104,9 +104,9 @@ import UIKit
 }
 
 /**
- MissingHashMarkAsPrefix:   "Invalid RGB string, missing '#' as prefix"
- UnableToScanHexValue:      "Scan hex error"
- MismatchedHexStringLength: "Invalid RGB string, number of characters after '#' should be either 3, 4, 6 or 8"
+ noHashMark:   "no '#' as prefix"
+ notValidHexValue:      "Scan hex error"
+ notSupportedHexLength: "length'#' should be either 3, 4, 6 or 8"
  */
 public enum UIColorHexInputError : Error {
     case noHashMark,
