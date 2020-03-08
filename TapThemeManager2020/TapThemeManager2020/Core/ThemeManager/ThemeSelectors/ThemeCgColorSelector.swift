@@ -53,7 +53,7 @@ import UIKit
     }
     
 }
-
+    // MARK:- Objective C interface
 @objc public extension ThemeCgColorSelector {
     
     class func selectorWithKeyPath(_ keyPath: String) -> ThemeCgColorSelector {
