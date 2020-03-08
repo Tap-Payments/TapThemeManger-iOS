@@ -26,6 +26,7 @@
 		E860F6992414D5B500214C3C /* TapThemePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6982414D5B500214C3C /* TapThemePath.swift */; };
 		E860F69C2414DB6200214C3C /* UIHexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F69B2414DB6200214C3C /* UIHexColor.swift */; };
 		E860F69F2414E2F600214C3C /* ThemeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F69E2414E2F600214C3C /* ThemeSelector.swift */; };
+		E860F6A12414E63800214C3C /* TapThemeManagerParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6A02414E63800214C3C /* TapThemeManagerParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		E860F6982414D5B500214C3C /* TapThemePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapThemePath.swift; sourceTree = "<group>"; };
 		E860F69B2414DB6200214C3C /* UIHexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHexColor.swift; sourceTree = "<group>"; };
 		E860F69E2414E2F600214C3C /* ThemeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelector.swift; sourceTree = "<group>"; };
+		E860F6A02414E63800214C3C /* TapThemeManagerParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapThemeManagerParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 				E860F69D2414E2E500214C3C /* ThemeSelectors */,
 				E860F6932414CECB00214C3C /* TapThemeManager.swift */,
 				E860F6982414D5B500214C3C /* TapThemePath.swift */,
+				E860F6A02414E63800214C3C /* TapThemeManagerParser.swift */,
 			);
 			path = ThemeManager;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				E860F6992414D5B500214C3C /* TapThemePath.swift in Sources */,
 				E860F69F2414E2F600214C3C /* ThemeSelector.swift in Sources */,
 				E860F6942414CECB00214C3C /* TapThemeManager.swift in Sources */,
+				E860F6A12414E63800214C3C /* TapThemeManagerParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
