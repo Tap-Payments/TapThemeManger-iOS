@@ -36,6 +36,7 @@
 		E860F6AF2415150B00214C3C /* ThemeDictionarySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6AE2415150B00214C3C /* ThemeDictionarySelector.swift */; };
 		E860F6B12415174100214C3C /* ThemeFontSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B02415174100214C3C /* ThemeFontSelector.swift */; };
 		E860F6B32415199100214C3C /* ThemeImageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B22415199100214C3C /* ThemeImageSelector.swift */; };
+		E860F6B524151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B424151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		E860F6AE2415150B00214C3C /* ThemeDictionarySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDictionarySelector.swift; sourceTree = "<group>"; };
 		E860F6B02415174100214C3C /* ThemeFontSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFontSelector.swift; sourceTree = "<group>"; };
 		E860F6B22415199100214C3C /* ThemeImageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeImageSelector.swift; sourceTree = "<group>"; };
+		E860F6B424151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeKeyboardAppearanceSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 				E860F6AE2415150B00214C3C /* ThemeDictionarySelector.swift */,
 				E860F6B02415174100214C3C /* ThemeFontSelector.swift */,
 				E860F6B22415199100214C3C /* ThemeImageSelector.swift */,
+				E860F6B424151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift */,
 			);
 			path = ThemeSelectors;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E860F6AB2415021000214C3C /* ThemeBarStyleSelector.swift in Sources */,
+				E860F6B524151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift in Sources */,
 				E860F6B12415174100214C3C /* ThemeFontSelector.swift in Sources */,
 				E860F69C2414DB6200214C3C /* UIHexColor.swift in Sources */,
 				E860F6AF2415150B00214C3C /* ThemeDictionarySelector.swift in Sources */,
@@ -668,7 +672,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G46S76PUH4;
 				INFOPLIST_FILE = TapThemeManagerSwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -687,7 +691,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G46S76PUH4;
 				INFOPLIST_FILE = TapThemeManagerSwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -706,7 +710,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G46S76PUH4;
 				INFOPLIST_FILE = TapThemeManagerObjCDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -724,7 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G46S76PUH4;
 				INFOPLIST_FILE = TapThemeManagerObjCDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
