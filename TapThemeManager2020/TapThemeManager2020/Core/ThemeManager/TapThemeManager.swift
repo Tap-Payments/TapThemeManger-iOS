@@ -10,8 +10,8 @@ import Foundation
 
 public let TapThemeUpdateNotification = "TapThemeUpdateNotification"
 
-/// The brain class for managing the Tap Theme manager itself
-@objc public final class TapThemeManager: NSObject {
+    /// The brain class for managing the Tap Theme manager itself
+    @objc public final class TapThemeManager: NSObject {
     
     /// Defines the duration needed in transittioing between themes
     @objc public static var themeUpdateAnimationDuration = 0.3
@@ -42,9 +42,9 @@ public extension TapThemeManager {
     - Parameter path:      The path for the required plist file
     */
     
-    class func setTapTheme(plistName: String, path: TapThemePath) {
+    @objc class func setTapTheme(plistName: String, path: TapThemePath) {
        // Check if the file exists
-        guard let plistPath = path.plistPath(fileName: plistName) else {
+        guard let plistPath = path.themePlistPath(fileName: plistName) else {
             print("TapThemeManager WARNING: Can't find plist '\(plistName)' at: \(path)")
             return
         }
@@ -63,9 +63,9 @@ public extension TapThemeManager {
     - Parameter jsonName: The name of the JSON file that has the needed theme
     - Parameter path:      The path for the required JSON file
     */
-    class func setTapTheme(jsonName: String, path: TapThemePath) {
+    @objc class func setTapTheme(jsonName: String, path: TapThemePath) {
         // Check if the file exists
-        guard let jsonPath = path.jsonPath(fileName: jsonName) else {
+        guard let jsonPath = path.themeJsonPath(fileName: jsonName) else {
             print("TapThemeManager WARNING: Can't find json '\(jsonName)' at: \(path)")
             return
         }
@@ -86,7 +86,7 @@ public extension TapThemeManager {
     - Parameter themeDict: The dictionary of the the theme we need to apply
     - Parameter path:      The path for the required theme file
     */
-    class func setTapTheme(themeDict: NSDictionary, path: TapThemePath) {
+    @objc class func setTapTheme(themeDict: NSDictionary, path: TapThemePath) {
         currentTheme = themeDict
         currentThemePath = path
         // Inform all subscribers, Please reload yourself :)
