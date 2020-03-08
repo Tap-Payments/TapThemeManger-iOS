@@ -35,6 +35,7 @@
 		E860F6AD24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6AC24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift */; };
 		E860F6AF2415150B00214C3C /* ThemeDictionarySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6AE2415150B00214C3C /* ThemeDictionarySelector.swift */; };
 		E860F6B12415174100214C3C /* ThemeFontSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B02415174100214C3C /* ThemeFontSelector.swift */; };
+		E860F6B32415199100214C3C /* ThemeImageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B22415199100214C3C /* ThemeImageSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		E860F6AC24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeActivityIndicatorViewStyleSelector.swift; sourceTree = "<group>"; };
 		E860F6AE2415150B00214C3C /* ThemeDictionarySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDictionarySelector.swift; sourceTree = "<group>"; };
 		E860F6B02415174100214C3C /* ThemeFontSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFontSelector.swift; sourceTree = "<group>"; };
+		E860F6B22415199100214C3C /* ThemeImageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeImageSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 				E860F6AC24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift */,
 				E860F6AE2415150B00214C3C /* ThemeDictionarySelector.swift */,
 				E860F6B02415174100214C3C /* ThemeFontSelector.swift */,
+				E860F6B22415199100214C3C /* ThemeImageSelector.swift */,
 			);
 			path = ThemeSelectors;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 				E860F6942414CECB00214C3C /* TapThemeManager.swift in Sources */,
 				E860F6A12414E63800214C3C /* TapThemeManagerParser.swift in Sources */,
 				E860F6A52414F6B700214C3C /* ThemeUIColorSelector.swift in Sources */,
+				E860F6B32415199100214C3C /* ThemeImageSelector.swift in Sources */,
 				E860F6AD24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
