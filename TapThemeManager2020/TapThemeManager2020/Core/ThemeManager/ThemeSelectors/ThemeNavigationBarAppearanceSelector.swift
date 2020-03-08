@@ -9,12 +9,17 @@
 import class UIKit.UINavigationBarAppearance
 
 @available(iOS 13.0, tvOS 13.0, *)
+/// This class is responsible for fetching a UINavigationBarAppearance from a theme file or theme array
 @objc public final class ThemeNavigationBarAppearanceSelector: ThemeSelector {
 
+    
+    /// This class is responsible for fetching a UINavigationBarAppearance from a theme file
     public convenience init(keyPath: String, map: @escaping (Any?) -> UINavigationBarAppearance?) {
         self.init(value: { map(TapThemeManager.value(for: keyPath)) })
     }
 
+    
+    /// This class is responsible for fetching a UINavigationBarAppearance from a array
     public convenience init(appearances: UINavigationBarAppearance...) {
         self.init(value: { TapThemeManager.element(for: appearances) })
     }
@@ -25,6 +30,7 @@ import class UIKit.UINavigationBarAppearance
 
 }
 
+// MARK:- Objective C interface
 @available(iOS 13.0, tvOS 13.0, *)
 @objc public extension ThemeNavigationBarAppearanceSelector {
 

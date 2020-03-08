@@ -39,6 +39,7 @@
 		E860F6B524151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B424151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift */; };
 		E860F6B724151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B624151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift */; };
 		E860F6B924151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B824151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift */; };
+		E860F6BB2415207300214C3C /* ThemeStateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6BA2415207300214C3C /* ThemeStateSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		E860F6B424151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeKeyboardAppearanceSelector.swift; sourceTree = "<group>"; };
 		E860F6B624151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeNavigationBarAppearanceSelector.swift; sourceTree = "<group>"; };
 		E860F6B824151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeScrollViewIndicatorStyleSelector.swift; sourceTree = "<group>"; };
+		E860F6BA2415207300214C3C /* ThemeStateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeStateSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 				E860F6B424151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift */,
 				E860F6B624151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift */,
 				E860F6B824151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift */,
+				E860F6BA2415207300214C3C /* ThemeStateSelector.swift */,
 			);
 			path = ThemeSelectors;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			files = (
 				E860F6AB2415021000214C3C /* ThemeBarStyleSelector.swift in Sources */,
 				E860F6B524151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift in Sources */,
+				E860F6BB2415207300214C3C /* ThemeStateSelector.swift in Sources */,
 				E860F6B924151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift in Sources */,
 				E860F6B12415174100214C3C /* ThemeFontSelector.swift in Sources */,
 				E860F69C2414DB6200214C3C /* UIHexColor.swift in Sources */,

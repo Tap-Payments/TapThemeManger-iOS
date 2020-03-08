@@ -8,8 +8,10 @@
 
 import class UIKit.UIScrollView
 
+/// This class is responsible for fetching a UIScrollView.IndicatorStyle from a theme file or theme array
 @objc public final class ThemeScrollViewIndicatorStyleSelector: ThemeSelector {
-    
+
+    /// This class is responsible for fetching a UIScrollView.IndicatorStyle from a theme file
     public convenience init(keyPath: String) {
         self.init(value: { ThemeScrollViewIndicatorStyleSelector.indicatorStyle(from: TapThemeManager.stringValue(for: keyPath) ?? "") })
     }
@@ -18,6 +20,7 @@ import class UIKit.UIScrollView
         self.init(value: { map(TapThemeManager.value(for: keyPath)) })
     }
     
+    /// This class is responsible for fetching a UIScrollView.IndicatorStyle from a given array
     public convenience init(styles: UIScrollView.IndicatorStyle...) {
         self.init(value: { TapThemeManager.element(for: styles) })
     }
@@ -66,6 +69,7 @@ public extension ThemeScrollViewIndicatorStyleSelector {
     
 }
 
+// MARK:- Objective C interface
 @objc public extension ThemeScrollViewIndicatorStyleSelector {
     
     class func selectorWithKeyPath(_ keyPath: String) -> ThemeScrollViewIndicatorStyleSelector {
