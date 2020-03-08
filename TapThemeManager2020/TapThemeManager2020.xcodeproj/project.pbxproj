@@ -29,6 +29,7 @@
 		E860F6A12414E63800214C3C /* TapThemeManagerParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6A02414E63800214C3C /* TapThemeManagerParser.swift */; };
 		E860F6A32414F49E00214C3C /* TapThemeManager+array.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6A22414F49E00214C3C /* TapThemeManager+array.swift */; };
 		E860F6A52414F6B700214C3C /* ThemeUIColorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6A42414F6B700214C3C /* ThemeUIColorSelector.swift */; };
+		E860F6A72414F8CF00214C3C /* ThemeCgColorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6A62414F8CF00214C3C /* ThemeCgColorSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		E860F6A02414E63800214C3C /* TapThemeManagerParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapThemeManagerParser.swift; sourceTree = "<group>"; };
 		E860F6A22414F49E00214C3C /* TapThemeManager+array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TapThemeManager+array.swift"; sourceTree = "<group>"; };
 		E860F6A42414F6B700214C3C /* ThemeUIColorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeUIColorSelector.swift; sourceTree = "<group>"; };
+		E860F6A62414F8CF00214C3C /* ThemeCgColorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCgColorSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			children = (
 				E860F69E2414E2F600214C3C /* ThemeSelector.swift */,
 				E860F6A42414F6B700214C3C /* ThemeUIColorSelector.swift */,
+				E860F6A62414F8CF00214C3C /* ThemeCgColorSelector.swift */,
 			);
 			path = ThemeSelectors;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 			files = (
 				E860F69C2414DB6200214C3C /* UIHexColor.swift in Sources */,
 				E860F6A32414F49E00214C3C /* TapThemeManager+array.swift in Sources */,
+				E860F6A72414F8CF00214C3C /* ThemeCgColorSelector.swift in Sources */,
 				E860F6992414D5B500214C3C /* TapThemePath.swift in Sources */,
 				E860F69F2414E2F600214C3C /* ThemeSelector.swift in Sources */,
 				E860F6942414CECB00214C3C /* TapThemeManager.swift in Sources */,
