@@ -31,6 +31,7 @@
 		E860F6A52414F6B700214C3C /* ThemeUIColorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6A42414F6B700214C3C /* ThemeUIColorSelector.swift */; };
 		E860F6A72414F8CF00214C3C /* ThemeCgColorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6A62414F8CF00214C3C /* ThemeCgColorSelector.swift */; };
 		E860F6A92414FFCA00214C3C /* ThemeCGFloatSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6A82414FFCA00214C3C /* ThemeCGFloatSelector.swift */; };
+		E860F6AB2415021000214C3C /* ThemeBarStyleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6AA2415021000214C3C /* ThemeBarStyleSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		E860F6A42414F6B700214C3C /* ThemeUIColorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeUIColorSelector.swift; sourceTree = "<group>"; };
 		E860F6A62414F8CF00214C3C /* ThemeCgColorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCgColorSelector.swift; sourceTree = "<group>"; };
 		E860F6A82414FFCA00214C3C /* ThemeCGFloatSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCGFloatSelector.swift; sourceTree = "<group>"; };
+		E860F6AA2415021000214C3C /* ThemeBarStyleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBarStyleSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				E860F6A42414F6B700214C3C /* ThemeUIColorSelector.swift */,
 				E860F6A62414F8CF00214C3C /* ThemeCgColorSelector.swift */,
 				E860F6A82414FFCA00214C3C /* ThemeCGFloatSelector.swift */,
+				E860F6AA2415021000214C3C /* ThemeBarStyleSelector.swift */,
 			);
 			path = ThemeSelectors;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E860F6AB2415021000214C3C /* ThemeBarStyleSelector.swift in Sources */,
 				E860F69C2414DB6200214C3C /* UIHexColor.swift in Sources */,
 				E860F6A32414F49E00214C3C /* TapThemeManager+array.swift in Sources */,
 				E860F6A92414FFCA00214C3C /* ThemeCGFloatSelector.swift in Sources */,
