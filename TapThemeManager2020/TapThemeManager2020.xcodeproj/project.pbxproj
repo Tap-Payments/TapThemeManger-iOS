@@ -37,6 +37,8 @@
 		E860F6B12415174100214C3C /* ThemeFontSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B02415174100214C3C /* ThemeFontSelector.swift */; };
 		E860F6B32415199100214C3C /* ThemeImageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B22415199100214C3C /* ThemeImageSelector.swift */; };
 		E860F6B524151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B424151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift */; };
+		E860F6B724151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B624151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift */; };
+		E860F6B924151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6B824151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,8 @@
 		E860F6B02415174100214C3C /* ThemeFontSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFontSelector.swift; sourceTree = "<group>"; };
 		E860F6B22415199100214C3C /* ThemeImageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeImageSelector.swift; sourceTree = "<group>"; };
 		E860F6B424151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeKeyboardAppearanceSelector.swift; sourceTree = "<group>"; };
+		E860F6B624151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeNavigationBarAppearanceSelector.swift; sourceTree = "<group>"; };
+		E860F6B824151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeScrollViewIndicatorStyleSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +244,8 @@
 				E860F6B02415174100214C3C /* ThemeFontSelector.swift */,
 				E860F6B22415199100214C3C /* ThemeImageSelector.swift */,
 				E860F6B424151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift */,
+				E860F6B624151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift */,
+				E860F6B824151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift */,
 			);
 			path = ThemeSelectors;
 			sourceTree = "<group>";
@@ -415,6 +421,7 @@
 			files = (
 				E860F6AB2415021000214C3C /* ThemeBarStyleSelector.swift in Sources */,
 				E860F6B524151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift in Sources */,
+				E860F6B924151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift in Sources */,
 				E860F6B12415174100214C3C /* ThemeFontSelector.swift in Sources */,
 				E860F69C2414DB6200214C3C /* UIHexColor.swift in Sources */,
 				E860F6AF2415150B00214C3C /* ThemeDictionarySelector.swift in Sources */,
@@ -427,6 +434,7 @@
 				E860F6A12414E63800214C3C /* TapThemeManagerParser.swift in Sources */,
 				E860F6A52414F6B700214C3C /* ThemeUIColorSelector.swift in Sources */,
 				E860F6B32415199100214C3C /* ThemeImageSelector.swift in Sources */,
+				E860F6B724151D6400214C3C /* ThemeNavigationBarAppearanceSelector.swift in Sources */,
 				E860F6AD24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
