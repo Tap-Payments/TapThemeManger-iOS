@@ -12,7 +12,7 @@ import UIKit
 @objc extension UIColor {
     
     /**
-     #RGB input --> #RRGGBB output.
+     #RGB input --> #RRGGBBAA output.
      
      - parameter hex3: #RGB hexadecimal value.
      - parameter alpha: 0.0 - 1.0. The default is 1.0.
@@ -26,6 +26,19 @@ import UIKit
         self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
     
-    
+    /**
+     #RGBA input --> #RRGGBBAA output.
+     
+     - parameter hex4: #RGBA hexadecimal value.
+     */
+    public convenience init(hex4: UInt16) {
+        let divisor = CGFloat(15)
+        let red     = CGFloat((hex4 & 0xF000) >> 12) / divisor
+        let green   = CGFloat((hex4 & 0x0F00) >>  8) / divisor
+        let blue    = CGFloat((hex4 & 0x00F0) >>  4) / divisor
+        let alpha   = CGFloat( hex4 & 0x000F       ) / divisor
+
+        self.init(red: red, green: green, blue: blue, alpha: alpha)
+    }
     
 }
