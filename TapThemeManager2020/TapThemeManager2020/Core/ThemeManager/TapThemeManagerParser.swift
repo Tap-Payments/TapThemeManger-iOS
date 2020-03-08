@@ -146,9 +146,4 @@ import UIKit
         }
         return parsedImage
     }
-    
-    
-    
-    
-    
 }
