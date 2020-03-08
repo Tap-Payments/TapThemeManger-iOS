@@ -6,8 +6,8 @@
 //  Copyright © 2020 Osama Rabie. All rights reserved.
 //
 
-import UIKit
-
+import class UIKit.UIColor
+import class UIKit.CGColor
 /// This class is responsible for fetching a CGColor from a theme file or theme array
 @objc public final class ThemeCgColorSelector: ThemeSelector {
     

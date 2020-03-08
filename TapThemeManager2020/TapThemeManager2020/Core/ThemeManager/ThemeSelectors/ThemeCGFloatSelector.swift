@@ -6,7 +6,7 @@
 //  Copyright © 2020 Osama Rabie. All rights reserved.
 //
 
-import UIKit
+import struct UIKit.CGFloat
 
 
 /// This class is responsible for fetching a CGFloat value from a theme file or theme array

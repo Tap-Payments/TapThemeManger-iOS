@@ -5,7 +5,10 @@
 //  Created by Osama Rabie on 08/03/2020.
 //  Copyright © 2020 Osama Rabie. All rights reserved.
 //
-import UIKit
+import class UIKit.UIImage
+import class UIKit.UIFont
+import class UIKit.UIColor
+import struct UIKit.CGFloat
 
 
 /// All the methods required to parse String values provided in the theme file into readable iOS values like UIColor, UIFont, etc.

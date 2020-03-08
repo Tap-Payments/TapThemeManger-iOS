@@ -6,7 +6,7 @@
 //  Copyright © 2020 Osama Rabie. All rights reserved.
 //
 
-import UIKit
+import enum UIKit.UIBarStyle
 
 /// This class is responsible for fetching a UIBarStyle from a theme file or theme array
 @objc public final class ThemeBarStyleSelector: ThemeSelector {

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Osama Rabie. All rights reserved.
 //
 
-import UIKit
+import class UIKit.UIActivityIndicatorView
 
 /// This class is responsible for fetching a UIActivityIndicatorView.Style from a theme file or theme array
 

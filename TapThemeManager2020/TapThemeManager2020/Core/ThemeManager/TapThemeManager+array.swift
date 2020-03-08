@@ -7,7 +7,8 @@
 //
 
 
-import UIKit
+import class UIKit.UIColor
+import class UIKit.UIImage
 /// Set of methods that allows the Tap Theme Manager to get values if the theme was provided as a set of array like labelColors[Color1,Color2, etc]
 extension TapThemeManager {
     

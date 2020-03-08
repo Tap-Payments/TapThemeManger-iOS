@@ -6,7 +6,9 @@
 //  Copyright © 2020 Osama Rabie. All rights reserved.
 //
 
-import UIKit
+import class UIKit.UIColor
+import class UIKit.CGColor
+import struct UIKit.CGFloat
 
 /// Defines set of init methods to provide a UIColor from different values of provided #RGBA hex values. #RGB, #RGBA, #RRGGBB, #RRGGBBAA
 @objc extension UIColor {

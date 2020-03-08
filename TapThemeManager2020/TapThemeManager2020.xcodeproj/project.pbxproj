@@ -33,6 +33,7 @@
 		E860F6A92414FFCA00214C3C /* ThemeCGFloatSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6A82414FFCA00214C3C /* ThemeCGFloatSelector.swift */; };
 		E860F6AB2415021000214C3C /* ThemeBarStyleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6AA2415021000214C3C /* ThemeBarStyleSelector.swift */; };
 		E860F6AD24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6AC24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift */; };
+		E860F6AF2415150B00214C3C /* ThemeDictionarySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6AE2415150B00214C3C /* ThemeDictionarySelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		E860F6A82414FFCA00214C3C /* ThemeCGFloatSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCGFloatSelector.swift; sourceTree = "<group>"; };
 		E860F6AA2415021000214C3C /* ThemeBarStyleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBarStyleSelector.swift; sourceTree = "<group>"; };
 		E860F6AC24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeActivityIndicatorViewStyleSelector.swift; sourceTree = "<group>"; };
+		E860F6AE2415150B00214C3C /* ThemeDictionarySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDictionarySelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 				E860F6A82414FFCA00214C3C /* ThemeCGFloatSelector.swift */,
 				E860F6AA2415021000214C3C /* ThemeBarStyleSelector.swift */,
 				E860F6AC24150AE700214C3C /* ThemeActivityIndicatorViewStyleSelector.swift */,
+				E860F6AE2415150B00214C3C /* ThemeDictionarySelector.swift */,
 			);
 			path = ThemeSelectors;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 			files = (
 				E860F6AB2415021000214C3C /* ThemeBarStyleSelector.swift in Sources */,
 				E860F69C2414DB6200214C3C /* UIHexColor.swift in Sources */,
+				E860F6AF2415150B00214C3C /* ThemeDictionarySelector.swift in Sources */,
 				E860F6A32414F49E00214C3C /* TapThemeManager+array.swift in Sources */,
 				E860F6A92414FFCA00214C3C /* ThemeCGFloatSelector.swift in Sources */,
 				E860F6A72414F8CF00214C3C /* ThemeCgColorSelector.swift in Sources */,
