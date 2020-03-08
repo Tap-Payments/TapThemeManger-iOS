@@ -76,7 +76,7 @@ import UIKit
      
      - parameter rgba: #RGB, #RGBA, #RRGGBB, #RRGGBBAA
      */
-    public convenience init(rgba_throws rgba: String) throws {
+    public convenience init(tap_hex rgba: String) throws {
         guard rgba.hasPrefix("#") else {
             throw UIColorHexInputError.noHashMark
         }

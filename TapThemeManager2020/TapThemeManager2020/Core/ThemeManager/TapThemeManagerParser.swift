@@ -33,6 +33,46 @@ import UIKit
         return parsedString
     }
     
+    /**
+    - The method for getting a Numeric value from the current theme dictionary
+    - Parameter keyPath: The key of the Number needed
+    - Returns: The NSNumber value of the key, and nil if doesn't exist
+    */
+    public class func numberValue(for keyPath: String) -> NSNumber? {
+        guard let parsedNumber = currentTheme?.value(forKeyPath: keyPath) as? NSNumber else {
+            print("TapThemeManager WARNING: Not found number key path: \(keyPath)")
+            return nil
+        }
+        return parsedNumber
+    }
+    
+    /**
+    - The method for getting a dictionary value from the current theme dictionary
+    - Parameter keyPath: The key of the dictionary needed
+    - Returns: The dictionary value of the key, and nil if doesn't exist
+    */
+    public class func dictionaryValue(for keyPath: String) -> NSDictionary? {
+        guard let parsedDictionary = currentTheme?.value(forKeyPath: keyPath) as? NSDictionary else {
+            print("TapThemeManager WARNING: Not found dictionary key path: \(keyPath)")
+            return nil
+        }
+        return parsedDictionary
+    }
     
     
+    /**
+    - The method for getting a UIColor value from the current theme dictionary
+    - Parameter keyPath: The key of the dictionary needed
+    - Returns: The UIColor value of the key, and nil if doesn't exist
+    */
+    public class func colorValue(for keyPath: String) -> UIColor? {
+        // First we need to gett tthe HEX value as string
+        guard let parsedRGBString = stringValue(for: keyPath) else { return nil }
+        // Now we use our hex extenstion
+        guard let parsedColor = try? UIColor(tap_hex: parsedRGBString) else {
+            print("TapThemeManager WARNING: Not convert RGBA Hex string \(parsedRGBString) at key path: \(keyPath)")
+            return nil
+        }
+        return parsedColor
+    }
 }
