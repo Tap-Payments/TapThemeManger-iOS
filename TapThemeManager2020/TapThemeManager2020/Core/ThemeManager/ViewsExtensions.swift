@@ -8,6 +8,7 @@
 
 import class UIKit.UITextField
 import class UIKit.UILabel
+import class UIKit.UIRefreshControl
 /// Thess extensions will hold  the needed methods for every UIView subclass that we will need to apply the theme manager or a part of it. These extensions are not inclusive and will always be added to while needed
 
 
@@ -81,6 +82,22 @@ extension UILabel {
             attributedString: text,
             byMerging: withNewAttributes
         )
+    }
+}
+
+// MARK:- UIRefreshControl
+extension UIRefreshControl {
+    /**
+       - A function that applies and updates an attributed title of a UIRefreshControl.
+       - Parameter withNewAttributes: The new set of attributes we want to apply to the current UIRefreshControl's title
+    */
+    @objc func tap_setTitleAttributes(_ withNewAttributes: [NSAttributedString.Key: Any]) {
+        // First check if there is a text to apply the attributes to
+        guard let title = self.attributedTitle else { return }
+        // Merge the passed attributtes and the original attributes
+        let newString = NSAttributedString(attributedString: title,
+                                           byMerging: withNewAttributes)
+        self.attributedTitle = newString
     }
 }
 
