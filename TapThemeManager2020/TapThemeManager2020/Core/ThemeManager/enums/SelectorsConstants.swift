@@ -29,4 +29,10 @@ internal class SelectorsConstants {
     static let setCompactAppearanceSelector = "setCompactAppearance:"
     @available(iOS 13.0, *)
     static let setScrollEdgeAppearanceSelector = "setScrollEdgeAppearance:"
+    static let setUnselectedItemTintColorSelector = "setUnselectedItemTintColor:"
+    static let setSelectedImageSelector = "setSelectedImage:"
+    static let setSeparatorColorSelector = "setSeparatorColor:"
+    static let setSectionIndexColorSelector = "setSectionIndexColor:"
+    static let setSectionIndexBackgroundColorSelector = "setSectionIndexBackgroundColor:"
+    
 }

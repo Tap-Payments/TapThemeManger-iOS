@@ -13,6 +13,9 @@ import class UIKit.UIControl
 import class UIKit.UIBarButtonItem
 import class UIKit.UILabel
 import class UIKit.UINavigationBar
+import class UIKit.UITabBar
+import class UIKit.UITableView
+import class UIKit.UITabBarItem
 /// This class provides extensions needed to SubViews to apply different types of theming using a nice shorthanded way. For example, instead of UIView.performSelector("setAlpha:",0) UIView.tap_alpha(0)
 
 // MARK:- UIView
@@ -129,6 +132,47 @@ import class UIKit.UINavigationBar
 }
 
 
+// MARK:- UITabBar
+@objc public extension UITabBar
+{
+    var tap_theme_barStyle: ThemeBarStyleSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setBarStyleSelector) as? ThemeBarStyleSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setBarStyleSelector, for: newValue) }
+    }
+
+    var tap_theme_unselectedItemTintColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setUnselectedItemTintColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setUnselectedItemTintColorSelector, for: newValue) }
+    }
+    var tap_theme_barTintColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setBarTintColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setBarTintColorSelector, for: newValue) }
+    }
+}
+
+// MARK:- UITabBarItem
+@objc public extension UITabBarItem
+{
+    var tap_theme_selectedImage: ThemeImageSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setSelectedImageSelector) as? ThemeImageSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setSelectedImageSelector, for: newValue) }
+    }
+}
 
 
-
+// MARK:- UITableView
+@objc public extension UITableView
+{
+    var tap_theme_separatorColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setSeparatorColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setSeparatorColorSelector, for: newValue) }
+    }
+    var tap_theme_sectionIndexColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setSectionIndexColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setSectionIndexColorSelector, for: newValue) }
+    }
+    var tap_theme_sectionIndexBackgroundColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setSectionIndexBackgroundColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setSectionIndexBackgroundColorSelector, for: newValue) }
+    }
+}
