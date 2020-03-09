@@ -36,7 +36,7 @@ extension NSObject {
     /// Typealias to define an array of all implementted theme selectors each defined with a string key
      typealias ThemeSelectors = [String: ThemeSelector]
     
-    var themePickers: ThemeSelectors {
+    var themeSelectors: ThemeSelectors {
         get {
             // If the array is filled, return it
             if let themeSelectors = objc_getAssociatedObject(self, &themeSelectorsKey) as? ThemeSelectors {
@@ -133,6 +133,47 @@ extension NSObject {
     
 }
 
+// Set of methods to provide an interface to add selector and fetch a certain selector for the calling object
+extension NSObject
+{
+    /**
+        - Interface to fetch a certain theme selector from the current object
+        - Parameter methodSelector: The unique identifer for the theme selector. As each object should have one theme selector for each different UI attribute
+        - Returns: The theme selector attatched with the passed method selector
+     */
+    internal func themeSelector(for methodSelector : String) -> ThemeSelector? {
+        return self.themeSelectors[methodSelector]
+    }
+
+    /**
+       - Interface to set a certain theme selector for a given method selector name
+       - Parameter methodSelector: The unique identifer for the theme selector. As each object should have one theme selector for each different UI attribute
+- Parameter themeSelector: The theme selector we want to attach to the current object
+    */
+    internal func setThemeSelector(with methodSelector : String,for themeSelector : ThemeSelector?) {
+        self.themeSelectors[methodSelector] = themeSelector
+        self.performThemeSelector(methodSelector: methodSelector, themeSelector: themeSelector)
+    }
+
+    /**
+       - Interface to create a certain complex type of selectors. The one that is attached with a certain UIControl state
+       - Parameter methodSelector: The unique identifer for the theme selector. As each object should have one theme selector for each different UI attribute
+       - Parameter themeSelector: The theme selector we want to attach to the current object
+       - Parameter controlState: The control state we want to attach the theme selector with
+       - Returns: The theme selector attatched with the passed method selector
+    */
+    internal func stateSelector(with methodSelector : String,for themeSelector : ThemeSelector?,to controlState : UIControl.State) -> ThemeSelector? {
+        
+        var mutableThemeSelector = themeSelector
+        if let stateSelector = self.themeSelectors[methodSelector] as? ThemeStateSelector {
+            mutableThemeSelector = stateSelector.setSelector(mutableThemeSelector, forState: controlState)
+        } else {
+            mutableThemeSelector = ThemeStateSelector(selector: mutableThemeSelector, withState: controlState)
+        }
+        return mutableThemeSelector
+    }
+}
+
 // Set of methods to setup the NSObject to listen for theme update and to update itself using the new current theme
 extension NSObject {
     
@@ -149,7 +190,7 @@ extension NSObject {
     /// This method interface for an object to loop through all the selectors applied to the current object to re apply it using the new theme
     @objc private func _updateTapTheme() {
         // Loop through each theme value attached to the current object and re apply it using the new vale from the new theme
-        themePickers.forEach { methodSelector, themeSelector in
+        themeSelectors.forEach { methodSelector, themeSelector in
             UIView.animate(withDuration: TapThemeManager.themeUpdateAnimationDuration) {
                 self.performThemeSelector(methodSelector: methodSelector, themeSelector: themeSelector)
                 // For iOS 13, force an update of the nav bar when the theme changes.
@@ -161,7 +202,6 @@ extension NSObject {
             }
         }
     }
-    
 }
 
 
