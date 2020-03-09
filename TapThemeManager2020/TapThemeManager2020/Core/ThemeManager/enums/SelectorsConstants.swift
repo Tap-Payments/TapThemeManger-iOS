@@ -14,4 +14,9 @@ internal class SelectorsConstants {
     static let setStatusBarStyleAnimatedSelector = "setStatusBarStyle:animated:"
     static let setImageSelector = "setImage:"
     static let setTitleTextAttributesForStateSelector = "setTitleTextAttributes:forState:"
+    static let setFontSelector = "setFont:"
+    static let setTextColorSelector = "setTextColor:"
+    static let setHighlightedTextColorSelector = "setHighlightedTextColor:"
+    static let setShadowColorSelector = "setShadowColor:"
+    static let tap_setTextAttributesSelector = "tap_setTextAttributes:"
 }

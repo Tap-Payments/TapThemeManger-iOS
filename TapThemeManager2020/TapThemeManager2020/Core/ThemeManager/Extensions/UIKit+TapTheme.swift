@@ -11,6 +11,7 @@ import class UIKit.UIApplication
 import class UIKit.UIBarItem
 import class UIKit.UIControl
 import class UIKit.UIBarButtonItem
+import class UIKit.UILabel
 /// This class provides extensions needed to SubViews to apply different types of theming using a nice shorthanded way. For example, instead of UIView.performSelector("setAlpha:",0) UIView.tap_alpha(0)
 
 // MARK:- UIView
@@ -60,6 +61,31 @@ import class UIKit.UIBarButtonItem
     var tap_theme_tintColor: ThemeUIColorSelector? {
         get { return self.themeSelector(for:  SelectorsConstants.setTintColorSelector) as? ThemeUIColorSelector }
         set {self.setThemeSelector(with:  SelectorsConstants.setTintColorSelector, for: newValue) }
+    }
+}
+
+// MARK:- UILabel
+@objc public extension UILabel
+{
+    var tap_theme_font: ThemeFontSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setFontSelector) as? ThemeFontSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setFontSelector, for: newValue) }
+    }
+    var tap_theme_textColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setTextColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setTextColorSelector, for: newValue) }
+    }
+    var tap_theme_highlightedTextColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setHighlightedTextColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setHighlightedTextColorSelector, for: newValue) }
+    }
+    var tap_theme_shadowColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setShadowColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setShadowColorSelector, for: newValue) }
+    }
+    var tap_theme_textAttributes: ThemeStringAttributesSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.tap_setTextAttributesSelector) as? ThemeStringAttributesSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.tap_setTextAttributesSelector, for: newValue) }
     }
 }
 
