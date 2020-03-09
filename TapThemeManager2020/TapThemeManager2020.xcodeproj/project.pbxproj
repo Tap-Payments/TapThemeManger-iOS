@@ -47,6 +47,10 @@
 		E860F6CB2416331E00214C3C /* UIKit+TapTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6CA2416331E00214C3C /* UIKit+TapTheme.swift */; };
 		E860F6CE24163B3900214C3C /* SelectorsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6CD24163B3900214C3C /* SelectorsConstants.swift */; };
 		E89CE25F24166C7500E621BF /* ThemeBlurEffectSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CE25E24166C7500E621BF /* ThemeBlurEffectSelector.swift */; };
+		E89CE2612416780D00E621BF /* Theme1.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE2602416780C00E621BF /* Theme1.json */; };
+		E89CE264241678F200E621BF /* icon_theme_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE263241678F200E621BF /* icon_theme_1.png */; };
+		E89CE26624167AB400E621BF /* icon_theme_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26524167AB400E621BF /* icon_theme_2.png */; };
+		E89CE26824167ADC00E621BF /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +105,10 @@
 		E860F6CA2416331E00214C3C /* UIKit+TapTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+TapTheme.swift"; sourceTree = "<group>"; };
 		E860F6CD24163B3900214C3C /* SelectorsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorsConstants.swift; sourceTree = "<group>"; };
 		E89CE25E24166C7500E621BF /* ThemeBlurEffectSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBlurEffectSelector.swift; sourceTree = "<group>"; };
+		E89CE2602416780C00E621BF /* Theme1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Theme1.json; sourceTree = "<group>"; };
+		E89CE263241678F200E621BF /* icon_theme_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_theme_1.png; sourceTree = "<group>"; };
+		E89CE26524167AB400E621BF /* icon_theme_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_theme_2.png; sourceTree = "<group>"; };
+		E89CE26724167ADC00E621BF /* Theme2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Theme2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +188,7 @@
 		E860F6602414CAE000214C3C /* TapThemeManagerSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E89CE2622416781200E621BF /* Themes */,
 				E860F6612414CAE000214C3C /* AppDelegate.swift */,
 				E860F6632414CAE000214C3C /* SceneDelegate.swift */,
 				E860F6652414CAE000214C3C /* ViewController.swift */,
@@ -287,6 +296,17 @@
 				E860F6CD24163B3900214C3C /* SelectorsConstants.swift */,
 			);
 			path = enums;
+			sourceTree = "<group>";
+		};
+		E89CE2622416781200E621BF /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				E89CE2602416780C00E621BF /* Theme1.json */,
+				E89CE26724167ADC00E621BF /* Theme2.json */,
+				E89CE263241678F200E621BF /* icon_theme_1.png */,
+				E89CE26524167AB400E621BF /* icon_theme_2.png */,
+			);
+			path = Themes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,6 +433,10 @@
 				E860F66E2414CAE100214C3C /* LaunchScreen.storyboard in Resources */,
 				E860F66B2414CAE100214C3C /* Assets.xcassets in Resources */,
 				E860F6692414CAE000214C3C /* Main.storyboard in Resources */,
+				E89CE264241678F200E621BF /* icon_theme_1.png in Resources */,
+				E89CE26824167ADC00E621BF /* Theme2.json in Resources */,
+				E89CE26624167AB400E621BF /* icon_theme_2.png in Resources */,
+				E89CE2612416780D00E621BF /* Theme1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

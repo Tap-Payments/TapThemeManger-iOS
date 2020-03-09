@@ -1,0 +1,42 @@
+{
+  "NextThemeButton": {
+    "buttonTitleColorHighlighted": "#555",
+    "buttonTitleColorNormal": "#FFFFFF",
+    "buttonBackgroundColor": "#47414A"
+  },
+  "CustomView1": {
+      "backgroundColor": "#6465A5",
+      "borderColor": "#9675A6",
+      "cornerRadius":4,
+      "borderWidth": 2
+  },
+  "CustomLabel1": {
+    "textColor": "#9675A6",
+    "font":"18"
+  },
+  "CustomView2": {
+      "backgroundColor": "#F28A30",
+      "borderColor": "#F3E96B",
+      "cornerRadius":10,
+      "borderWidth": 1
+  },
+  "CustomLabel2": {
+    "textColor": "#F3E96B",
+    "font":"18"
+  },
+  "CustomSwitch2": {
+    "onTint": "#F3E96B",
+    "thumbTint":"6465A5"
+  },
+  "CustomView3": {
+      "backgroundColor": "#F05837",
+  },
+  "CustomLabel2": {
+    "textColor": "#FFFFFF",
+    "font":"18"
+  },
+  "CustomImage3": {
+    "image": "icon_theme_2"
+  },
+  "UIStatusBarStyle": "darkcontent"
+}
