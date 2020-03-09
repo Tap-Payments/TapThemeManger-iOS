@@ -12,6 +12,7 @@ import class UIKit.UIBarItem
 import class UIKit.UIControl
 import class UIKit.UIBarButtonItem
 import class UIKit.UILabel
+import class UIKit.UINavigationBar
 /// This class provides extensions needed to SubViews to apply different types of theming using a nice shorthanded way. For example, instead of UIView.performSelector("setAlpha:",0) UIView.tap_alpha(0)
 
 // MARK:- UIView
@@ -89,6 +90,43 @@ import class UIKit.UILabel
     }
 }
 
+
+// MARK:- UINavigationBar
+@objc public extension UINavigationBar
+{
+    var tap_theme_barStyle: ThemeBarStyleSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setBarStyleSelector) as? ThemeBarStyleSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setBarStyleSelector, for: newValue) }
+    }
+    
+    var tap_theme_barTintColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setBarTintColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setBarTintColorSelector, for: newValue) }
+    }
+    var tap_theme_titleTextAttributes: ThemeStringAttributesSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setTitleTextAttributesSelector) as? ThemeStringAttributesSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setTitleTextAttributesSelector, for: newValue) }
+    }
+    var tap_theme_largeTitleTextAttributes: ThemeStringAttributesSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setLargeTitleTextAttributesSelector) as? ThemeStringAttributesSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setLargeTitleTextAttributesSelector, for: newValue) }
+    }
+    @available(iOS 13.0, *)
+    var tap_theme_standardAppearance: ThemeNavigationBarAppearanceSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setStandardAppearanceSelector) as? ThemeNavigationBarAppearanceSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setStandardAppearanceSelector, for: newValue) }
+    }
+    @available(iOS 13.0, *)
+    var tap_theme_compactAppearance: ThemeNavigationBarAppearanceSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setCompactAppearanceSelector) as? ThemeNavigationBarAppearanceSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setCompactAppearanceSelector, for: newValue) }
+    }
+    @available(iOS 13.0, *)
+    var tap_theme_scrollEdgeAppearance: ThemeNavigationBarAppearanceSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setScrollEdgeAppearanceSelector) as? ThemeNavigationBarAppearanceSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setScrollEdgeAppearanceSelector, for: newValue) }
+    }
+}
 
 
 

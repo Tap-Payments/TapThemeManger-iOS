@@ -19,4 +19,14 @@ internal class SelectorsConstants {
     static let setHighlightedTextColorSelector = "setHighlightedTextColor:"
     static let setShadowColorSelector = "setShadowColor:"
     static let tap_setTextAttributesSelector = "tap_setTextAttributes:"
+    static let setBarStyleSelector = "setBarStyle:"
+    static let setBarTintColorSelector = "setBarTintColor:"
+    static let setTitleTextAttributesSelector = "setTitleTextAttributes:"
+    static let setLargeTitleTextAttributesSelector = "setLargeTitleTextAttributes:"
+    @available(iOS 13.0, *)
+    static let setStandardAppearanceSelector = "setStandardAppearance:"
+    @available(iOS 13.0, *)
+    static let setCompactAppearanceSelector = "setCompactAppearance:"
+    @available(iOS 13.0, *)
+    static let setScrollEdgeAppearanceSelector = "setScrollEdgeAppearance:"
 }
