@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B92ED1D82A90C2B41E1F1A93 /* Pods_TapThemeManager2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEFA9278958BC8943B39A3B /* Pods_TapThemeManager2020.framework */; };
 		E860F6552414C46A00214C3C /* TapThemeManager2020.h in Headers */ = {isa = PBXBuildFile; fileRef = E860F6532414C46A00214C3C /* TapThemeManager2020.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E860F6622414CAE000214C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6612414CAE000214C3C /* AppDelegate.swift */; };
 		E860F6642414CAE000214C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6632414CAE000214C3C /* SceneDelegate.swift */; };
@@ -51,7 +50,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4EEFA9278958BC8943B39A3B /* Pods_TapThemeManager2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapThemeManager2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD40F5B16530FEEAAC66290 /* Pods-TapThemeManager2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManager2020.debug.xcconfig"; path = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020.debug.xcconfig"; sourceTree = "<group>"; };
 		9F6A304A233DB6ACF7B0E759 /* Pods-TapThemeManager2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManager2020.release.xcconfig"; path = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020.release.xcconfig"; sourceTree = "<group>"; };
 		E860F6502414C46A00214C3C /* TapThemeManager2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapThemeManager2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B92ED1D82A90C2B41E1F1A93 /* Pods_TapThemeManager2020.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +140,6 @@
 		7A30BB86EB6B00C40111EE17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4EEFA9278958BC8943B39A3B /* Pods_TapThemeManager2020.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
