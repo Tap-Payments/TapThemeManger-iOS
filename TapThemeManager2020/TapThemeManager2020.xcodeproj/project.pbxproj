@@ -46,7 +46,7 @@
 		E860F6C32416126100214C3C /* ViewsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6C22416126100214C3C /* ViewsExtensions.swift */; };
 		E860F6C82416298600214C3C /* NSObject+tapTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6C72416298600214C3C /* NSObject+tapTheme.swift */; };
 		E860F6CB2416331E00214C3C /* UIKit+TapTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6CA2416331E00214C3C /* UIKit+TapTheme.swift */; };
-		E860F6CE24163B3900214C3C /* SelectorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6CD24163B3900214C3C /* SelectorEnum.swift */; };
+		E860F6CE24163B3900214C3C /* SelectorsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6CD24163B3900214C3C /* SelectorsConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,7 +100,7 @@
 		E860F6C22416126100214C3C /* ViewsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsExtensions.swift; sourceTree = "<group>"; };
 		E860F6C72416298600214C3C /* NSObject+tapTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+tapTheme.swift"; sourceTree = "<group>"; };
 		E860F6CA2416331E00214C3C /* UIKit+TapTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+TapTheme.swift"; sourceTree = "<group>"; };
-		E860F6CD24163B3900214C3C /* SelectorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorEnum.swift; sourceTree = "<group>"; };
+		E860F6CD24163B3900214C3C /* SelectorsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorsConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,7 +285,7 @@
 		E860F6CC24163B2E00214C3C /* enums */ = {
 			isa = PBXGroup;
 			children = (
-				E860F6CD24163B3900214C3C /* SelectorEnum.swift */,
+				E860F6CD24163B3900214C3C /* SelectorsConstants.swift */,
 			);
 			path = enums;
 			sourceTree = "<group>";
@@ -473,7 +473,7 @@
 				E860F69F2414E2F600214C3C /* ThemeSelector.swift in Sources */,
 				E860F6C82416298600214C3C /* NSObject+tapTheme.swift in Sources */,
 				E860F6C32416126100214C3C /* ViewsExtensions.swift in Sources */,
-				E860F6CE24163B3900214C3C /* SelectorEnum.swift in Sources */,
+				E860F6CE24163B3900214C3C /* SelectorsConstants.swift in Sources */,
 				E860F6942414CECB00214C3C /* TapThemeManager.swift in Sources */,
 				E860F6A12414E63800214C3C /* TapThemeManagerParser.swift in Sources */,
 				E860F6CB2416331E00214C3C /* UIKit+TapTheme.swift in Sources */,
