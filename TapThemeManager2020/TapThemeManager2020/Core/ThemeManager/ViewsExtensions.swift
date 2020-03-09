@@ -7,6 +7,7 @@
 //
 
 import class UIKit.UITextField
+import class UIKit.UILabel
 /// Thess extensions will hold  the needed methods for every UIView subclass that we will need to apply the theme manager or a part of it. These extensions are not inclusive and will always be added to while needed
 
 
@@ -63,6 +64,23 @@ extension UITextField {
         let newString = NSAttributedString(attributedString: placeholder,
                                            byMerging: withNewAttributes)
         self.attributedPlaceholder = newString
+    }
+}
+
+// MARK:- UILabel
+extension UILabel {
+    /**
+       - A function that applies and updates an attributed text of a UILabel.
+       - Parameter withNewAttributes: The new set of attributes we want to apply to the current UILabel's text
+    */
+    @objc func tap_setTextAttributes(_ withNewAttributes: [NSAttributedString.Key: Any]) {
+        // First check if there is a text to apply the attributes to
+        guard let text = self.attributedText else { return }
+        // Merge the passed attributtes and the original attributes
+        self.attributedText = NSAttributedString(
+            attributedString: text,
+            byMerging: withNewAttributes
+        )
     }
 }
 
