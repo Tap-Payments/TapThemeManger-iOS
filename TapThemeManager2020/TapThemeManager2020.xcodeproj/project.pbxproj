@@ -44,6 +44,7 @@
 		E860F6BF241525AA00214C3C /* ThemeStringAttributesSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6BE241525AA00214C3C /* ThemeStringAttributesSelector.swift */; };
 		E860F6C12415331E00214C3C /* ThemeVisualEffectSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6C02415331E00214C3C /* ThemeVisualEffectSelector.swift */; };
 		E860F6C32416126100214C3C /* ViewsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6C22416126100214C3C /* ViewsExtensions.swift */; };
+		E860F6C82416298600214C3C /* NSObject+tapTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6C72416298600214C3C /* NSObject+tapTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		E860F6BE241525AA00214C3C /* ThemeStringAttributesSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeStringAttributesSelector.swift; sourceTree = "<group>"; };
 		E860F6C02415331E00214C3C /* ThemeVisualEffectSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeVisualEffectSelector.swift; sourceTree = "<group>"; };
 		E860F6C22416126100214C3C /* ViewsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsExtensions.swift; sourceTree = "<group>"; };
+		E860F6C72416298600214C3C /* NSObject+tapTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+tapTheme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,12 +226,12 @@
 		E860F6922414CD9800214C3C /* ThemeManager */ = {
 			isa = PBXGroup;
 			children = (
+				E860F6C4241625A300214C3C /* Extensions */,
 				E860F69D2414E2E500214C3C /* ThemeSelectors */,
 				E860F6932414CECB00214C3C /* TapThemeManager.swift */,
 				E860F6982414D5B500214C3C /* TapThemePath.swift */,
 				E860F6A02414E63800214C3C /* TapThemeManagerParser.swift */,
 				E860F6A22414F49E00214C3C /* TapThemeManager+array.swift */,
-				E860F6C22416126100214C3C /* ViewsExtensions.swift */,
 			);
 			path = ThemeManager;
 			sourceTree = "<group>";
@@ -263,6 +265,15 @@
 				E860F6C02415331E00214C3C /* ThemeVisualEffectSelector.swift */,
 			);
 			path = ThemeSelectors;
+			sourceTree = "<group>";
+		};
+		E860F6C4241625A300214C3C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E860F6C22416126100214C3C /* ViewsExtensions.swift */,
+				E860F6C72416298600214C3C /* NSObject+tapTheme.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,6 +457,7 @@
 				E860F6A72414F8CF00214C3C /* ThemeCgColorSelector.swift in Sources */,
 				E860F6992414D5B500214C3C /* TapThemePath.swift in Sources */,
 				E860F69F2414E2F600214C3C /* ThemeSelector.swift in Sources */,
+				E860F6C82416298600214C3C /* NSObject+tapTheme.swift in Sources */,
 				E860F6C32416126100214C3C /* ViewsExtensions.swift in Sources */,
 				E860F6942414CECB00214C3C /* TapThemeManager.swift in Sources */,
 				E860F6A12414E63800214C3C /* TapThemeManagerParser.swift in Sources */,

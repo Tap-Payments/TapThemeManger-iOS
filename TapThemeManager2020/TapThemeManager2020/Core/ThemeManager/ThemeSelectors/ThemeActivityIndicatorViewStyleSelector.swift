@@ -10,11 +10,11 @@ import class UIKit.UIActivityIndicatorView
 
 /// This class is responsible for fetching a UIActivityIndicatorView.Style from a theme file or theme array
 
-@objc public final class selectorWithThemeActivityIndicatorViewStyleSelector: ThemeSelector {
+@objc public final class ThemeActivityIndicatorViewStyleSelector: ThemeSelector {
     
     /// Init with the UIActivityIndicatorView.Style value from a theme file
     public convenience init(keyPath: String) {
-        self.init(value: { selectorWithThemeActivityIndicatorViewStyleSelector.activityStyle(from: TapThemeManager.stringValue(for: keyPath) ?? "") })
+        self.init(value: { ThemeActivityIndicatorViewStyleSelector.activityStyle(from: TapThemeManager.stringValue(for: keyPath) ?? "") })
     }
     
     /// Init with the UIActivityIndicatorView.Style value from a theme file
@@ -61,14 +61,14 @@ import class UIKit.UIActivityIndicatorView
     
 }
 
-public extension selectorWithThemeActivityIndicatorViewStyleSelector {
+public extension ThemeActivityIndicatorViewStyleSelector {
     
-    class func selectorWithKeyPath(_ keyPath: String, map: @escaping (Any?) -> UIActivityIndicatorView.Style?) -> selectorWithThemeActivityIndicatorViewStyleSelector {
-        return selectorWithThemeActivityIndicatorViewStyleSelector(keyPath: keyPath, map: map)
+    class func selectorWithKeyPath(_ keyPath: String, map: @escaping (Any?) -> UIActivityIndicatorView.Style?) -> ThemeActivityIndicatorViewStyleSelector {
+        return ThemeActivityIndicatorViewStyleSelector(keyPath: keyPath, map: map)
     }
     
-    class func selectorWithStyles(_ styles: [UIActivityIndicatorView.Style]) -> selectorWithThemeActivityIndicatorViewStyleSelector {
-        return selectorWithThemeActivityIndicatorViewStyleSelector(value: { TapThemeManager.element(for: styles) })
+    class func selectorWithStyles(_ styles: [UIActivityIndicatorView.Style]) -> ThemeActivityIndicatorViewStyleSelector {
+        return ThemeActivityIndicatorViewStyleSelector(value: { TapThemeManager.element(for: styles) })
     }
     
 }
@@ -76,18 +76,18 @@ public extension selectorWithThemeActivityIndicatorViewStyleSelector {
 
 // MARK:- Objective C interface
 
-@objc public extension selectorWithThemeActivityIndicatorViewStyleSelector {
+@objc public extension ThemeActivityIndicatorViewStyleSelector {
     
-    class func selectorWithKeyPath(_ keyPath: String) -> selectorWithThemeActivityIndicatorViewStyleSelector {
-        return selectorWithThemeActivityIndicatorViewStyleSelector(keyPath: keyPath)
+    class func selectorWithKeyPath(_ keyPath: String) -> ThemeActivityIndicatorViewStyleSelector {
+        return ThemeActivityIndicatorViewStyleSelector(keyPath: keyPath)
     }
     
-    class func selectorWithStringStyles(_ styles: [String]) -> selectorWithThemeActivityIndicatorViewStyleSelector {
-        return selectorWithThemeActivityIndicatorViewStyleSelector(value: { TapThemeManager.element(for: styles.map(activityStyle(from:))) })
+    class func selectorWithStringStyles(_ styles: [String]) -> ThemeActivityIndicatorViewStyleSelector {
+        return ThemeActivityIndicatorViewStyleSelector(value: { TapThemeManager.element(for: styles.map(activityStyle(from:))) })
     }
     
 }
 
-extension selectorWithThemeActivityIndicatorViewStyleSelector: ExpressibleByArrayLiteral {}
-extension selectorWithThemeActivityIndicatorViewStyleSelector: ExpressibleByStringLiteral {}
+extension ThemeActivityIndicatorViewStyleSelector: ExpressibleByArrayLiteral {}
+extension ThemeActivityIndicatorViewStyleSelector: ExpressibleByStringLiteral {}
 
