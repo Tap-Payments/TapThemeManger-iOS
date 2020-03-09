@@ -16,6 +16,9 @@ import class UIKit.UINavigationBar
 import class UIKit.UITabBar
 import class UIKit.UITableView
 import class UIKit.UITabBarItem
+import class UIKit.UITextField
+import class UIKit.UITextView
+import class UIKit.UISearchBar
 /// This class provides extensions needed to SubViews to apply different types of theming using a nice shorthanded way. For example, instead of UIView.performSelector("setAlpha:",0) UIView.tap_alpha(0)
 
 // MARK:- UIView
@@ -174,5 +177,62 @@ import class UIKit.UITabBarItem
     var tap_theme_sectionIndexBackgroundColor: ThemeUIColorSelector? {
         get { return self.themeSelector(for:  SelectorsConstants.setSectionIndexBackgroundColorSelector) as? ThemeUIColorSelector }
         set { self.setThemeSelector(with:  SelectorsConstants.setSectionIndexBackgroundColorSelector, for: newValue) }
+    }
+}
+
+
+
+// MARK:- UITextField
+@objc public extension UITextField
+{
+    var tap_theme_font: ThemeFontSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setFontSelector) as? ThemeFontSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setFontSelector, for: newValue) }
+    }
+    var tap_theme_keyboardAppearance: ThemeKeyboardAppearanceSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setKeyboardAppearanceSelector) as? ThemeKeyboardAppearanceSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setKeyboardAppearanceSelector, for: newValue) }
+    }
+    var tap_theme_textColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for: SelectorsConstants.setTextColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setTextColorSelector, for: newValue) }
+    }
+    var tap_theme_placeholderAttributes: ThemeStringAttributesSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.tap_setPlaceholderAttributesSelector) as? ThemeStringAttributesSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.tap_setPlaceholderAttributesSelector, for: newValue) }
+    }
+}
+
+// MARK:- UITextView
+@objc public extension UITextView
+{
+    var tap_theme_font: ThemeFontSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setFontSelector) as? ThemeFontSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setFontSelector, for: newValue) }
+    }
+    var tap_theme_keyboardAppearance: ThemeKeyboardAppearanceSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setKeyboardAppearanceSelector) as? ThemeKeyboardAppearanceSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setKeyboardAppearanceSelector, for: newValue) }
+    }
+    var tap_theme_textColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setTextColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setTextColorSelector, for: newValue) }
+    }
+}
+
+// MARK:- UISearchBar
+@objc public extension UISearchBar
+{
+    var tap_theme_barStyle: ThemeBarStyleSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setBarStyleSelector) as? ThemeBarStyleSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setBarStyleSelector, for: newValue) }
+    }
+    var tap_theme_keyboardAppearance: ThemeKeyboardAppearanceSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setKeyboardAppearanceSelector) as? ThemeKeyboardAppearanceSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setKeyboardAppearanceSelector, for: newValue) }
+    }
+    var tap_theme_barTintColor: ThemeUIColorSelector? {
+        get { return self.themeSelector(for:  SelectorsConstants.setBarTintColorSelector) as? ThemeUIColorSelector }
+        set { self.setThemeSelector(with:  SelectorsConstants.setBarTintColorSelector, for: newValue) }
     }
 }

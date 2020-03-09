@@ -34,5 +34,7 @@ internal class SelectorsConstants {
     static let setSeparatorColorSelector = "setSeparatorColor:"
     static let setSectionIndexColorSelector = "setSectionIndexColor:"
     static let setSectionIndexBackgroundColorSelector = "setSectionIndexBackgroundColor:"
+    static let setKeyboardAppearanceSelector = "setKeyboardAppearance:"
+    static let tap_setPlaceholderAttributesSelector = "tap_setPlaceholderAttributes:"
     
 }
