@@ -42,11 +42,9 @@ class ViewController: UIViewController {
     
     private func applyTheme()
     {
+        NextThemeButton.layer.cornerRadius = NextThemeButton.frame.width/2
         // default: Theme1.json
         TapThemeManager.setTapTheme(jsonName: jsonFiles[(currentThemeIndex%jsonFiles.count)])
-        
-        // status bar
-        UIApplication.shared.tap_theme_setStatusBarStyle(themeSelector: "UIStatusBarStyle", animated: true)
         
         customView1.tap_theme_backgroundColor = "CustomView1.backgroundColor"
         customView1.layer.tap_theme_borderColor = "CustomView1.borderColor"
