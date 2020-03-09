@@ -43,6 +43,7 @@
 		E860F6BD2415231B00214C3C /* ThemeStatusBarStyleSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6BC2415231B00214C3C /* ThemeStatusBarStyleSelector.swift */; };
 		E860F6BF241525AA00214C3C /* ThemeStringAttributesSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6BE241525AA00214C3C /* ThemeStringAttributesSelector.swift */; };
 		E860F6C12415331E00214C3C /* ThemeVisualEffectSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6C02415331E00214C3C /* ThemeVisualEffectSelector.swift */; };
+		E860F6C32416126100214C3C /* ViewsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6C22416126100214C3C /* ViewsExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		E860F6BC2415231B00214C3C /* ThemeStatusBarStyleSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeStatusBarStyleSelector.swift; sourceTree = "<group>"; };
 		E860F6BE241525AA00214C3C /* ThemeStringAttributesSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeStringAttributesSelector.swift; sourceTree = "<group>"; };
 		E860F6C02415331E00214C3C /* ThemeVisualEffectSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeVisualEffectSelector.swift; sourceTree = "<group>"; };
+		E860F6C22416126100214C3C /* ViewsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 				E860F6982414D5B500214C3C /* TapThemePath.swift */,
 				E860F6A02414E63800214C3C /* TapThemeManagerParser.swift */,
 				E860F6A22414F49E00214C3C /* TapThemeManager+array.swift */,
+				E860F6C22416126100214C3C /* ViewsExtensions.swift */,
 			);
 			path = ThemeManager;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				E860F6A72414F8CF00214C3C /* ThemeCgColorSelector.swift in Sources */,
 				E860F6992414D5B500214C3C /* TapThemePath.swift in Sources */,
 				E860F69F2414E2F600214C3C /* ThemeSelector.swift in Sources */,
+				E860F6C32416126100214C3C /* ViewsExtensions.swift in Sources */,
 				E860F6942414CECB00214C3C /* TapThemeManager.swift in Sources */,
 				E860F6A12414E63800214C3C /* TapThemeManagerParser.swift in Sources */,
 				E860F6A52414F6B700214C3C /* ThemeUIColorSelector.swift in Sources */,
