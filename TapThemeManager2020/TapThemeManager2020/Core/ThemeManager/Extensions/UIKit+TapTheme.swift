@@ -60,6 +60,7 @@ import class UIKit.UIButton
 {
     func tap_theme_setStatusBarStyle(themeSelector: ThemeStatusBarStyleSelector, animated: Bool) {
         themeSelector.animated = animated
+        
         self.setThemeSelector(with: SelectorsConstants.setStatusBarStyleAnimatedSelector, for: themeSelector)
     }
 }
@@ -314,16 +315,16 @@ import class UIKit.UIButton
 // MARK:- UIButton
 @objc public extension UIButton
 {
-    func theme_setImage(picker: ThemeImageSelector?, forState state: UIControl.State) {
-        let selector = stateSelector(with: SelectorsConstants.setImageforStateSelector, for: picker, to: state)
+    func tap_theme_setImage(selector: ThemeImageSelector?, forState state: UIControl.State) {
+        let selector = stateSelector(with: SelectorsConstants.setImageforStateSelector, for: selector, to: state)
         self.setThemeSelector(with:  SelectorsConstants.setImageforStateSelector, for: selector)
     }
-    func theme_setBackgroundImage(picker: ThemeImageSelector?, forState state: UIControl.State) {
-        let selector = stateSelector(with: SelectorsConstants.setBackgroundImageforStateSelector, for: picker, to: state)
+    func tap_theme_setBackgroundImage(selector: ThemeImageSelector?, forState state: UIControl.State) {
+        let selector = stateSelector(with: SelectorsConstants.setBackgroundImageforStateSelector, for: selector, to: state)
         self.setThemeSelector(with:  SelectorsConstants.setBackgroundImageforStateSelector, for: selector)
     }
-    func theme_setTitleColor(picker: ThemeUIColorSelector?, forState state: UIControl.State) {
-        let selector = stateSelector(with: SelectorsConstants.setTitleColorforStateSelector, for: picker, to: state)
+    func tap_heme_setTitleColor(selector: ThemeUIColorSelector?, forState state: UIControl.State) {
+        let selector = stateSelector(with: SelectorsConstants.setTitleColorforStateSelector, for: selector, to: state)
         self.setThemeSelector(with: SelectorsConstants.setTitleColorforStateSelector, for: selector)
     }
 }

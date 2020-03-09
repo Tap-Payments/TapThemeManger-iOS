@@ -38,6 +38,5 @@ extension TapThemeManager {
         }
         return array[index]
     }
-    
 }
 

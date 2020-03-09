@@ -20,8 +20,8 @@ public let TapThemeUpdateNotification = "TapThemeUpdateNotification"
     @objc public fileprivate(set) static var currentTheme: NSDictionary?
     /// Defines the index if the current theme
     @objc public fileprivate(set) static var currentThemeIndex: Int = 0
-    /// Defines the current selected theme location
-    public fileprivate(set) static var currentThemePath: TapThemePath?
+    ///// Defines the current selected theme location
+   // public fileprivate(set) static var currentThemePath: TapThemePath?
 
 }
 /// An extenstion of methods that reads in the theme files and updates the theme
@@ -39,34 +39,32 @@ public extension TapThemeManager {
     /**
     - The method for setting a theme from a plist file
     - Parameter plistName: The name of the plist file that has the needed theme
-    - Parameter path:      The path for the required plist file
     */
     
-    @objc class func setTapTheme(plistName: String, path: TapThemePath) {
+    @objc class func setTapTheme(plistName: String) {
        // Check if the file exists
-        guard let plistPath = path.themePlistPath(fileName: plistName) else {
-            print("TapThemeManager WARNING: Can't find plist '\(plistName)' at: \(path)")
+        guard let plistPath = TapThemePath.themePlistPath(fileName: plistName) else {
+            print("TapThemeManager WARNING: Can't find plist '\(plistName)'")
             return
         }
         // Check if the file is correctly parsable
         guard let plistDict = NSDictionary(contentsOfFile: plistPath) else {
-            print("TapThemeManager WARNING: Can't read plist '\(plistName)' at: \(plistPath)")
+            print("TapThemeManager WARNING: Can't read plist '\(plistName)'")
             return
         }
         // All good, now change the theme :)
-        self.setTapTheme(themeDict: plistDict, path: path)
+        self.setTapTheme(themeDict: plistDict)
     }
     
     
     /**
     - The method for setting a theme from a JSON file
     - Parameter jsonName: The name of the JSON file that has the needed theme
-    - Parameter path:      The path for the required JSON file
     */
-    @objc class func setTapTheme(jsonName: String, path: TapThemePath) {
+    @objc class func setTapTheme(jsonName: String) {
         // Check if the file exists
-        guard let jsonPath = path.themeJsonPath(fileName: jsonName) else {
-            print("TapThemeManager WARNING: Can't find json '\(jsonName)' at: \(path)")
+        guard let jsonPath = TapThemePath.themeJsonPath(fileName: jsonName) else {
+            print("TapThemeManager WARNING: Can't find json '\(jsonName)'")
             return
         }
         // Check if the file is correctly parsable
@@ -78,7 +76,7 @@ public extension TapThemeManager {
             return
         }
         // All good, now change the theme :)
-        self.setTapTheme(themeDict: jsonDict, path: path)
+        self.setTapTheme(themeDict: jsonDict)
     }
     
     /**
@@ -86,9 +84,9 @@ public extension TapThemeManager {
     - Parameter themeDict: The dictionary of the the theme we need to apply
     - Parameter path:      The path for the required theme file
     */
-    @objc class func setTapTheme(themeDict: NSDictionary, path: TapThemePath) {
+    @objc class func setTapTheme(themeDict: NSDictionary) {
         currentTheme = themeDict
-        currentThemePath = path
+        //currentThemePath = path
         // Inform all subscribers, Please reload yourself :)
         NotificationCenter.default.post(name: Notification.Name(rawValue: TapThemeUpdateNotification), object: nil)
     }

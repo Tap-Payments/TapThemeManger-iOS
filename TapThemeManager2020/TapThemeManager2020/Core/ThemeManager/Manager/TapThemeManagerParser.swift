@@ -9,7 +9,7 @@ import class UIKit.UIImage
 import class UIKit.UIFont
 import class UIKit.UIColor
 import struct UIKit.CGFloat
-
+import enum UIKit.UIStatusBarStyle
 
 /// All the methods required to parse String values provided in the theme file into readable iOS values like UIColor, UIFont, etc.
 @objc extension TapThemeManager {
@@ -79,6 +79,23 @@ import struct UIKit.CGFloat
         return parsedColor
     }
     
+    
+    /**
+    - The method for getting a UIStatusBarStyle value from the current theme dictionary
+    - Parameter keyPath: The key of the UIStatusBarStyle needed
+    - Returns: The UIStatusBarStyle value of the key, and .default if doesn't exist
+    */
+    public class func themeStatusBarStyle(for keyPath: String) -> UIStatusBarStyle {
+        // First we need to get the statusStyle value as string
+        guard let parsedStatusString = stringValue(for: keyPath) else { return .default }
+        switch parsedStatusString.lowercased() {
+            case "default"      : return .default
+            case "lightcontent" : return .lightContent
+            case "darkcontent"  : if #available(iOS 13.0, *) { return .darkContent } else { return .default }
+            default: return .default
+        }
+    }
+    
     /**
        - The method for getting a UIImage value from the current theme dictionary
        - Parameter keyPath: The key of the UIImage needed
@@ -87,7 +104,7 @@ import struct UIKit.CGFloat
     public class func imageValue(for keyPath: String) -> UIImage? {
         guard let parsedImageName = stringValue(for: keyPath) else { return nil }
         // Incase we will add afterwards reading from different paths other than the Main Bundle
-        if let filePath = currentThemePath?.themeURL?.appendingPathComponent(parsedImageName).path {
+        if let filePath = TapThemePath.themeURL?.appendingPathComponent(parsedImageName).path {
            return imageValue(fromLocalURL: filePath)
         } else {
             // Try to parse the image from the main bundle

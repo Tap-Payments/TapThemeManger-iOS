@@ -66,6 +66,9 @@
                                     <constraint firstAttribute="width" constant="100" id="jKY-Yz-O3k"/>
                                 </constraints>
                                 <state key="normal" title="NextTheme"/>
+                                <connections>
+                                    <action selector="nextThemeClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tst-Ue-11L"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qCN-xW-23Y">
                                 <rect key="frame" x="8" y="316" width="398" height="128"/>
@@ -112,6 +115,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="NextThemeButton" destination="Wg3-zv-thZ" id="uO1-XK-QI4"/>
+                        <outlet property="customImage3" destination="kj5-Op-7DF" id="Bfa-jb-5BF"/>
+                        <outlet property="customLabel1" destination="9Ji-ZL-pvO" id="CiU-Uq-W1t"/>
+                        <outlet property="customLabel2" destination="gO9-Fb-9T7" id="Ycw-cB-Frd"/>
+                        <outlet property="customLabel3" destination="Eby-Sq-YjR" id="rjB-xU-inz"/>
+                        <outlet property="customSwitch2" destination="iRV-Ud-g2X" id="6kI-qP-ZCs"/>
+                        <outlet property="customView1" destination="5Gn-kA-WKL" id="2Bp-6J-BA1"/>
+                        <outlet property="customView2" destination="G0z-cX-6aB" id="KcC-zi-YNb"/>
+                        <outlet property="customView3" destination="qCN-xW-23Y" id="G0p-Dv-LLX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

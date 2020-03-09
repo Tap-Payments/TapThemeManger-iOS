@@ -58,6 +58,7 @@ import enum UIKit.UIStatusBarStyle
         default: return .default
         }
     }
+    
 }
 
 public extension ThemeStatusBarStyleSelector {

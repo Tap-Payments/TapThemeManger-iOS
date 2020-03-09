@@ -12,8 +12,9 @@ import Foundation
 @objc public final class TapThemePath: NSObject {
 
     
+    
     /// A theme URL in case we needed to add more options to load from afterwise.
-    public var themeURL: Foundation.URL? {
+    public static var themeURL: Foundation.URL? {
         return nil
     }
     
@@ -22,7 +23,7 @@ import Foundation
     - The method for rettrning the path of a plist file
     - Parameter fileName: The name of the plist file that has the needed theme
     */
-    public func themePlistPath(fileName: String) -> String? {
+    public static func themePlistPath(fileName: String) -> String? {
         return themeFilePath(fileName: fileName, ofType: "plist")
     }
     
@@ -30,7 +31,7 @@ import Foundation
     - The method for rettrning the path of a JSON file
     - Parameter fileName: The name of the JSON file that has the needed theme
     */
-    public func themeJsonPath(fileName: String) -> String? {
+    public static func themeJsonPath(fileName: String) -> String? {
         return themeFilePath(fileName: fileName, ofType: "json")
     }
     
@@ -39,7 +40,7 @@ import Foundation
     - Parameter fileName: The name of the file
     - Parameter type:     The type of the file
     */
-    private func themeFilePath(fileName: String, ofType type: String) -> String? {
+    private static func themeFilePath(fileName: String, ofType type: String) -> String? {
         return Bundle.main.path(forResource: fileName, ofType: type)
     }
 }

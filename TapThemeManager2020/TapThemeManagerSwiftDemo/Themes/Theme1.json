@@ -2,7 +2,7 @@
   "NextThemeButton": {
     "buttonTitleColorHighlighted": "#555",
     "buttonTitleColorNormal": "#FFFFFF",
-    "buttonBackgroundColor": "#47414A"
+    "buttonBackgroundColor": "#ABA6BF"
   },
   "CustomView1": {
       "backgroundColor": "#36688D",
@@ -22,20 +22,20 @@
   },
   "CustomLabel2": {
     "textColor": "#F18904",
-    "font":"18"
+    "font":"24"
   },
   "CustomSwitch2": {
     "onTint": "#F18904",
-    "thumbTint":"36688D"
+    "thumbTint":"#36688D"
   },
   "CustomView3": {
       "backgroundColor": "#BDA589",
   },
-  "CustomLabel2": {
+  "CustomLabel3": {
     "textColor": "#FFFFFF",
-    "font":"30"
+    "font":"24"
   },
-  "CustomImage3": {
+  "CustomUIImageView3": {
     "image": "icon_theme_1"
   },
   "UIStatusBarStyle": "LightContent"
