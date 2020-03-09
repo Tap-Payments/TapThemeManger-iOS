@@ -226,12 +226,9 @@
 		E860F6922414CD9800214C3C /* ThemeManager */ = {
 			isa = PBXGroup;
 			children = (
+				E860F6C92416321300214C3C /* Manager */,
 				E860F6C4241625A300214C3C /* Extensions */,
 				E860F69D2414E2E500214C3C /* ThemeSelectors */,
-				E860F6932414CECB00214C3C /* TapThemeManager.swift */,
-				E860F6982414D5B500214C3C /* TapThemePath.swift */,
-				E860F6A02414E63800214C3C /* TapThemeManagerParser.swift */,
-				E860F6A22414F49E00214C3C /* TapThemeManager+array.swift */,
 			);
 			path = ThemeManager;
 			sourceTree = "<group>";
@@ -274,6 +271,17 @@
 				E860F6C72416298600214C3C /* NSObject+tapTheme.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E860F6C92416321300214C3C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E860F6932414CECB00214C3C /* TapThemeManager.swift */,
+				E860F6982414D5B500214C3C /* TapThemePath.swift */,
+				E860F6A02414E63800214C3C /* TapThemeManagerParser.swift */,
+				E860F6A22414F49E00214C3C /* TapThemeManager+array.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
