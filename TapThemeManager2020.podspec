@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TapThemeManager2020/TapThemeManager2020/Core/**/*.{h,m,swift}"
+  spec.source_files  = "TapThemeManager2020/TapThemeManager2020/Core/enums/**/*.{h,m,swift}","TapThemeManager2020/TapThemeManager2020/Core/Extensions/**/*.{h,m,swift}","TapThemeManager2020/TapThemeManager2020/Core/Manager/**/*.{h,m,swift}","TapThemeManager2020/TapThemeManager2020/Core/ThemeSelectors/**/*.{h,m,swift}","TapThemeManager2020/TapThemeManager2020/Core/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
