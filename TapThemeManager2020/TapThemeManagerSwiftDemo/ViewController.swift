@@ -8,9 +8,10 @@
 
 import UIKit
 import TapThemeManager2020
-
+/// This a  template class that showcases applying theme and changing themes
 class ViewController: UIViewController {
 
+    // MARK:- Outlets
     @IBOutlet weak var customView1: UIView!
     @IBOutlet weak var customLabel1: UILabel!
     
@@ -24,7 +25,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var NextThemeButton: UIButton!
     
+    
+    // MARK:- Variables
+    /// The list of themes you want to provide
     let jsonFiles = ["Theme1","Theme2"]
+    
+    /// The current chosen theme index
     lazy var currentThemeIndex = 0
     
     override func viewDidLoad() {
@@ -39,11 +45,11 @@ class ViewController: UIViewController {
     }
     
     
-    
+    /// Apply  the theme values from the theme file to the matching outlets
     private func applyTheme()
     {
         NextThemeButton.layer.cornerRadius = NextThemeButton.frame.width/2
-        // default: Theme1.json
+        
         TapThemeManager.setTapTheme(jsonName: jsonFiles[(currentThemeIndex%jsonFiles.count)])
         
         customView1.tap_theme_backgroundColor = "CustomView1.backgroundColor"
@@ -80,7 +86,7 @@ class ViewController: UIViewController {
     
     
     override  var preferredStatusBarStyle: UIStatusBarStyle {
-        return TapThemeManager.themeStatusBarStyle(for: "UIStatusBarStyle")
+        return TapThemeManager.themeStatusBarStyle(for: "Global.UIStatusBarStyle")
     }
     
     

@@ -38,5 +38,12 @@
   "CustomUIImageView3": {
     "image": "icon_theme_2"
   },
-  "UIStatusBarStyle": "darkcontent"
+  "Global": {
+      "UIStatusBarStyle": "darkcontent",
+      "NavigationTint": "#FFFFFF",
+      "NavigationTitle": {
+          "NavigationTitleColor": "#000000",
+          "Font":"18"
+      }
+  }
 }

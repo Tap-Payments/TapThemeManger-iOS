@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TapThemeManager2020
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Set the default theme
+        TapThemeManager.setTapTheme(jsonName: "Theme1")
         return true
     }
 
