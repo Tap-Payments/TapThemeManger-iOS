@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapThemeManager2020"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.1"
   spec.summary      = "TapThemeManager2020 is a part of Tap Payments 2020 vision. Allowing dynamic and responsive theming for iOS apps."
 
   # This description is used to generate tags and improve search results.
@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TapThemeManager2020/Core/ThemeManager/Manager/**/*.{h,m,swift}"
+  spec.source_files  = "TapThemeManager2020/Core/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
