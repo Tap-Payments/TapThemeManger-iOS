@@ -63,6 +63,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
   spec.platform     = :ios, "12.0"
+  spec.swift_versions = '4.0'
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -88,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TapThemeManager2020/Core/**/*.{h,m,swift}"
+  spec.source_files  = "TapThemeManager2020/TapThemeManager2020/Core/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
