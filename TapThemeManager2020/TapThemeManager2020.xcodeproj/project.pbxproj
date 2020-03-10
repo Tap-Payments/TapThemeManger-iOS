@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		623618D72417D2C500D3BCF6 /* TapThemeManager2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623618D62417D2C500D3BCF6 /* TapThemeManager2020Tests.swift */; };
+		623618D92417D2C500D3BCF6 /* TapThemeManager2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E860F6502414C46A00214C3C /* TapThemeManager2020.framework */; };
+		623618E02417D86C00D3BCF6 /* test-theme.json in Resources */ = {isa = PBXBuildFile; fileRef = 623618DF2417D86C00D3BCF6 /* test-theme.json */; };
 		E831DA352417A9D400E21FBE /* Theme1.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE2602416780C00E621BF /* Theme1.json */; };
 		E831DA362417A9D400E21FBE /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
 		E831DA372417A9D400E21FBE /* icon_theme_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE263241678F200E621BF /* icon_theme_1.png */; };
@@ -60,7 +63,21 @@
 		E8BC12D92417ABA100CCC5C6 /* MyNavigatioController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		623618DA2417D2C500D3BCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E860F6472414C46A00214C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860F64F2414C46A00214C3C;
+			remoteInfo = TapThemeManager2020;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		623618D42417D2C500D3BCF6 /* TapThemeManager2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapThemeManager2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		623618D62417D2C500D3BCF6 /* TapThemeManager2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapThemeManager2020Tests.swift; sourceTree = "<group>"; };
+		623618D82417D2C500D3BCF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623618DF2417D86C00D3BCF6 /* test-theme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "test-theme.json"; sourceTree = "<group>"; };
 		E860F6502414C46A00214C3C /* TapThemeManager2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapThemeManager2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E860F6532414C46A00214C3C /* TapThemeManager2020.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapThemeManager2020.h; sourceTree = "<group>"; };
 		E860F6542414C46A00214C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,6 +138,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		623618D12417D2C500D3BCF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623618D92417D2C500D3BCF6 /* TapThemeManager2020.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E860F64D2414C46A00214C3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,12 +177,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		623618D52417D2C500D3BCF6 /* TapThemeManager2020Tests */ = {
+			isa = PBXGroup;
+			children = (
+				623618D62417D2C500D3BCF6 /* TapThemeManager2020Tests.swift */,
+				623618D82417D2C500D3BCF6 /* Info.plist */,
+			);
+			path = TapThemeManager2020Tests;
+			sourceTree = "<group>";
+		};
 		E860F6462414C46A00214C3C = {
 			isa = PBXGroup;
 			children = (
 				E860F6522414C46A00214C3C /* TapThemeManager2020 */,
 				E860F6602414CAE000214C3C /* TapThemeManagerSwiftDemo */,
 				E860F6782414CB0600214C3C /* TapThemeManagerObjCDemo */,
+				623618D52417D2C500D3BCF6 /* TapThemeManager2020Tests */,
 				E860F6512414C46A00214C3C /* Products */,
 				5837DB6230B3ED273C72A611 /* Pods */,
 			);
@@ -169,6 +204,7 @@
 				E860F6502414C46A00214C3C /* TapThemeManager2020.framework */,
 				E860F65F2414CAE000214C3C /* TapThemeManagerSwiftDemo.app */,
 				E860F6772414CB0600214C3C /* TapThemeManagerObjCDemo.app */,
+				623618D42417D2C500D3BCF6 /* TapThemeManager2020Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,6 +215,7 @@
 				E860F6902414CD1100214C3C /* Core */,
 				E860F6532414C46A00214C3C /* TapThemeManager2020.h */,
 				E860F6542414C46A00214C3C /* Info.plist */,
+				623618DF2417D86C00D3BCF6 /* test-theme.json */,
 			);
 			path = TapThemeManager2020;
 			sourceTree = "<group>";
@@ -310,6 +347,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		623618D32417D2C500D3BCF6 /* TapThemeManager2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623618DE2417D2C500D3BCF6 /* Build configuration list for PBXNativeTarget "TapThemeManager2020Tests" */;
+			buildPhases = (
+				623618D02417D2C500D3BCF6 /* Sources */,
+				623618D12417D2C500D3BCF6 /* Frameworks */,
+				623618D22417D2C500D3BCF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				623618DB2417D2C500D3BCF6 /* PBXTargetDependency */,
+			);
+			name = TapThemeManager2020Tests;
+			productName = TapThemeManager2020Tests;
+			productReference = 623618D42417D2C500D3BCF6 /* TapThemeManager2020Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E860F64F2414C46A00214C3C /* TapThemeManager2020 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E860F6582414C46A00214C3C /* Build configuration list for PBXNativeTarget "TapThemeManager2020" */;
@@ -368,10 +423,13 @@
 		E860F6472414C46A00214C3C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Osama Rabie";
 				TargetAttributes = {
+					623618D32417D2C500D3BCF6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					E860F64F2414C46A00214C3C = {
 						CreatedOnToolsVersion = 11.2.1;
 						LastSwiftMigration = 1120;
@@ -400,15 +458,24 @@
 				E860F64F2414C46A00214C3C /* TapThemeManager2020 */,
 				E860F65E2414CAE000214C3C /* TapThemeManagerSwiftDemo */,
 				E860F6762414CB0600214C3C /* TapThemeManagerObjCDemo */,
+				623618D32417D2C500D3BCF6 /* TapThemeManager2020Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		623618D22417D2C500D3BCF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E860F64E2414C46A00214C3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623618E02417D86C00D3BCF6 /* test-theme.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +510,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		623618D02417D2C500D3BCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623618D72417D2C500D3BCF6 /* TapThemeManager2020Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E860F64C2414C46A00214C3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,6 +577,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		623618DB2417D2C500D3BCF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E860F64F2414C46A00214C3C /* TapThemeManager2020 */;
+			targetProxy = 623618DA2417D2C500D3BCF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		E860F6672414CAE000214C3C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -538,6 +621,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		623618DC2417D2C500D3BCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TapThemeManager2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapThemeManager2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		623618DD2417D2C500D3BCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TapThemeManager2020Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapThemeManager2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		E860F6562414C46A00214C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -788,6 +907,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		623618DE2417D2C500D3BCF6 /* Build configuration list for PBXNativeTarget "TapThemeManager2020Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				623618DC2417D2C500D3BCF6 /* Debug */,
+				623618DD2417D2C500D3BCF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E860F64A2414C46A00214C3C /* Build configuration list for PBXProject "TapThemeManager2020" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

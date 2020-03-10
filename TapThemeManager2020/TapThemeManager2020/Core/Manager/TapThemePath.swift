@@ -41,6 +41,7 @@ import Foundation
     - Parameter type:     The type of the file
     */
     private static func themeFilePath(fileName: String, ofType type: String) -> String? {
-        return Bundle.main.path(forResource: fileName, ofType: type)
+        let bundle = Bundle(for: TapThemePath.self)
+        return bundle.path(forResource: fileName, ofType: type)
     }
 }
