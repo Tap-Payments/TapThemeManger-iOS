@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E831DA352417A9D400E21FBE /* Theme1.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE2602416780C00E621BF /* Theme1.json */; };
+		E831DA362417A9D400E21FBE /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
+		E831DA372417A9D400E21FBE /* icon_theme_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE263241678F200E621BF /* icon_theme_1.png */; };
+		E831DA382417A9D400E21FBE /* icon_theme_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26524167AB400E621BF /* icon_theme_2.png */; };
 		E860F6552414C46A00214C3C /* TapThemeManager2020.h in Headers */ = {isa = PBXBuildFile; fileRef = E860F6532414C46A00214C3C /* TapThemeManager2020.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E860F6622414CAE000214C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6612414CAE000214C3C /* AppDelegate.swift */; };
 		E860F6642414CAE000214C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6632414CAE000214C3C /* SceneDelegate.swift */; };
@@ -52,6 +56,7 @@
 		E89CE26624167AB400E621BF /* icon_theme_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26524167AB400E621BF /* icon_theme_2.png */; };
 		E89CE26824167ADC00E621BF /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
 		E89CE26A2416B7D800E621BF /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CE2692416B7D800E621BF /* MyNavigationController.swift */; };
+		E8BC12D92417ABA100CCC5C6 /* MyNavigatioController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +116,8 @@
 		E89CE26524167AB400E621BF /* icon_theme_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_theme_2.png; sourceTree = "<group>"; };
 		E89CE26724167ADC00E621BF /* Theme2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Theme2.json; sourceTree = "<group>"; };
 		E89CE2692416B7D800E621BF /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		E8BC12D72417ABA100CCC5C6 /* MyNavigatioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigatioController.h; sourceTree = "<group>"; };
+		E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigatioController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +224,8 @@
 				E860F6872414CB0700214C3C /* LaunchScreen.storyboard */,
 				E860F68A2414CB0700214C3C /* Info.plist */,
 				E860F68B2414CB0700214C3C /* main.m */,
+				E8BC12D72417ABA100CCC5C6 /* MyNavigatioController.h */,
+				E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */,
 			);
 			path = TapThemeManagerObjCDemo;
 			sourceTree = "<group>";
@@ -447,9 +456,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E831DA362417A9D400E21FBE /* Theme2.json in Resources */,
 				E860F6892414CB0700214C3C /* LaunchScreen.storyboard in Resources */,
+				E831DA372417A9D400E21FBE /* icon_theme_1.png in Resources */,
+				E831DA382417A9D400E21FBE /* icon_theme_2.png in Resources */,
 				E860F6862414CB0700214C3C /* Assets.xcassets in Resources */,
 				E860F6842414CB0600214C3C /* Main.storyboard in Resources */,
+				E831DA352417A9D400E21FBE /* Theme1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +542,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BC12D92417ABA100CCC5C6 /* MyNavigatioController.m in Sources */,
 				E860F6812414CB0600214C3C /* ViewController.m in Sources */,
 				E860F67B2414CB0600214C3C /* AppDelegate.m in Sources */,
 				E860F68C2414CB0700214C3C /* main.m in Sources */,

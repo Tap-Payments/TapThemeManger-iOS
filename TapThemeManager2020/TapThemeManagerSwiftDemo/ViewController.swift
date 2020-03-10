@@ -83,8 +83,8 @@ class ViewController: UIViewController {
         
         
         NextThemeButton.tap_theme_backgroundColor = "NextThemeButton.buttonBackgroundColor"
-        NextThemeButton.tap_heme_setTitleColor(selector: "NextThemeButton.buttonTitleColorNormal", forState: .normal)
-        NextThemeButton.tap_heme_setTitleColor(selector: "NextThemeButton.buttonTitleColorHighlighted", forState: .highlighted)
+        NextThemeButton.tap_theme_setTitleColor(selector: "NextThemeButton.buttonTitleColorNormal", forState: .normal)
+        NextThemeButton.tap_theme_setTitleColor(selector: "NextThemeButton.buttonTitleColorHighlighted", forState: .highlighted)
     }
     
     

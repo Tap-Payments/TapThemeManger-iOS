@@ -20,8 +20,9 @@ public let TapThemeUpdateNotification = "TapThemeUpdateNotification"
     @objc public fileprivate(set) static var currentTheme: NSDictionary?
     /// Defines the index if the current theme
     @objc public fileprivate(set) static var currentThemeIndex: Int = 0
-    ///// Defines the current selected theme location
-   // public fileprivate(set) static var currentThemePath: TapThemePath?
+    
+        /*///// Defines the current selected theme location
+   // public fileprivate(set) static var currentThemePath: TapThemePath?*/
 
 }
 /// An extenstion of methods that reads in the theme files and updates the theme
@@ -82,7 +83,6 @@ public extension TapThemeManager {
     /**
     - The method is responsible for actually changing the theme and informs the subviews that each needs to re design itselft
     - Parameter themeDict: The dictionary of the the theme we need to apply
-    - Parameter path:      The path for the required theme file
     */
     @objc class func setTapTheme(themeDict: NSDictionary) {
         currentTheme = themeDict

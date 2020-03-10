@@ -323,7 +323,7 @@ import class UIKit.UIButton
         let selector = stateSelector(with: SelectorsConstants.setBackgroundImageforStateSelector, for: selector, to: state)
         self.setThemeSelector(with:  SelectorsConstants.setBackgroundImageforStateSelector, for: selector)
     }
-    func tap_heme_setTitleColor(selector: ThemeUIColorSelector?, forState state: UIControl.State) {
+    func tap_theme_setTitleColor(selector: ThemeUIColorSelector?, forState state: UIControl.State) {
         let selector = stateSelector(with: SelectorsConstants.setTitleColorforStateSelector, for: selector, to: state)
         self.setThemeSelector(with: SelectorsConstants.setTitleColorforStateSelector, for: selector)
     }
