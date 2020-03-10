@@ -41,18 +41,24 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        matchThemeAttributes()
         applyTheme()
     }
-    
     
     /// Apply  the theme values from the theme file to the matching outlets
     private func applyTheme()
     {
-        NextThemeButton.layer.cornerRadius = NextThemeButton.frame.width/2
-        
         TapThemeManager.setTapTheme(jsonName: jsonFiles[(currentThemeIndex%jsonFiles.count)])
-        
+        self.setNeedsStatusBarAppearanceUpdate()
+    }
+    
+    private func matchThemeAttributes()
+    {
+        NextThemeButton.layer.cornerRadius = NextThemeButton.frame.width/2
         customView1.tap_theme_backgroundColor = "CustomView1.backgroundColor"
+        
+        
+        //customView1.tap_the
         customView1.layer.tap_theme_borderColor = "CustomView1.borderColor"
         customView1.layer.tap_theme_borderWidth = "CustomView1.borderWidth"
         customView1.layer.tap_theme_cornerRadious = "CustomView1.cornerRadius"
@@ -79,9 +85,6 @@ class ViewController: UIViewController {
         NextThemeButton.tap_theme_backgroundColor = "NextThemeButton.buttonBackgroundColor"
         NextThemeButton.tap_heme_setTitleColor(selector: "NextThemeButton.buttonTitleColorNormal", forState: .normal)
         NextThemeButton.tap_heme_setTitleColor(selector: "NextThemeButton.buttonTitleColorHighlighted", forState: .highlighted)
-        
-        
-        self.setNeedsStatusBarAppearanceUpdate()
     }
     
     
