@@ -30,6 +30,39 @@ class TapThemeManager2020Tests: XCTestCase {
         XCTAssertNotNil(dectionaryResult, "TapThemeManager not able to read json at: \(path)")
     }
     
+    func testCustomView2BackgroundColorHex() {
+        let correctBg = "#F49F05"
+        
+        guard let path = TapThemePath.themeJsonPath(fileName: "test-theme") else {
+            XCTFail("TapThemeManager not able to load file 'test-theme.json'")
+            return }
+        
+        guard let theme = loadJsonFromPath(jsonPath: path) else {
+            XCTFail("TapThemeManager not able to load file 'test-theme.json'")
+            return
+        }
+        
+        guard let customView2 = theme["CustomView2"] as? [String: Any] else {
+            XCTFail("not able to find key 'CustomView2'!")
+            return
+        }
+        
+        guard let backgroundColor = customView2["backgroundColor"] as? String else {
+            XCTFail("not able to find key 'backgroundColor'!")
+            return
+        }
+        
+        guard let bgColor = try? UIColor(tap_hex: correctBg) else {
+            XCTFail("bgColor not valid UIColor Type!")
+            return
+        }
+        guard let TPbackgroundColor = try? UIColor(tap_hex: backgroundColor) else {
+            XCTFail("TPbackgroundColor not valid UIColor Type!")
+            return
+        }
+        
+        XCTAssertEqual(bgColor, TPbackgroundColor, "CustomView2.backgroundColor is not matching the expected color!")
+    }
     // MARK:- Helper functions
     func loadJsonFromPath(jsonPath: String) -> [String: Any]? {
         // Check if the file is correctly parsable
@@ -44,11 +77,11 @@ class TapThemeManager2020Tests: XCTestCase {
     }
 
     // MARK:- Performance test
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+//    func testPerformanceExample() {
+//        // This is an example of a performance test case.
+//        measure {
+//            // Put the code you want to measure the time of here.
+//        }
+//    }
 
 }
