@@ -2,7 +2,7 @@
 
 A SDK that provides an interface to theme iOS application with responsiveness between different themes.
 
-[![Platform](https://img.shields.io/cocoapods/p/goSellSDK.svg?style=flat)](https://tap-payments.github.io/goSellSDK-iOS)
+[![Platform](https://img.shields.io/cocoapods/p/TapThemeManager2020.svg?style=flat)](https://github.com/Tap-Payments/TapThemeManger-iOS)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/TapThemeManager2020.svg?style=flat)](https://img.shields.io/Tap-Payments/v/TapThemeManager2020)
 
 
