@@ -1,0 +1,6 @@
+framework module Pods_TapThemeManagerSwiftDemo {
+  umbrella header "Pods-TapThemeManagerSwiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

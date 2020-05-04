@@ -12,7 +12,7 @@
   },
   "CustomLabel1": {
     "textColor": "#9675A6",
-    "font":"18"
+    "font":"helvetica-neue-thin,18"
   },
   "CustomView2": {
       "backgroundColor": "#F28A30",
@@ -22,7 +22,7 @@
   },
   "CustomLabel2": {
     "textColor": "#F3E96B",
-    "font":"18"
+    "font":"circe-bold,18"
   },
   "CustomSwitch2": {
     "onTint": "#F3E96B",

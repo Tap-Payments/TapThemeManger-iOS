@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapThemeManager2020"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.1"
   spec.summary      = "TapThemeManager2020 is a part of Tap Payments 2020 vision. Allowing dynamic and responsive theming for iOS apps."
 
   # This description is used to generate tags and improve search results.
@@ -131,6 +131,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency "TapFontsKit"
+  spec.dependency "LocalisationManagerKit-iOS"
 
 end

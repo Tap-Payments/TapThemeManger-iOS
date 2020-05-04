@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CF7E25C423CDB1F9AB18E32 /* Pods_TapThemeManagerObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3156736F91DE720676425B29 /* Pods_TapThemeManagerObjCDemo.framework */; };
 		E831DA352417A9D400E21FBE /* Theme1.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE2602416780C00E621BF /* Theme1.json */; };
 		E831DA362417A9D400E21FBE /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
 		E831DA372417A9D400E21FBE /* icon_theme_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE263241678F200E621BF /* icon_theme_1.png */; };
@@ -50,17 +51,85 @@
 		E860F6C82416298600214C3C /* NSObject+tapTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6C72416298600214C3C /* NSObject+tapTheme.swift */; };
 		E860F6CB2416331E00214C3C /* UIKit+TapTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6CA2416331E00214C3C /* UIKit+TapTheme.swift */; };
 		E860F6CE24163B3900214C3C /* SelectorsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860F6CD24163B3900214C3C /* SelectorsConstants.swift */; };
+		E8853ECC24606FAB0069EABB /* TapFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8853ECB24606FAB0069EABB /* TapFont+Additions.swift */; };
+		E8853ECD24609C020069EABB /* Pods_TapThemeManager2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1B2A07E49E6E085AF2644 /* Pods_TapThemeManager2020.framework */; };
+		E8853ECE24609C020069EABB /* Pods_TapThemeManager2020.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1B2A07E49E6E085AF2644 /* Pods_TapThemeManager2020.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E8853ED024609C0D0069EABB /* Pods_TapThemeManagerSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2DA292564DB3EA937ABC1 /* Pods_TapThemeManagerSwiftDemo.framework */; };
+		E8853ED324609C380069EABB /* TapThemeManager2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E860F6502414C46A00214C3C /* TapThemeManager2020.framework */; };
+		E8853ED424609C380069EABB /* TapThemeManager2020.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E860F6502414C46A00214C3C /* TapThemeManager2020.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E8853ED824609CC80069EABB /* TapThemeManager2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E860F6502414C46A00214C3C /* TapThemeManager2020.framework */; };
+		E8853ED924609CC80069EABB /* TapThemeManager2020.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E860F6502414C46A00214C3C /* TapThemeManager2020.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E89CE25F24166C7500E621BF /* ThemeBlurEffectSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CE25E24166C7500E621BF /* ThemeBlurEffectSelector.swift */; };
 		E89CE2612416780D00E621BF /* Theme1.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE2602416780C00E621BF /* Theme1.json */; };
 		E89CE264241678F200E621BF /* icon_theme_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE263241678F200E621BF /* icon_theme_1.png */; };
 		E89CE26624167AB400E621BF /* icon_theme_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26524167AB400E621BF /* icon_theme_2.png */; };
 		E89CE26824167ADC00E621BF /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
 		E89CE26A2416B7D800E621BF /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CE2692416B7D800E621BF /* MyNavigationController.swift */; };
-		E8B047042417CBBC00AD56EA /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B047032417CBBC00AD56EA /* TestFile.swift */; };
 		E8BC12D92417ABA100CCC5C6 /* MyNavigatioController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E8853ED524609C380069EABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E860F6472414C46A00214C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860F64F2414C46A00214C3C;
+			remoteInfo = TapThemeManager2020;
+		};
+		E8853EDA24609CC80069EABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E860F6472414C46A00214C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E860F64F2414C46A00214C3C;
+			remoteInfo = TapThemeManager2020;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8853ECF24609C020069EABB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E8853ECE24609C020069EABB /* Pods_TapThemeManager2020.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8853ED724609C380069EABB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E8853ED424609C380069EABB /* TapThemeManager2020.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8853EDC24609CC80069EABB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E8853ED924609CC80069EABB /* TapThemeManager2020.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A799C5527E0B32CD9131448 /* Pods-TapThemeManagerSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManagerSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1D1C2C7C6B02609C274D7B7A /* Pods-TapThemeManagerObjCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManagerObjCDemo.debug.xcconfig"; path = "Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3156736F91DE720676425B29 /* Pods_TapThemeManagerObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapThemeManagerObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DFDDAE675B3133D4704C1A /* Pods-TapThemeManagerSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManagerSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8B27D39905F47565C9307122 /* Pods-TapThemeManager2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManager2020.debug.xcconfig"; path = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020.debug.xcconfig"; sourceTree = "<group>"; };
+		B094935691467A0283BC73E7 /* Pods-TapThemeManager2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManager2020.release.xcconfig"; path = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020.release.xcconfig"; sourceTree = "<group>"; };
+		C9A1B2A07E49E6E085AF2644 /* Pods_TapThemeManager2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapThemeManager2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC60D17D00B42C516CEA1A21 /* Pods-TapThemeManagerObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManagerObjCDemo.release.xcconfig"; path = "Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E860F6502414C46A00214C3C /* TapThemeManager2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapThemeManager2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E860F6532414C46A00214C3C /* TapThemeManager2020.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapThemeManager2020.h; sourceTree = "<group>"; };
 		E860F6542414C46A00214C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,15 +178,16 @@
 		E860F6C72416298600214C3C /* NSObject+tapTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+tapTheme.swift"; sourceTree = "<group>"; };
 		E860F6CA2416331E00214C3C /* UIKit+TapTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+TapTheme.swift"; sourceTree = "<group>"; };
 		E860F6CD24163B3900214C3C /* SelectorsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorsConstants.swift; sourceTree = "<group>"; };
+		E8853ECB24606FAB0069EABB /* TapFont+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TapFont+Additions.swift"; sourceTree = "<group>"; };
 		E89CE25E24166C7500E621BF /* ThemeBlurEffectSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeBlurEffectSelector.swift; sourceTree = "<group>"; };
 		E89CE2602416780C00E621BF /* Theme1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Theme1.json; sourceTree = "<group>"; };
 		E89CE263241678F200E621BF /* icon_theme_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_theme_1.png; sourceTree = "<group>"; };
 		E89CE26524167AB400E621BF /* icon_theme_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_theme_2.png; sourceTree = "<group>"; };
 		E89CE26724167ADC00E621BF /* Theme2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Theme2.json; sourceTree = "<group>"; };
 		E89CE2692416B7D800E621BF /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
-		E8B047032417CBBC00AD56EA /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		E8BC12D72417ABA100CCC5C6 /* MyNavigatioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigatioController.h; sourceTree = "<group>"; };
 		E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigatioController.m; sourceTree = "<group>"; };
+		F1E2DA292564DB3EA937ABC1 /* Pods_TapThemeManagerSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapThemeManagerSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8853ECD24609C020069EABB /* Pods_TapThemeManager2020.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +203,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8853ED324609C380069EABB /* TapThemeManager2020.framework in Frameworks */,
+				E8853ED024609C0D0069EABB /* Pods_TapThemeManagerSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +212,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8853ED824609CC80069EABB /* TapThemeManager2020.framework in Frameworks */,
+				6CF7E25C423CDB1F9AB18E32 /* Pods_TapThemeManagerObjCDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +223,12 @@
 		5837DB6230B3ED273C72A611 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				8B27D39905F47565C9307122 /* Pods-TapThemeManager2020.debug.xcconfig */,
+				B094935691467A0283BC73E7 /* Pods-TapThemeManager2020.release.xcconfig */,
+				1D1C2C7C6B02609C274D7B7A /* Pods-TapThemeManagerObjCDemo.debug.xcconfig */,
+				CC60D17D00B42C516CEA1A21 /* Pods-TapThemeManagerObjCDemo.release.xcconfig */,
+				1A799C5527E0B32CD9131448 /* Pods-TapThemeManagerSwiftDemo.debug.xcconfig */,
+				83DFDDAE675B3133D4704C1A /* Pods-TapThemeManagerSwiftDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -160,6 +241,7 @@
 				E860F6782414CB0600214C3C /* TapThemeManagerObjCDemo */,
 				E860F6512414C46A00214C3C /* Products */,
 				5837DB6230B3ED273C72A611 /* Pods */,
+				F7E323A6B04ECFA17CC6CABE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -226,7 +308,6 @@
 				E860F6C92416321300214C3C /* Manager */,
 				E860F6C4241625A300214C3C /* Extensions */,
 				E860F69D2414E2E500214C3C /* ThemeSelectors */,
-				E8B047032417CBBC00AD56EA /* TestFile.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -258,6 +339,7 @@
 		E860F6C4241625A300214C3C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E8853ECB24606FAB0069EABB /* TapFont+Additions.swift */,
 				E860F69B2414DB6200214C3C /* UIHexColor.swift */,
 				E860F6C22416126100214C3C /* ViewsExtensions.swift */,
 				E860F6C72416298600214C3C /* NSObject+tapTheme.swift */,
@@ -296,6 +378,16 @@
 			path = Themes;
 			sourceTree = "<group>";
 		};
+		F7E323A6B04ECFA17CC6CABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9A1B2A07E49E6E085AF2644 /* Pods_TapThemeManager2020.framework */,
+				3156736F91DE720676425B29 /* Pods_TapThemeManagerObjCDemo.framework */,
+				F1E2DA292564DB3EA937ABC1 /* Pods_TapThemeManagerSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -314,10 +406,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E860F6582414C46A00214C3C /* Build configuration list for PBXNativeTarget "TapThemeManager2020" */;
 			buildPhases = (
+				8462561A7801AF9932B8D866 /* [CP] Check Pods Manifest.lock */,
 				E860F64B2414C46A00214C3C /* Headers */,
 				E860F64C2414C46A00214C3C /* Sources */,
 				E860F64D2414C46A00214C3C /* Frameworks */,
 				E860F64E2414C46A00214C3C /* Resources */,
+				E8853ECF24609C020069EABB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,13 +426,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E860F6722414CAE100214C3C /* Build configuration list for PBXNativeTarget "TapThemeManagerSwiftDemo" */;
 			buildPhases = (
+				18C322FEDA88AE83EE28DAED /* [CP] Check Pods Manifest.lock */,
 				E860F65B2414CAE000214C3C /* Sources */,
 				E860F65C2414CAE000214C3C /* Frameworks */,
 				E860F65D2414CAE000214C3C /* Resources */,
+				E8853ED724609C380069EABB /* Embed Frameworks */,
+				DB46C5531B63DC36CE5E53D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E8853ED624609C380069EABB /* PBXTargetDependency */,
 			);
 			name = TapThemeManagerSwiftDemo;
 			productName = TapThemeManagerSwiftDemo;
@@ -349,13 +447,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E860F68D2414CB0700214C3C /* Build configuration list for PBXNativeTarget "TapThemeManagerObjCDemo" */;
 			buildPhases = (
+				F2CE26260A5F560F549105C2 /* [CP] Check Pods Manifest.lock */,
 				E860F6732414CB0600214C3C /* Sources */,
 				E860F6742414CB0600214C3C /* Frameworks */,
 				E860F6752414CB0600214C3C /* Resources */,
+				E8853EDC24609CC80069EABB /* Embed Frameworks */,
+				18BB4F060A9901C8E96BFE80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E8853EDB24609CC80069EABB /* PBXTargetDependency */,
 			);
 			name = TapThemeManagerObjCDemo;
 			productName = TapThemeManagerObjCDemo;
@@ -442,17 +544,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18BB4F060A9901C8E96BFE80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18C322FEDA88AE83EE28DAED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapThemeManagerSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8462561A7801AF9932B8D866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapThemeManager2020-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB46C5531B63DC36CE5E53D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CE26260A5F560F549105C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapThemeManagerObjCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E860F64C2414C46A00214C3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B047042417CBBC00AD56EA /* TestFile.swift in Sources */,
 				E860F6AB2415021000214C3C /* ThemeBarStyleSelector.swift in Sources */,
 				E860F6B524151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift in Sources */,
 				E860F6BB2415207300214C3C /* ThemeStateSelector.swift in Sources */,
 				E860F6B924151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift in Sources */,
 				E860F6B12415174100214C3C /* ThemeFontSelector.swift in Sources */,
+				E8853ECC24606FAB0069EABB /* TapFont+Additions.swift in Sources */,
 				E860F69C2414DB6200214C3C /* UIHexColor.swift in Sources */,
 				E860F6AF2415150B00214C3C /* ThemeDictionarySelector.swift in Sources */,
 				E860F6A32414F49E00214C3C /* TapThemeManager+array.swift in Sources */,
@@ -501,6 +706,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8853ED624609C380069EABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E860F64F2414C46A00214C3C /* TapThemeManager2020 */;
+			targetProxy = E8853ED524609C380069EABB /* PBXContainerItemProxy */;
+		};
+		E8853EDB24609CC80069EABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E860F64F2414C46A00214C3C /* TapThemeManager2020 */;
+			targetProxy = E8853EDA24609CC80069EABB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E860F6672414CAE000214C3C /* Main.storyboard */ = {
@@ -660,6 +878,7 @@
 		};
 		E860F6592414C46A00214C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B27D39905F47565C9307122 /* Pods-TapThemeManager2020.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -679,14 +898,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapThemeManager2020;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E860F65A2414C46A00214C3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B094935691467A0283BC73E7 /* Pods-TapThemeManager2020.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -706,13 +927,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapThemeManager2020;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E860F6702414CAE100214C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A799C5527E0B32CD9131448 /* Pods-TapThemeManagerSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -732,6 +955,7 @@
 		};
 		E860F6712414CAE100214C3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DFDDAE675B3133D4704C1A /* Pods-TapThemeManagerSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -751,6 +975,7 @@
 		};
 		E860F68E2414CB0700214C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1C2C7C6B02609C274D7B7A /* Pods-TapThemeManagerObjCDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -769,6 +994,7 @@
 		};
 		E860F68F2414CB0700214C3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC60D17D00B42C516CEA1A21 /* Pods-TapThemeManagerObjCDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
