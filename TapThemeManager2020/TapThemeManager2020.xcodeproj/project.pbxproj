@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -65,6 +65,8 @@
 		E89CE26624167AB400E621BF /* icon_theme_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26524167AB400E621BF /* icon_theme_2.png */; };
 		E89CE26824167ADC00E621BF /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
 		E89CE26A2416B7D800E621BF /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89CE2692416B7D800E621BF /* MyNavigationController.swift */; };
+		E8AFD97A246145C900005F44 /* DefaultDarkTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = E8AFD978246145C900005F44 /* DefaultDarkTheme.json */; };
+		E8AFD97B246145C900005F44 /* DefaultLightTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = E8AFD979246145C900005F44 /* DefaultLightTheme.json */; };
 		E8BC12D92417ABA100CCC5C6 /* MyNavigatioController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */; };
 /* End PBXBuildFile section */
 
@@ -185,6 +187,8 @@
 		E89CE26524167AB400E621BF /* icon_theme_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_theme_2.png; sourceTree = "<group>"; };
 		E89CE26724167ADC00E621BF /* Theme2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Theme2.json; sourceTree = "<group>"; };
 		E89CE2692416B7D800E621BF /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		E8AFD978246145C900005F44 /* DefaultDarkTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DefaultDarkTheme.json; sourceTree = "<group>"; };
+		E8AFD979246145C900005F44 /* DefaultLightTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DefaultLightTheme.json; sourceTree = "<group>"; };
 		E8BC12D72417ABA100CCC5C6 /* MyNavigatioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigatioController.h; sourceTree = "<group>"; };
 		E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigatioController.m; sourceTree = "<group>"; };
 		F1E2DA292564DB3EA937ABC1 /* Pods_TapThemeManagerSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapThemeManagerSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -304,6 +308,7 @@
 		E860F6902414CD1100214C3C /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E8AFD9772461456A00005F44 /* assets */,
 				E860F6CC24163B2E00214C3C /* enums */,
 				E860F6C92416321300214C3C /* Manager */,
 				E860F6C4241625A300214C3C /* Extensions */,
@@ -376,6 +381,15 @@
 				E89CE26524167AB400E621BF /* icon_theme_2.png */,
 			);
 			path = Themes;
+			sourceTree = "<group>";
+		};
+		E8AFD9772461456A00005F44 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				E8AFD978246145C900005F44 /* DefaultDarkTheme.json */,
+				E8AFD979246145C900005F44 /* DefaultLightTheme.json */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 		F7E323A6B04ECFA17CC6CABE /* Frameworks */ = {
@@ -511,6 +525,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8AFD97B246145C900005F44 /* DefaultLightTheme.json in Resources */,
+				E8AFD97A246145C900005F44 /* DefaultDarkTheme.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
