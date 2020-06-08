@@ -1,7 +1,12 @@
 {
+    "GlobalValues" : {
+        "Colors" : {
+            "white" : "#FFFFFF"
+        }
+    },
   "NextThemeButton": {
     "buttonTitleColorHighlighted": "#555",
-    "buttonTitleColorNormal": "#FFFFFF",
+    "buttonTitleColorNormal": "white",
     "buttonBackgroundColor": "#ABA6BF"
   },
   "CustomView1": {
@@ -32,7 +37,7 @@
       "backgroundColor": "#BDA589",
   },
   "CustomLabel3": {
-    "textColor": "#FFFFFF",
+    "textColor": "white",
     "font":"24"
   },
   "CustomUIImageView3": {
@@ -42,7 +47,7 @@
       "UIStatusBarStyle": "LightContent",
       "NavigationTint": "#FF0000",
       "NavigationTitle": {
-          "NavigationTitleColor": "#FFFFFF",
+          "NavigationTitleColor": "white",
           "Font":"24"
       }
   }
