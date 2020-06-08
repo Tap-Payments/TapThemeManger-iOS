@@ -27,7 +27,7 @@
   },
   "CustomLabel2": {
     "textColor": "#F18904",
-    "font":"circe-bold,24"
+    "font":"roboto-light,24"
   },
   "CustomSwitch2": {
     "onTint": "#F18904",
@@ -38,7 +38,7 @@
   },
   "CustomLabel3": {
     "textColor": "white",
-    "font":"24"
+    "font":"Piedra-Regular,24"
   },
   "CustomUIImageView3": {
     "image": "icon_theme_1"

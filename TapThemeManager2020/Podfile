@@ -4,7 +4,7 @@
 target 'TapThemeManager2020' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'TapFontsKit'
+  pod 'TapFontKit-iOS'
   pod 'LocalisationManagerKit-iOS'
   # Pods for TapThemeManager2020
 

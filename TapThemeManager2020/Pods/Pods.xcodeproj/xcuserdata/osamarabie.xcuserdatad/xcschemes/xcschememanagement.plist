@@ -32,21 +32,14 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>TapAdditionsKit.xcscheme</key>
+		<key>SwiftLint.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>TapFontsKit-Fonts.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
-		<key>TapFontsKit.xcscheme</key>
+		<key>TapFontKit-iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -58,7 +51,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

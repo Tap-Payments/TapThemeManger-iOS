@@ -68,6 +68,8 @@
 		E8AFD97A246145C900005F44 /* DefaultDarkTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = E8AFD978246145C900005F44 /* DefaultDarkTheme.json */; };
 		E8AFD97B246145C900005F44 /* DefaultLightTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = E8AFD979246145C900005F44 /* DefaultLightTheme.json */; };
 		E8BC12D92417ABA100CCC5C6 /* MyNavigatioController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */; };
+		E8E92B36248E511B00DD7DBB /* Piedra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8E92B35248E511B00DD7DBB /* Piedra-Regular.ttf */; };
+		E8E92B37248E511B00DD7DBB /* Piedra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8E92B35248E511B00DD7DBB /* Piedra-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +193,7 @@
 		E8AFD979246145C900005F44 /* DefaultLightTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DefaultLightTheme.json; sourceTree = "<group>"; };
 		E8BC12D72417ABA100CCC5C6 /* MyNavigatioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigatioController.h; sourceTree = "<group>"; };
 		E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigatioController.m; sourceTree = "<group>"; };
+		E8E92B35248E511B00DD7DBB /* Piedra-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piedra-Regular.ttf"; sourceTree = "<group>"; };
 		F1E2DA292564DB3EA937ABC1 /* Pods_TapThemeManagerSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapThemeManagerSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -275,6 +278,7 @@
 				E89CE2622416781200E621BF /* Themes */,
 				E860F6612414CAE000214C3C /* AppDelegate.swift */,
 				E860F6632414CAE000214C3C /* SceneDelegate.swift */,
+				E8E92B35248E511B00DD7DBB /* Piedra-Regular.ttf */,
 				E860F6652414CAE000214C3C /* ViewController.swift */,
 				E860F6672414CAE000214C3C /* Main.storyboard */,
 				E860F66A2414CAE100214C3C /* Assets.xcassets */,
@@ -536,6 +540,7 @@
 			files = (
 				E860F66E2414CAE100214C3C /* LaunchScreen.storyboard in Resources */,
 				E860F66B2414CAE100214C3C /* Assets.xcassets in Resources */,
+				E8E92B36248E511B00DD7DBB /* Piedra-Regular.ttf in Resources */,
 				E860F6692414CAE000214C3C /* Main.storyboard in Resources */,
 				E89CE264241678F200E621BF /* icon_theme_1.png in Resources */,
 				E89CE26824167ADC00E621BF /* Theme2.json in Resources */,
@@ -550,6 +555,7 @@
 			files = (
 				E831DA362417A9D400E21FBE /* Theme2.json in Resources */,
 				E860F6892414CB0700214C3C /* LaunchScreen.storyboard in Resources */,
+				E8E92B37248E511B00DD7DBB /* Piedra-Regular.ttf in Resources */,
 				E831DA372417A9D400E21FBE /* icon_theme_1.png in Resources */,
 				E831DA382417A9D400E21FBE /* icon_theme_2.png in Resources */,
 				E860F6862414CB0700214C3C /* Assets.xcassets in Resources */,

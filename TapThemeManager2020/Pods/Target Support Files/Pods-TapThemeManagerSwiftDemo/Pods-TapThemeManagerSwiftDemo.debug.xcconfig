@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LocalisationManagerKit-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/TapAdditionsKit" "${PODS_CONFIGURATION_BUILD_DIR}/TapFontsKit" "${PODS_CONFIGURATION_BUILD_DIR}/TapSwiftFixes"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LocalisationManagerKit-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/TapFontKit-iOS" "${PODS_CONFIGURATION_BUILD_DIR}/TapSwiftFixes"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LocalisationManagerKit-iOS/LocalisationManagerKit_iOS.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TapAdditionsKit/TapAdditionsKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TapFontsKit/TapFontsKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TapSwiftFixes/TapSwiftFixes.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LocalisationManagerKit-iOS/LocalisationManagerKit_iOS.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TapFontKit-iOS/TapFontKit_iOS.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TapSwiftFixes/TapSwiftFixes.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "LocalisationManagerKit_iOS" -framework "TapAdditionsKit" -framework "TapFontsKit" -framework "TapSwiftFixes"
+OTHER_LDFLAGS = $(inherited) -framework "LocalisationManagerKit_iOS" -framework "TapFontKit_iOS" -framework "TapSwiftFixes"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

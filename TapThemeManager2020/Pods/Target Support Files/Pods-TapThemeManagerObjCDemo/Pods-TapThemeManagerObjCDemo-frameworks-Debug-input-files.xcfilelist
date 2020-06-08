@@ -1,5 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/LocalisationManagerKit-iOS/LocalisationManagerKit_iOS.framework
-${BUILT_PRODUCTS_DIR}/TapAdditionsKit/TapAdditionsKit.framework
-${BUILT_PRODUCTS_DIR}/TapFontsKit/TapFontsKit.framework
+${BUILT_PRODUCTS_DIR}/TapFontKit-iOS/TapFontKit_iOS.framework
 ${BUILT_PRODUCTS_DIR}/TapSwiftFixes/TapSwiftFixes.framework

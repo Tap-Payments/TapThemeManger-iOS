@@ -10,7 +10,7 @@ import class UIKit.UIFont
 import class UIKit.UIColor
 import struct UIKit.CGFloat
 import enum UIKit.UIStatusBarStyle
-import enum TapFontsKit.TapFont
+import TapFontKit_iOS
 import class LocalisationManagerKit_iOS.TapLocalisationManager
 
 /// All the methods required to parse String values provided in the theme file into readable iOS values like UIColor, UIFont, etc.
@@ -151,14 +151,15 @@ import class LocalisationManagerKit_iOS.TapLocalisationManager
                 return fontFromMainBundle
             }else{
                 // If not, we check it in our default common fonts kit
-                do {
+                return FontProvider.localizedFont(.TapFont(from: elements[0]), size: CGFloat(Float(elements[1]) ?? 12), languageIdentifier: TapLocalisationManager.shared.localisationLocale ?? "en")
+                /*do {
                   let data = try JSONEncoder().encode(elements[0])
                   let decoder = JSONDecoder()
                   let tapFont:TapFont = try decoder.decode(TapFont.self, from: data)
                     return tapFont.localizedWithSize(CGFloat(Float(elements[1])!), languageIdentifier: (TapLocalisationManager.shared.localisationLocale ?? "en"))
                 } catch {
                   print(error.localizedDescription)
-                }
+                }*/
             }
         }
         

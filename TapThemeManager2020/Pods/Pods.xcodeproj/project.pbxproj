@@ -3,255 +3,259 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		02FC58C6EEA739133D8A1B6699F4E030 /* Locale+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A31EBD2F684EC944FD42F5EC84A3902 /* Locale+Additions.swift */; };
-		068A427D53CF6D29E7E5732084576158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2160B4765FB687E1B4EBBF5ED9A60A7 /* Foundation.framework */; };
-		08F073A29EAA44D5373F7717B167937A /* Pods-TapThemeManager2020-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C770345F13C326BDB51B6332183B48A /* Pods-TapThemeManager2020-dummy.m */; };
-		151FD1FDB36F2BA12BFEC7F57E8191DA /* LocalisationManagerKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C652727B8D6DEAEB3FD3AAD561DADA /* LocalisationManagerKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FB4D32244AD0E9A497DB63B076BFF48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2160B4765FB687E1B4EBBF5ED9A60A7 /* Foundation.framework */; };
-		27B7055F3029F35305614F4AE2EC5967 /* Fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C814ED325A563C0ADE4E6F360E70F077 /* Fonts.bundle */; };
-		2FBB00A64856668B8CC43C0A532B35BC /* TapSwiftFixes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EC3A24A610C08777D39175C5520958 /* TapSwiftFixes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DFC4C54D82E2B3328DE502CFA044948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2160B4765FB687E1B4EBBF5ED9A60A7 /* Foundation.framework */; };
-		4ECA21E8B943D5E553524E696E2C9AF4 /* TapSwiftFixes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DB60A9D83E667850919BAEB9CE26F7 /* TapSwiftFixes-dummy.m */; };
-		517CF6B7EAF0DB4268E054EA6073DA44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2160B4765FB687E1B4EBBF5ED9A60A7 /* Foundation.framework */; };
-		5452201E02F57D8C5AC4485BC7CF2C39 /* HelveticaNeueLTW20-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8DF3B4BA0A59D26956E7198E8F7724 /* HelveticaNeueLTW20-Roman.ttf */; };
-		578A6ED8CCB6818F0F2938D29F7ED854 /* TapSwiftFixes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E2BF4A8CD2677892B847308FC47DD0 /* TapSwiftFixes.framework */; };
-		5A24E5E52A87429B33BD0F8B2A6037F6 /* LocalisationManagerKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC0D1AC396CBE38C10F64F01642DCE /* LocalisationManagerKit-iOS-dummy.m */; };
-		5F5A0F92BFA30D5A82D97F6F123D483C /* HelveticaNeueLTW20-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82B1F521BDA9E3BF5CFFFB8C4C4B53B /* HelveticaNeueLTW20-Bold.ttf */; };
-		62CD7B5339F7EA1DEAE74B8D16738E23 /* TapAdditionsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 414AF8BDBD24A1FE32143582054C8B71 /* TapAdditionsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AF1E633604F844DF9AECE6485497162 /* Pods-TapThemeManager2020-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 864CF2E829E0557CD6CF39ED70FDD503 /* Pods-TapThemeManager2020-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86D1AF53885EADF4B685F19682844E6B /* Circe-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 901DD40B444F23108F58E0E0902F32C2 /* Circe-Regular.ttf */; };
-		883933C76928A3EFD60E4FD166108700 /* TapFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32211AC015068E7929622FBBFDA0909B /* TapFont.swift */; };
-		8E3542A386D941174DB77EA5A8AE60A3 /* TapLocalisationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1E1CD602BEAADB1C8BBC6B7D00AF4 /* TapLocalisationManager.swift */; };
-		9833452C9C66F93784393FF6E65A84C5 /* Pods-TapThemeManagerSwiftDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4B2607E242404C2FF917FC34EF9EDF /* Pods-TapThemeManagerSwiftDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AD480487B7F6F61988C5A977A9139B2 /* TapJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60368E2B616F467B7DA13BB5F02DEB1 /* TapJson.swift */; };
-		A8735B7D000F8A6BB33078AE8F61BE3A /* Circe-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6073029A44C0AF10DF1AB4D20AA99352 /* Circe-ExtraLight.ttf */; };
-		AE0FAC1A4F18446CA40FA16E27FD98CD /* HelveticaNeueLTW20-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B36C851C01872E5F1C8FB08392CD9FAA /* HelveticaNeueLTW20-Light.ttf */; };
-		B2E57E68C5E01F6040B1769839D20FA7 /* TapFontsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AF4F8B15A666116919A9172221F651 /* TapFontsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B483E1F1B91265F2D5BD7ADE0CB085B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2160B4765FB687E1B4EBBF5ED9A60A7 /* Foundation.framework */; };
-		BCCCAB25910416DDC6378713CEECE984 /* Circe-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A90FF0A5CF949793C439B3EF88905389 /* Circe-Thin.ttf */; };
-		BE0011BA95F0BBEBD37A63069DAE67D3 /* TapAdditionsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9912E6A273FB090EE40EF8B17A9720F /* TapAdditionsKit.framework */; };
-		C06C8F606DD723CD8648E6720C832D5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2160B4765FB687E1B4EBBF5ED9A60A7 /* Foundation.framework */; };
-		C213FC0BF9F2616958CC33C8E56CC348 /* TapFontsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8377A467DA0F59C74132BDA3364C7DB8 /* TapFontsKit-dummy.m */; };
-		C851DF0014E69E16AC2FC673B8EBD667 /* Pods-TapThemeManagerSwiftDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F20B491FA28E3744AE3B8F9066A6B3 /* Pods-TapThemeManagerSwiftDemo-dummy.m */; };
-		C9CEEFB71CC12AFB5A5D9996216DEFF7 /* TapAdditionsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99E1A1B6561E62138E8101F6C8E3AFB /* TapAdditionsKit-dummy.m */; };
-		CA770873EA32B496E4021FBD2C125BA7 /* Bundle+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8FBD61BF1911AB554F904E70ED70 /* Bundle+Additions.swift */; };
-		D399F16BD1935F4BDE701A0037DD91D7 /* Circe-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE24BA5C99E0E8283D5DB25E897FB075 /* Circe-ExtraBold.ttf */; };
-		DFBDB224C7C77E113C0253724D1F7E30 /* ThreadingFixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DAF39B0EE61F06C9ACEFD8CC81CAFA /* ThreadingFixes.swift */; };
-		E19788427F2A8BDD892D4234F6EFFBCD /* Pods-TapThemeManagerObjCDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C98D20E83693B4DFE5ADD40A6BC711A7 /* Pods-TapThemeManagerObjCDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7F284E8131DB75FC4AFB79E4EA883F3 /* Circe-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EE2438EE0D058A4AFE559576C2EB950 /* Circe-Light.ttf */; };
-		EAC7F613FB399B44CCFE7D517E728A67 /* Pods-TapThemeManagerObjCDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B2BA6E4C51C6A274514F7F1D34ECD /* Pods-TapThemeManagerObjCDemo-dummy.m */; };
-		EAD37EDD24DC5969BEA46A0AFD48D937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2160B4765FB687E1B4EBBF5ED9A60A7 /* Foundation.framework */; };
-		EEF1104D95B090F970DA5E06932CF06B /* Circe-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45DFEBF9A744C0303AC3EFD7018600D0 /* Circe-Bold.ttf */; };
-		F3F7C6D455E2627306626AB9448CA3D8 /* FontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740602C45FCAA08AEB450BC04AEE7FC /* FontProvider.swift */; };
+		0D1AC08002480A7E8FABD944857ED13F /* Pods-TapThemeManager2020-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 864CF2E829E0557CD6CF39ED70FDD503 /* Pods-TapThemeManager2020-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1235DF7AB88B191F671FC8EFE9474DCE /* FontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A98C0B6DCC2C42A7D5E9C1BC0BEBE0 /* FontProvider.swift */; };
+		151FD1FDB36F2BA12BFEC7F57E8191DA /* LocalisationManagerKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FFF0221CFA6D8166CE16EE8EED6862 /* LocalisationManagerKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176109D9CC4398583056FA095F29847F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035E62C498179162EE700B78A5877D56 /* Foundation.framework */; };
+		17A622B1BA287D4AE3AA3672D4B0E512 /* ExceptionCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E064D69726D53096AE5F901152862F /* ExceptionCatcher.m */; };
+		1FD3B1D0BCAB32BBD29475E814D7041F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62B2C085C55621D28AC45BFB41DA8C0 /* Roboto-Bold.ttf */; };
+		23F5BF1F35FC39E638C6FD789992E5A0 /* ThreadingFixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3132F569991B2C409647C9EF04E00 /* ThreadingFixes.swift */; };
+		2C11469478DA172756B26089F8EF5BDA /* Circe-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14C79F62CAB9DC114737D995FEF5440C /* Circe-ExtraBold.ttf */; };
+		561B9F3203DE177504792A6BA552AFB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035E62C498179162EE700B78A5877D56 /* Foundation.framework */; };
+		5A1795B5B248E82EE3BB663E00D98BAB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AA64A009A85E2E19AE6D8A47945D385 /* Roboto-Regular.ttf */; };
+		5A24E5E52A87429B33BD0F8B2A6037F6 /* LocalisationManagerKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B8DD52DE9D7557868259E1553F1920 /* LocalisationManagerKit-iOS-dummy.m */; };
+		5D7413DB3476D0425DE9C16A6023776E /* ExceptionCatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BBCE4370EDC966C1DE1BE1C08689AC /* ExceptionCatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E4AC4E6F30641A07F871D1F9F6FFB2B /* Circe-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9FA62E75FD9045797F5CEE039FEC54 /* Circe-Regular.ttf */; };
+		5F833422A449FF36DE6B060FB615E199 /* Pods-TapThemeManager2020-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C770345F13C326BDB51B6332183B48A /* Pods-TapThemeManager2020-dummy.m */; };
+		6D69B06C3B7BAF9332CB3EB1D5BEE029 /* TapSwiftFixes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F60439BCF91284E213A09907F0259C /* TapSwiftFixes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		733BE8D49ABACB58578A7818F809498C /* TapFontKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB62ABB608FF3373E81F6DF846A6D66 /* TapFontKit-iOS-dummy.m */; };
+		7948EA26B6D64877EAAE4F0CBE1B1D27 /* CoreGraphicsFixes.h in Headers */ = {isa = PBXBuildFile; fileRef = 66022554F34EB81516E7289E980D7723 /* CoreGraphicsFixes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A76275CFABD678B7D6686BA2D222783 /* Circe-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6903E9345BA95C85331E21DDAC8D57 /* Circe-Light.ttf */; };
+		82319AE7E1B966B19347A11D52D47E52 /* Pods-TapThemeManagerObjCDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D33B2BA6E4C51C6A274514F7F1D34ECD /* Pods-TapThemeManagerObjCDemo-dummy.m */; };
+		8E3542A386D941174DB77EA5A8AE60A3 /* TapLocalisationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C7203765631CE308F2EF0BAD5C735 /* TapLocalisationManager.swift */; };
+		8E4286E593026D0134E7EC9360AAD28E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC38FEA8E29F0D5B464571C221F0A5A2 /* Roboto-Thin.ttf */; };
+		97A67A6F7F6F739B4707910C0A25EF49 /* HelveticaNeueLTW20-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D6D48DA68A31ABE77A41E698320D6AB /* HelveticaNeueLTW20-Bold.ttf */; };
+		9A78F2343B23C669E8C6A6312A6927BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035E62C498179162EE700B78A5877D56 /* Foundation.framework */; };
+		9AD480487B7F6F61988C5A977A9139B2 /* TapJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86474E1F542B89F2910B3A2CAAD5E0DD /* TapJson.swift */; };
+		9D38F0B7B54BF4C21E897E4EF6FC83DA /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6650858F6F1285B2DE341733C48235EC /* Roboto-Light.ttf */; };
+		A7B4565D86554562F11B0E6AF6555740 /* TapSwiftFixes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E36ADF90ED307738B05E7458689B978 /* TapSwiftFixes-dummy.m */; };
+		A809469B6F4A9D350254A59B5B8BDB0E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 853C899D9DD10B9E2E02A51883AC91A0 /* Roboto-Black.ttf */; };
+		C1377F108F1D4DCD6D55F8AB68C51D5A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB3198419AD1C75A900EAEA1DB0FFDD9 /* Roboto-Medium.ttf */; };
+		C1A3D1C30DD1CB85D99E30618C29647A /* HelveticaNeueLTW20-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF41AA0702339785DB328DDC51307DA4 /* HelveticaNeueLTW20-Light.ttf */; };
+		C8DD0DDD47E8A58FE2ADCE432090AA35 /* Pods-TapThemeManagerSwiftDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4B2607E242404C2FF917FC34EF9EDF /* Pods-TapThemeManagerSwiftDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C93061B92BDA914BA9E8FDC54975DD58 /* Pods-TapThemeManagerObjCDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C98D20E83693B4DFE5ADD40A6BC711A7 /* Pods-TapThemeManagerObjCDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D38D77D16B19448AD03B4EB52B156900 /* Pods-TapThemeManagerSwiftDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F20B491FA28E3744AE3B8F9066A6B3 /* Pods-TapThemeManagerSwiftDemo-dummy.m */; };
+		D5FEA5BBA4B758E6F48954437CA60AC5 /* TapFontKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 528118DAF6276E4C0853ADC138B8455F /* TapFontKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5C50E7CC3E96E2982522C455704372 /* Circe-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 653D4B440DFA1036C203E3B98F2929EF /* Circe-ExtraLight.ttf */; };
+		E5C30929AF956517D81638E47A48C807 /* CoreGraphicsFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7AE9762CEE17F52816B4BB0FCF90B1 /* CoreGraphicsFixes.m */; };
+		E87A45A4F65F25893399B754CF63301E /* TapSwiftFixes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E859F78FF3751E0F910EF2658804488F /* TapSwiftFixes.framework */; };
+		EA5B15BACF4B758967D4C78E66B1D3FB /* TapFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005B4AAAA02F9D9D92315A836690F00 /* TapFont.swift */; };
+		EAD37EDD24DC5969BEA46A0AFD48D937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035E62C498179162EE700B78A5877D56 /* Foundation.framework */; };
+		EEA0B353E32E0D08170A3F932209383F /* HelveticaNeueLTW20-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA05BAC6C98710EBD9D99B53DA29D753 /* HelveticaNeueLTW20-Roman.ttf */; };
+		F08B87E5545B9D6728903AA167B6371B /* Circe-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DE12DDAF26FA3D34626A9E3F0E437C /* Circe-Thin.ttf */; };
+		F9CA04A6FABDA42ADB92494A61A5DE33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035E62C498179162EE700B78A5877D56 /* Foundation.framework */; };
+		FE24AC47C6DCFE758BD5AC42C8B46182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035E62C498179162EE700B78A5877D56 /* Foundation.framework */; };
+		FFBB94F1BBC32AF7CDB861590C8387C9 /* Circe-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3430CA77FF878A652C6F1940EF2605E3 /* Circe-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0213B644A40BD35FF9B676FD27E03672 /* PBXContainerItemProxy */ = {
+		1C4B555627F39C9E1D052566E67C4CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F533AA510B62E4F3B56C094378F820D6;
+			remoteInfo = "TapFontKit-iOS";
+		};
+		3E60AC2E60D49F310B2F99FC258BBF73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2A84B9D796D0D04B87F4B7C8561AAF92;
 			remoteInfo = TapSwiftFixes;
 		};
-		026271D6004C9C6A8A80572088F711A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A564F72B9F83B7886A6EFD425AE86A67;
-			remoteInfo = TapFontsKit;
-		};
-		1BE18F04D70F1FC43A1754DD2616538F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A564F72B9F83B7886A6EFD425AE86A67;
-			remoteInfo = TapFontsKit;
-		};
-		3C5009C987027ACA902319F6B51A535E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEC31B282F90C69F53420404D6675630;
-			remoteInfo = TapAdditionsKit;
-		};
-		3FC3160451F713A8C30DDE62B0501D9D /* PBXContainerItemProxy */ = {
+		659C79A9136BF2673F76E18F0FBFA39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 48D7FFECE792D5C478227EFA6E2D5A43;
 			remoteInfo = "LocalisationManagerKit-iOS";
 		};
-		4AE2CC9B0457DE51AFEA73B125139F0D /* PBXContainerItemProxy */ = {
+		68464657F5FCC8A75020DCE6CDA9404C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A84B9D796D0D04B87F4B7C8561AAF92;
+			remoteInfo = TapSwiftFixes;
+		};
+		A7D50A6C5C8867A758657E010BCA8577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		A88C4906E9DC2706587E9BD2B0098E04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 48D7FFECE792D5C478227EFA6E2D5A43;
 			remoteInfo = "LocalisationManagerKit-iOS";
 		};
-		502BE8352880C102CDC6BFCEAE36ACDD /* PBXContainerItemProxy */ = {
+		A9BE055FEC2364A296F46C15FC0F8D8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE9307273B3B780230AD7388832D92B7;
-			remoteInfo = "TapFontsKit-Fonts";
+			remoteGlobalIDString = 2A84B9D796D0D04B87F4B7C8561AAF92;
+			remoteInfo = TapSwiftFixes;
 		};
-		63100027BC0AD09AD6A0968F4F2B3538 /* PBXContainerItemProxy */ = {
+		B44FCC461C9853D4E2ECBF3A6DAB1ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A84B9D796D0D04B87F4B7C8561AAF92;
+			remoteInfo = TapSwiftFixes;
+		};
+		BF71721B08F5969636F8E998240503A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		BFC50C7B77C28F0461CC488247AD22C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F533AA510B62E4F3B56C094378F820D6;
+			remoteInfo = "TapFontKit-iOS";
+		};
+		BFCF9F7132626BA8AC8D07D4F2C9FBED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 48D7FFECE792D5C478227EFA6E2D5A43;
 			remoteInfo = "LocalisationManagerKit-iOS";
 		};
-		6B21BC1CDAB23193BAE9140CADAED920 /* PBXContainerItemProxy */ = {
+		DD096010B35115F279066DC847D5F0D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A84B9D796D0D04B87F4B7C8561AAF92;
-			remoteInfo = TapSwiftFixes;
+			remoteGlobalIDString = F533AA510B62E4F3B56C094378F820D6;
+			remoteInfo = "TapFontKit-iOS";
 		};
-		702F9DCA6A14B9D356E3E891A4022C0F /* PBXContainerItemProxy */ = {
+		F3EBA325CA49CBAE4EBF4E456E2B1D2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEC31B282F90C69F53420404D6675630;
-			remoteInfo = TapAdditionsKit;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
-		70549E35894A8353F9E8E6BDB0D0A1E2 /* PBXContainerItemProxy */ = {
+		FAB208332CA8023EE2233B203205A922 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A84B9D796D0D04B87F4B7C8561AAF92;
-			remoteInfo = TapSwiftFixes;
-		};
-		70BA0260C485D65800C48BC32B481FF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEC31B282F90C69F53420404D6675630;
-			remoteInfo = TapAdditionsKit;
-		};
-		B6B23A143773A152F76EF47EA5AC096E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A564F72B9F83B7886A6EFD425AE86A67;
-			remoteInfo = TapFontsKit;
-		};
-		B7087998642FAB0FA005BF180F03E3DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A84B9D796D0D04B87F4B7C8561AAF92;
-			remoteInfo = TapSwiftFixes;
-		};
-		B774D0535A1131F945F22E6D842B43D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEC31B282F90C69F53420404D6675630;
-			remoteInfo = TapAdditionsKit;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A1E1CD602BEAADB1C8BBC6B7D00AF4 /* TapLocalisationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapLocalisationManager.swift; path = "LocalisationManagerKit-iOS/LocalisationManagerKit-iOS/Core/Public/TapLocalisationManager.swift"; sourceTree = "<group>"; };
-		01C21800D43672E03458776435D14ABB /* TapAdditionsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapAdditionsKit.xcconfig; sourceTree = "<group>"; };
 		0251A9822666F020EC16BE1E0B836429 /* Pods-TapThemeManagerObjCDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TapThemeManagerObjCDemo.modulemap"; sourceTree = "<group>"; };
-		07E2BF4A8CD2677892B847308FC47DD0 /* TapSwiftFixes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapSwiftFixes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0944629738542A4659F9532F4F16C6A5 /* TapFontsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TapFontsKit.modulemap; sourceTree = "<group>"; };
+		035E62C498179162EE700B78A5877D56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0C65F09E0E2E15A8A629365524AA3939 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		0C9DDB7789DC8DDE455AA6DF25EEE1B6 /* Pods-TapThemeManagerSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapThemeManagerSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0F9FA62E75FD9045797F5CEE039FEC54 /* Circe-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-Regular.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Circe-Regular.ttf"; sourceTree = "<group>"; };
 		12C1E81D8BF0688E2EDF5BEB6E4F2022 /* Pods-TapThemeManagerObjCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapThemeManagerObjCDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		1BC85D6D9EDD6DA196AE3011BA453980 /* TapFontsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapFontsKit-prefix.pch"; sourceTree = "<group>"; };
-		25F1223C7BD80CA0C3263453D3321DB6 /* LocalisationManagerKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalisationManagerKit-iOS-prefix.pch"; sourceTree = "<group>"; };
+		14C79F62CAB9DC114737D995FEF5440C /* Circe-ExtraBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-ExtraBold.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Circe-ExtraBold.ttf"; sourceTree = "<group>"; };
+		17DE12DDAF26FA3D34626A9E3F0E437C /* Circe-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-Thin.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Circe-Thin.ttf"; sourceTree = "<group>"; };
+		1AA64A009A85E2E19AE6D8A47945D385 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Regular.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1F704BD80F239D6E336B8742ABD359DD /* TapFontKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "TapFontKit-iOS.modulemap"; sourceTree = "<group>"; };
 		2C770345F13C326BDB51B6332183B48A /* Pods-TapThemeManager2020-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapThemeManager2020-dummy.m"; sourceTree = "<group>"; };
+		2D6D48DA68A31ABE77A41E698320D6AB /* HelveticaNeueLTW20-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "HelveticaNeueLTW20-Bold.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/HelveticaNeueLTW20-Bold.ttf"; sourceTree = "<group>"; };
 		2DC11C2446B19F961530AA065C4870B5 /* Pods-TapThemeManager2020-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapThemeManager2020-acknowledgements.markdown"; sourceTree = "<group>"; };
-		32211AC015068E7929622FBBFDA0909B /* TapFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapFont.swift; path = TapFontsKit/Source/TapFont.swift; sourceTree = "<group>"; };
 		33F20B491FA28E3744AE3B8F9066A6B3 /* Pods-TapThemeManagerSwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapThemeManagerSwiftDemo-dummy.m"; sourceTree = "<group>"; };
+		3430CA77FF878A652C6F1940EF2605E3 /* Circe-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-Bold.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Circe-Bold.ttf"; sourceTree = "<group>"; };
 		37C26C31D24BB45D0F113519209D354E /* Pods-TapThemeManagerSwiftDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapThemeManagerSwiftDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		3EE2438EE0D058A4AFE559576C2EB950 /* Circe-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-Light.ttf"; path = "TapFontsKit/Resources/Circe-Light.ttf"; sourceTree = "<group>"; };
-		414AF8BDBD24A1FE32143582054C8B71 /* TapAdditionsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapAdditionsKit-umbrella.h"; sourceTree = "<group>"; };
+		39800087BA880B36E9D681D20F5C3D4D /* LocalisationManagerKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LocalisationManagerKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4342F6833B52BA93E3396BD8B3E9EFFE /* Pods_TapThemeManagerSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TapThemeManagerSwiftDemo.framework; path = "Pods-TapThemeManagerSwiftDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45DFEBF9A744C0303AC3EFD7018600D0 /* Circe-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-Bold.ttf"; path = "TapFontsKit/Resources/Circe-Bold.ttf"; sourceTree = "<group>"; };
+		47B8DD52DE9D7557868259E1553F1920 /* LocalisationManagerKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocalisationManagerKit-iOS-dummy.m"; sourceTree = "<group>"; };
 		48D592984A1D775D000ADB122FF28199 /* Pods-TapThemeManager2020.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TapThemeManager2020.modulemap"; sourceTree = "<group>"; };
+		4DEFFEA8B8116F38B5B8DDF828E3CA52 /* TapFontKit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TapFontKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		50B786D679D98BD587C799F71229AC7F /* Pods_TapThemeManagerObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TapThemeManagerObjCDemo.framework; path = "Pods-TapThemeManagerObjCDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55AF4F8B15A666116919A9172221F651 /* TapFontsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapFontsKit-umbrella.h"; sourceTree = "<group>"; };
-		5CC3392E3220E00E72CC8EC61E760CB3 /* TapAdditionsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapAdditionsKit-Info.plist"; sourceTree = "<group>"; };
-		6073029A44C0AF10DF1AB4D20AA99352 /* Circe-ExtraLight.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-ExtraLight.ttf"; path = "TapFontsKit/Resources/Circe-ExtraLight.ttf"; sourceTree = "<group>"; };
+		52715A9CB6CB761C80F86CB168361085 /* TapSwiftFixes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapSwiftFixes-prefix.pch"; sourceTree = "<group>"; };
+		528118DAF6276E4C0853ADC138B8455F /* TapFontKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapFontKit-iOS-umbrella.h"; sourceTree = "<group>"; };
+		6116E276C3F6578676B1DA1765E7F461 /* LocalisationManagerKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LocalisationManagerKit-iOS.modulemap"; sourceTree = "<group>"; };
+		6180A75F54F171A4B93209629003479A /* TapFontKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapFontKit-iOS-Info.plist"; sourceTree = "<group>"; };
+		618A72315FED3F9E85D2A52619F86785 /* TapSwiftFixes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapSwiftFixes-Info.plist"; sourceTree = "<group>"; };
 		63508C3CC5D611DF8FEA6BB09C31BBD0 /* Pods-TapThemeManagerObjCDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapThemeManagerObjCDemo-frameworks.sh"; sourceTree = "<group>"; };
-		63DA22CE02BA660265B380725C499850 /* ResourceBundle-Fonts-TapFontsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Fonts-TapFontsKit-Info.plist"; sourceTree = "<group>"; };
+		653D4B440DFA1036C203E3B98F2929EF /* Circe-ExtraLight.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-ExtraLight.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Circe-ExtraLight.ttf"; sourceTree = "<group>"; };
+		66022554F34EB81516E7289E980D7723 /* CoreGraphicsFixes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreGraphicsFixes.h; path = Common/Source/CoreGraphicsFixes/CoreGraphicsFixes.h; sourceTree = "<group>"; };
 		661160E9C59D5A627E8DDBB9440BEACD /* Pods-TapThemeManager2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapThemeManager2020.debug.xcconfig"; sourceTree = "<group>"; };
-		6B106B90E5482E5DC9BD3589EF6CD32E /* TapFontsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapFontsKit.framework; path = TapFontsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D586FA4276E08823448F0A6D3497C8D /* TapAdditionsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TapAdditionsKit.modulemap; sourceTree = "<group>"; };
-		6D5AF17C763260FA66C6252DA717DB22 /* TapSwiftFixes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapSwiftFixes.xcconfig; sourceTree = "<group>"; };
-		71DAF39B0EE61F06C9ACEFD8CC81CAFA /* ThreadingFixes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadingFixes.swift; path = Common/Source/ThreadingFixes/ThreadingFixes.swift; sourceTree = "<group>"; };
-		71EC3A24A610C08777D39175C5520958 /* TapSwiftFixes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapSwiftFixes-umbrella.h"; sourceTree = "<group>"; };
-		7B436B42A2D2060B4334F05B1CFCBC8C /* TapSwiftFixes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapSwiftFixes-prefix.pch"; sourceTree = "<group>"; };
-		7DAC0D1AC396CBE38C10F64F01642DCE /* LocalisationManagerKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocalisationManagerKit-iOS-dummy.m"; sourceTree = "<group>"; };
-		8377A467DA0F59C74132BDA3364C7DB8 /* TapFontsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapFontsKit-dummy.m"; sourceTree = "<group>"; };
+		6650858F6F1285B2DE341733C48235EC /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Light.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		6E36ADF90ED307738B05E7458689B978 /* TapSwiftFixes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapSwiftFixes-dummy.m"; sourceTree = "<group>"; };
+		6F8875091CB25409C1782D7049A6C9E7 /* TapSwiftFixes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapSwiftFixes.debug.xcconfig; sourceTree = "<group>"; };
+		778C7203765631CE308F2EF0BAD5C735 /* TapLocalisationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapLocalisationManager.swift; path = "LocalisationManagerKit-iOS/LocalisationManagerKit-iOS/Core/Public/TapLocalisationManager.swift"; sourceTree = "<group>"; };
+		77FFF0221CFA6D8166CE16EE8EED6862 /* LocalisationManagerKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalisationManagerKit-iOS-umbrella.h"; sourceTree = "<group>"; };
+		7AC3132F569991B2C409647C9EF04E00 /* ThreadingFixes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadingFixes.swift; path = Common/Source/ThreadingFixes/ThreadingFixes.swift; sourceTree = "<group>"; };
+		84F60439BCF91284E213A09907F0259C /* TapSwiftFixes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapSwiftFixes-umbrella.h"; sourceTree = "<group>"; };
+		853C899D9DD10B9E2E02A51883AC91A0 /* Roboto-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Black.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		860473966949E085DDF23EDFAB0831BE /* Pods-TapThemeManagerSwiftDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapThemeManagerSwiftDemo-Info.plist"; sourceTree = "<group>"; };
+		86474E1F542B89F2910B3A2CAAD5E0DD /* TapJson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapJson.swift; path = "LocalisationManagerKit-iOS/LocalisationManagerKit-iOS/Core/Private/TapJson.swift"; sourceTree = "<group>"; };
 		864CF2E829E0557CD6CF39ED70FDD503 /* Pods-TapThemeManager2020-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapThemeManager2020-umbrella.h"; sourceTree = "<group>"; };
-		8A31EBD2F684EC944FD42F5EC84A3902 /* Locale+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Locale+Additions.swift"; path = "TapAdditionsKit/Foundation/Locale+Additions.swift"; sourceTree = "<group>"; };
+		88F30235A5F5067E94B9AB6E8028F9B6 /* TapFontKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapFontKit_iOS.framework; path = "TapFontKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8900A605CFF45B43A9D8CC538CD2D0FB /* TapFontKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapFontKit-iOS-prefix.pch"; sourceTree = "<group>"; };
+		8A7C517A66610A5CABE8B340E5C7F301 /* LocalisationManagerKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocalisationManagerKit-iOS-Info.plist"; sourceTree = "<group>"; };
 		8DDE263C5522F30A2A0183DC1499F7C7 /* Pods-TapThemeManagerSwiftDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapThemeManagerSwiftDemo-frameworks.sh"; sourceTree = "<group>"; };
-		901DD40B444F23108F58E0E0902F32C2 /* Circe-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-Regular.ttf"; path = "TapFontsKit/Resources/Circe-Regular.ttf"; sourceTree = "<group>"; };
-		91DB60A9D83E667850919BAEB9CE26F7 /* TapSwiftFixes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapSwiftFixes-dummy.m"; sourceTree = "<group>"; };
 		94BEB02876B701D94F72110FABD5A9CF /* LocalisationManagerKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocalisationManagerKit_iOS.framework; path = "LocalisationManagerKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9572FD6AD303CA124EC80D9113BD5050 /* Pods-TapThemeManagerSwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapThemeManagerSwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		966BA36440E6FFBA3998F3F7D040B748 /* LocalisationManagerKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocalisationManagerKit-iOS-Info.plist"; sourceTree = "<group>"; };
 		994BF5637192055D3D8764B4E4FD29B9 /* Pods-TapThemeManagerSwiftDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TapThemeManagerSwiftDemo.modulemap"; sourceTree = "<group>"; };
+		9D58467F224F5CE411A7DC1F7399F86A /* LocalisationManagerKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalisationManagerKit-iOS-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A437B90ABDFA7C116E1563E9841D1CC8 /* Pods-TapThemeManagerObjCDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapThemeManagerObjCDemo-Info.plist"; sourceTree = "<group>"; };
-		A740602C45FCAA08AEB450BC04AEE7FC /* FontProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontProvider.swift; path = TapFontsKit/Source/FontProvider.swift; sourceTree = "<group>"; };
-		A90FF0A5CF949793C439B3EF88905389 /* Circe-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-Thin.ttf"; path = "TapFontsKit/Resources/Circe-Thin.ttf"; sourceTree = "<group>"; };
+		A6BBCE4370EDC966C1DE1BE1C08689AC /* ExceptionCatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionCatcher.h; path = Common/Source/ExceptionCatcher/ExceptionCatcher.h; sourceTree = "<group>"; };
 		A912DB44D2AD438AA9A8375A3015A4BC /* Pods-TapThemeManager2020-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapThemeManager2020-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9912E6A273FB090EE40EF8B17A9720F /* TapAdditionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapAdditionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA17C2AAFC2115CCA245047DB80D493E /* Pods-TapThemeManagerSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapThemeManagerSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AB20194B2252DFC6810B2458F40BA850 /* Pods-TapThemeManagerObjCDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapThemeManagerObjCDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB3198419AD1C75A900EAEA1DB0FFDD9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Medium.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		AC5DBA83B03A7A3D6DDCCD7D1A9361FF /* Pods-TapThemeManagerObjCDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapThemeManagerObjCDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE16D20779435A5B0DA0BBF6DD20B410 /* Pods-TapThemeManagerObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapThemeManagerObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
-		AE24BA5C99E0E8283D5DB25E897FB075 /* Circe-ExtraBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-ExtraBold.ttf"; path = "TapFontsKit/Resources/Circe-ExtraBold.ttf"; sourceTree = "<group>"; };
-		B36C851C01872E5F1C8FB08392CD9FAA /* HelveticaNeueLTW20-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "HelveticaNeueLTW20-Light.ttf"; path = "TapFontsKit/Resources/HelveticaNeueLTW20-Light.ttf"; sourceTree = "<group>"; };
+		B0E064D69726D53096AE5F901152862F /* ExceptionCatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExceptionCatcher.m; path = Common/Source/ExceptionCatcher/ExceptionCatcher.m; sourceTree = "<group>"; };
+		B0F0E6B130BACD9A05F6256A4867746E /* TapSwiftFixes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TapSwiftFixes.modulemap; sourceTree = "<group>"; };
 		BC351459408AB40B38BF862855183ADF /* TapSwiftFixes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapSwiftFixes.framework; path = TapSwiftFixes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFF061CB58AD644EB7EA8AA65AAEEA41 /* TapSwiftFixes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapSwiftFixes-Info.plist"; sourceTree = "<group>"; };
-		C36FF6F308D621840CEA376180C19742 /* TapFontsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapFontsKit.xcconfig; sourceTree = "<group>"; };
-		C44E24C9F843BC889ACA3B58803F84BC /* TapAdditionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapAdditionsKit.framework; path = TapAdditionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6903E9345BA95C85331E21DDAC8D57 /* Circe-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Circe-Light.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Circe-Light.ttf"; sourceTree = "<group>"; };
+		BE7AE9762CEE17F52816B4BB0FCF90B1 /* CoreGraphicsFixes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CoreGraphicsFixes.m; path = Common/Source/CoreGraphicsFixes/CoreGraphicsFixes.m; sourceTree = "<group>"; };
+		C25FCF52B52CE337395B41CACBE04544 /* TapSwiftFixes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapSwiftFixes.release.xcconfig; sourceTree = "<group>"; };
 		C4A48532296C94E3102DA98105F25DC6 /* Pods-TapThemeManager2020-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapThemeManager2020-Info.plist"; sourceTree = "<group>"; };
-		C5C652727B8D6DEAEB3FD3AAD561DADA /* LocalisationManagerKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalisationManagerKit-iOS-umbrella.h"; sourceTree = "<group>"; };
-		C814ED325A563C0ADE4E6F360E70F077 /* Fonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Fonts.bundle; path = "TapFontsKit-Fonts.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8772CD15AFF0B1FD576E0F3B550076A /* TapFontKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TapFontKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C98D20E83693B4DFE5ADD40A6BC711A7 /* Pods-TapThemeManagerObjCDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapThemeManagerObjCDemo-umbrella.h"; sourceTree = "<group>"; };
-		C99E1A1B6561E62138E8101F6C8E3AFB /* TapAdditionsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapAdditionsKit-dummy.m"; sourceTree = "<group>"; };
-		CA7C8FBD61BF1911AB554F904E70ED70 /* Bundle+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Additions.swift"; path = "TapAdditionsKit/Foundation/Bundle+Additions.swift"; sourceTree = "<group>"; };
 		CE4B2607E242404C2FF917FC34EF9EDF /* Pods-TapThemeManagerSwiftDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapThemeManagerSwiftDemo-umbrella.h"; sourceTree = "<group>"; };
+		CF41AA0702339785DB328DDC51307DA4 /* HelveticaNeueLTW20-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "HelveticaNeueLTW20-Light.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/HelveticaNeueLTW20-Light.ttf"; sourceTree = "<group>"; };
 		D33B2BA6E4C51C6A274514F7F1D34ECD /* Pods-TapThemeManagerObjCDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapThemeManagerObjCDemo-dummy.m"; sourceTree = "<group>"; };
-		D60368E2B616F467B7DA13BB5F02DEB1 /* TapJson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapJson.swift; path = "LocalisationManagerKit-iOS/LocalisationManagerKit-iOS/Core/Private/TapJson.swift"; sourceTree = "<group>"; };
-		DB71E0E7B927E57677C016233B391FC9 /* LocalisationManagerKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LocalisationManagerKit-iOS.xcconfig"; sourceTree = "<group>"; };
-		DCF942B51D4DA56A5A6AFC73D5D21CB7 /* TapAdditionsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapAdditionsKit-prefix.pch"; sourceTree = "<group>"; };
+		D62B2C085C55621D28AC45BFB41DA8C0 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Bold.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D9A98C0B6DCC2C42A7D5E9C1BC0BEBE0 /* FontProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontProvider.swift; path = "TapFontKit-iOS/TapFontKit-iOS/Core/FontProvider.swift"; sourceTree = "<group>"; };
+		DBB62ABB608FF3373E81F6DF846A6D66 /* TapFontKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapFontKit-iOS-dummy.m"; sourceTree = "<group>"; };
 		DD11C87B1FA2445AFE0DAA755097333B /* Pods-TapThemeManager2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapThemeManager2020.release.xcconfig"; sourceTree = "<group>"; };
 		DD14677158C2606A0B21E876F390B3E1 /* Pods_TapThemeManager2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TapThemeManager2020.framework; path = "Pods-TapThemeManager2020.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E82B1F521BDA9E3BF5CFFFB8C4C4B53B /* HelveticaNeueLTW20-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "HelveticaNeueLTW20-Bold.ttf"; path = "TapFontsKit/Resources/HelveticaNeueLTW20-Bold.ttf"; sourceTree = "<group>"; };
-		EB1507A52C81DDD8DF6D8F00DB631E61 /* LocalisationManagerKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LocalisationManagerKit-iOS.modulemap"; sourceTree = "<group>"; };
-		EBE9007F898FC6E7AEC4561BEC719A03 /* TapSwiftFixes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TapSwiftFixes.modulemap; sourceTree = "<group>"; };
-		EE8DF3B4BA0A59D26956E7198E8F7724 /* HelveticaNeueLTW20-Roman.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "HelveticaNeueLTW20-Roman.ttf"; path = "TapFontsKit/Resources/HelveticaNeueLTW20-Roman.ttf"; sourceTree = "<group>"; };
-		F2160B4765FB687E1B4EBBF5ED9A60A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F35CAB81433351FAA9FC4D8AC7A44B56 /* TapFontsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapFontsKit-Info.plist"; sourceTree = "<group>"; };
+		E859F78FF3751E0F910EF2658804488F /* TapSwiftFixes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapSwiftFixes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F005B4AAAA02F9D9D92315A836690F00 /* TapFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapFont.swift; path = "TapFontKit-iOS/TapFontKit-iOS/Core/TapFont.swift"; sourceTree = "<group>"; };
+		F15C3398A2AB2D93D76613E0C0AC9CEF /* LocalisationManagerKit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LocalisationManagerKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FA05BAC6C98710EBD9D99B53DA29D753 /* HelveticaNeueLTW20-Roman.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "HelveticaNeueLTW20-Roman.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/HelveticaNeueLTW20-Roman.ttf"; sourceTree = "<group>"; };
+		FC0E87FE63C5CBD034D70BD1149B14B4 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		FC38FEA8E29F0D5B464571C221F0A5A2 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Thin.ttf"; path = "TapFontKit-iOS/TapFontKit-iOS/Resources/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0212F577CA1C3DCBD74F9288C7A95409 /* Frameworks */ = {
+		2BFD0FBF42B0C3CAFBC9FAC46DC68D5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F1C531193C034128CD7AD3A3FF1BB57 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				068A427D53CF6D29E7E5732084576158 /* Foundation.framework in Frameworks */,
+				176109D9CC4398583056FA095F29847F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,59 +267,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D4FA460CFD1AB0DB90D02D17419C97E /* Frameworks */ = {
+		6641B55DC3790773E41FC08CE6A75663 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				517CF6B7EAF0DB4268E054EA6073DA44 /* Foundation.framework in Frameworks */,
+				F9CA04A6FABDA42ADB92494A61A5DE33 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		618FCE5F0D93A9E5B532BE2F24B44814 /* Frameworks */ = {
+		79E82E1DCFE77D33246074CE1B80DDA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B483E1F1B91265F2D5BD7ADE0CB085B5 /* Foundation.framework in Frameworks */,
+				FE24AC47C6DCFE758BD5AC42C8B46182 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3E09F2D71C6877692D8DE9DC512BCF1 /* Frameworks */ = {
+		A665CE722AC3EF4E7EA1766F0DC7CC12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DFC4C54D82E2B3328DE502CFA044948 /* Foundation.framework in Frameworks */,
+				9A78F2343B23C669E8C6A6312A6927BA /* Foundation.framework in Frameworks */,
+				E87A45A4F65F25893399B754CF63301E /* TapSwiftFixes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B95C38DF9EAB3DF470F064D89979F211 /* Frameworks */ = {
+		E75EFABB5C18A0AFF1357802766F9B39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06C8F606DD723CD8648E6720C832D5C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4D3F91A9FDBC0A5F806A3FF18485623 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FB4D32244AD0E9A497DB63B076BFF48 /* Foundation.framework in Frameworks */,
-				BE0011BA95F0BBEBD37A63069DAE67D3 /* TapAdditionsKit.framework in Frameworks */,
-				578A6ED8CCB6818F0F2938D29F7ED854 /* TapSwiftFixes.framework in Frameworks */,
+				561B9F3203DE177504792A6BA552AFB1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		168D5629A99848F9B2DBFFCEC417F1BC /* TapAdditionsKit */ = {
+		007D57302E7B67DEA45BEB3F6136225D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9FA8AAD53FDD299182E763F077A5CA67 /* Foundation */,
-				D938800A3FB46E6FE0A48AABB54D8E52 /* Support Files */,
+				035E62C498179162EE700B78A5877D56 /* Foundation.framework */,
 			);
-			name = TapAdditionsKit;
-			path = TapAdditionsKit;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		033E552A62D49400DBF5C75135652C60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F704BD80F239D6E336B8742ABD359DD /* TapFontKit-iOS.modulemap */,
+				DBB62ABB608FF3373E81F6DF846A6D66 /* TapFontKit-iOS-dummy.m */,
+				6180A75F54F171A4B93209629003479A /* TapFontKit-iOS-Info.plist */,
+				8900A605CFF45B43A9D8CC538CD2D0FB /* TapFontKit-iOS-prefix.pch */,
+				528118DAF6276E4C0853ADC138B8455F /* TapFontKit-iOS-umbrella.h */,
+				C8772CD15AFF0B1FD576E0F3B550076A /* TapFontKit-iOS.debug.xcconfig */,
+				4DEFFEA8B8116F38B5B8DDF828E3CA52 /* TapFontKit-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TapFontKit-iOS";
+			sourceTree = "<group>";
+		};
+		119AA7A8B44A2B0381075BD58BCC664D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				849F205509E2D009E37F0B4AA9CF5AB9 /* LocalisationManagerKit-iOS */,
+				86A5C4288048B57256C1B23908CFA300 /* SwiftLint */,
+				ECB7D9A58D66E6CEBF82CCAD6276F67F /* TapFontKit-iOS */,
+				A01A8E5C54F8B4BC862F5CDB386AD80E /* TapSwiftFixes */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3275D92C1CCBAF7A11C3D8FCCD2F7ACC /* Targets Support Files */ = {
@@ -328,55 +347,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		373C61A89A8CAF2B45A8571A8B0442F3 /* Support Files */ = {
+		3821264E675365AFEF9ADBD27A573271 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB1507A52C81DDD8DF6D8F00DB631E61 /* LocalisationManagerKit-iOS.modulemap */,
-				DB71E0E7B927E57677C016233B391FC9 /* LocalisationManagerKit-iOS.xcconfig */,
-				7DAC0D1AC396CBE38C10F64F01642DCE /* LocalisationManagerKit-iOS-dummy.m */,
-				966BA36440E6FFBA3998F3F7D040B748 /* LocalisationManagerKit-iOS-Info.plist */,
-				25F1223C7BD80CA0C3263453D3321DB6 /* LocalisationManagerKit-iOS-prefix.pch */,
-				C5C652727B8D6DEAEB3FD3AAD561DADA /* LocalisationManagerKit-iOS-umbrella.h */,
+				6116E276C3F6578676B1DA1765E7F461 /* LocalisationManagerKit-iOS.modulemap */,
+				47B8DD52DE9D7557868259E1553F1920 /* LocalisationManagerKit-iOS-dummy.m */,
+				8A7C517A66610A5CABE8B340E5C7F301 /* LocalisationManagerKit-iOS-Info.plist */,
+				9D58467F224F5CE411A7DC1F7399F86A /* LocalisationManagerKit-iOS-prefix.pch */,
+				77FFF0221CFA6D8166CE16EE8EED6862 /* LocalisationManagerKit-iOS-umbrella.h */,
+				39800087BA880B36E9D681D20F5C3D4D /* LocalisationManagerKit-iOS.debug.xcconfig */,
+				F15C3398A2AB2D93D76613E0C0AC9CEF /* LocalisationManagerKit-iOS.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LocalisationManagerKit-iOS";
-			sourceTree = "<group>";
-		};
-		3752CAEC28D400D068E585FD80ADCD02 /* LocalisationManagerKit-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D60368E2B616F467B7DA13BB5F02DEB1 /* TapJson.swift */,
-				00A1E1CD602BEAADB1C8BBC6B7D00AF4 /* TapLocalisationManager.swift */,
-				373C61A89A8CAF2B45A8571A8B0442F3 /* Support Files */,
-			);
-			name = "LocalisationManagerKit-iOS";
-			path = "LocalisationManagerKit-iOS";
-			sourceTree = "<group>";
-		};
-		4DCDDB234CBAFA5C796137307383146C /* Threading */ = {
-			isa = PBXGroup;
-			children = (
-				71DAF39B0EE61F06C9ACEFD8CC81CAFA /* ThreadingFixes.swift */,
-			);
-			name = Threading;
-			sourceTree = "<group>";
-		};
-		512D3441B468DAB7EEE7688068200ADF /* TapSwiftFixes */ = {
-			isa = PBXGroup;
-			children = (
-				C6C9B7B3742059186BCE229F6B8EB378 /* Support Files */,
-				4DCDDB234CBAFA5C796137307383146C /* Threading */,
-			);
-			name = TapSwiftFixes;
-			path = TapSwiftFixes;
-			sourceTree = "<group>";
-		};
-		568A6FACE064368560FFD3625F728181 /* Bundle */ = {
-			isa = PBXGroup;
-			children = (
-				CA7C8FBD61BF1911AB554F904E70ED70 /* Bundle+Additions.swift */,
-			);
-			name = Bundle;
 			sourceTree = "<group>";
 		};
 		5F07D8E34FEADA7C9591D23B10C8D79C /* Pods-TapThemeManagerObjCDemo */ = {
@@ -396,58 +379,58 @@
 			path = "Target Support Files/Pods-TapThemeManagerObjCDemo";
 			sourceTree = "<group>";
 		};
-		62988754B898E0FFF4F3107CC3995D0F /* iOS */ = {
+		640871E29AAEA347D33D7A270C8F190D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2160B4765FB687E1B4EBBF5ED9A60A7 /* Foundation.framework */,
+				94BEB02876B701D94F72110FABD5A9CF /* LocalisationManagerKit_iOS.framework */,
+				DD14677158C2606A0B21E876F390B3E1 /* Pods_TapThemeManager2020.framework */,
+				50B786D679D98BD587C799F71229AC7F /* Pods_TapThemeManagerObjCDemo.framework */,
+				4342F6833B52BA93E3396BD8B3E9EFFE /* Pods_TapThemeManagerSwiftDemo.framework */,
+				88F30235A5F5067E94B9AB6E8028F9B6 /* TapFontKit_iOS.framework */,
+				BC351459408AB40B38BF862855183ADF /* TapSwiftFixes.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		8FD6ACEE8FEB383E252635CA4C9D8556 /* Resources */ = {
+		849F205509E2D009E37F0B4AA9CF5AB9 /* LocalisationManagerKit-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				45DFEBF9A744C0303AC3EFD7018600D0 /* Circe-Bold.ttf */,
-				AE24BA5C99E0E8283D5DB25E897FB075 /* Circe-ExtraBold.ttf */,
-				6073029A44C0AF10DF1AB4D20AA99352 /* Circe-ExtraLight.ttf */,
-				3EE2438EE0D058A4AFE559576C2EB950 /* Circe-Light.ttf */,
-				901DD40B444F23108F58E0E0902F32C2 /* Circe-Regular.ttf */,
-				A90FF0A5CF949793C439B3EF88905389 /* Circe-Thin.ttf */,
-				E82B1F521BDA9E3BF5CFFFB8C4C4B53B /* HelveticaNeueLTW20-Bold.ttf */,
-				B36C851C01872E5F1C8FB08392CD9FAA /* HelveticaNeueLTW20-Light.ttf */,
-				EE8DF3B4BA0A59D26956E7198E8F7724 /* HelveticaNeueLTW20-Roman.ttf */,
+				86474E1F542B89F2910B3A2CAAD5E0DD /* TapJson.swift */,
+				778C7203765631CE308F2EF0BAD5C735 /* TapLocalisationManager.swift */,
+				3821264E675365AFEF9ADBD27A573271 /* Support Files */,
 			);
-			name = Resources;
+			name = "LocalisationManagerKit-iOS";
+			path = "LocalisationManagerKit-iOS";
 			sourceTree = "<group>";
 		};
-		94DC2F0BECC7C9F285168C9F8AEB9161 /* Frameworks */ = {
+		84ADC0E6695C7DF4462E4761C3576317 /* Exceptions */ = {
 			isa = PBXGroup;
 			children = (
-				A9912E6A273FB090EE40EF8B17A9720F /* TapAdditionsKit.framework */,
-				07E2BF4A8CD2677892B847308FC47DD0 /* TapSwiftFixes.framework */,
-				62988754B898E0FFF4F3107CC3995D0F /* iOS */,
+				A6BBCE4370EDC966C1DE1BE1C08689AC /* ExceptionCatcher.h */,
+				B0E064D69726D53096AE5F901152862F /* ExceptionCatcher.m */,
 			);
-			name = Frameworks;
+			name = Exceptions;
 			sourceTree = "<group>";
 		};
-		95CE26D386EBE88A717685E24817E3D1 /* Pods */ = {
+		86A5C4288048B57256C1B23908CFA300 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				3752CAEC28D400D068E585FD80ADCD02 /* LocalisationManagerKit-iOS */,
-				168D5629A99848F9B2DBFFCEC417F1BC /* TapAdditionsKit */,
-				DAB29319EF09C86B07B7B29D548AE303 /* TapFontsKit */,
-				512D3441B468DAB7EEE7688068200ADF /* TapSwiftFixes */,
+				D5E62E8EA01EB02075118EB24AEFF629 /* Support Files */,
 			);
-			name = Pods;
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
-		9FA8AAD53FDD299182E763F077A5CA67 /* Foundation */ = {
+		A01A8E5C54F8B4BC862F5CDB386AD80E /* TapSwiftFixes */ = {
 			isa = PBXGroup;
 			children = (
-				568A6FACE064368560FFD3625F728181 /* Bundle */,
-				D60680BB35EDEA67B7D8CCB4A9C96BDB /* Locale */,
+				B3B57FA72C50D93371B994482EB2FAF6 /* CoreGraphics */,
+				84ADC0E6695C7DF4462E4761C3576317 /* Exceptions */,
+				B7702B1688C30E418F815BD68DB267C0 /* Support Files */,
+				CF0308F0D6E1F756D56A2B3A520E4525 /* Threading */,
 			);
-			name = Foundation;
+			name = TapSwiftFixes;
+			path = TapSwiftFixes;
 			sourceTree = "<group>";
 		};
 		A1E47B758338B02448453A1A577C3718 /* Pods-TapThemeManager2020 */ = {
@@ -464,6 +447,39 @@
 			);
 			name = "Pods-TapThemeManager2020";
 			path = "Target Support Files/Pods-TapThemeManager2020";
+			sourceTree = "<group>";
+		};
+		AA1E0501821937DE0A9F45590EF2E153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E859F78FF3751E0F910EF2658804488F /* TapSwiftFixes.framework */,
+				007D57302E7B67DEA45BEB3F6136225D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3B57FA72C50D93371B994482EB2FAF6 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				66022554F34EB81516E7289E980D7723 /* CoreGraphicsFixes.h */,
+				BE7AE9762CEE17F52816B4BB0FCF90B1 /* CoreGraphicsFixes.m */,
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		B7702B1688C30E418F815BD68DB267C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F0E6B130BACD9A05F6256A4867746E /* TapSwiftFixes.modulemap */,
+				6E36ADF90ED307738B05E7458689B978 /* TapSwiftFixes-dummy.m */,
+				618A72315FED3F9E85D2A52619F86785 /* TapSwiftFixes-Info.plist */,
+				52715A9CB6CB761C80F86CB168361085 /* TapSwiftFixes-prefix.pch */,
+				84F60439BCF91284E213A09907F0259C /* TapSwiftFixes-umbrella.h */,
+				6F8875091CB25409C1782D7049A6C9E7 /* TapSwiftFixes.debug.xcconfig */,
+				C25FCF52B52CE337395B41CACBE04544 /* TapSwiftFixes.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TapSwiftFixes";
 			sourceTree = "<group>";
 		};
 		BD08FE4195304435B78B992F204F8BCD /* Pods-TapThemeManagerSwiftDemo */ = {
@@ -483,111 +499,77 @@
 			path = "Target Support Files/Pods-TapThemeManagerSwiftDemo";
 			sourceTree = "<group>";
 		};
-		C6C9B7B3742059186BCE229F6B8EB378 /* Support Files */ = {
+		CF0308F0D6E1F756D56A2B3A520E4525 /* Threading */ = {
 			isa = PBXGroup;
 			children = (
-				EBE9007F898FC6E7AEC4561BEC719A03 /* TapSwiftFixes.modulemap */,
-				6D5AF17C763260FA66C6252DA717DB22 /* TapSwiftFixes.xcconfig */,
-				91DB60A9D83E667850919BAEB9CE26F7 /* TapSwiftFixes-dummy.m */,
-				BFF061CB58AD644EB7EA8AA65AAEEA41 /* TapSwiftFixes-Info.plist */,
-				7B436B42A2D2060B4334F05B1CFCBC8C /* TapSwiftFixes-prefix.pch */,
-				71EC3A24A610C08777D39175C5520958 /* TapSwiftFixes-umbrella.h */,
+				7AC3132F569991B2C409647C9EF04E00 /* ThreadingFixes.swift */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TapSwiftFixes";
+			name = Threading;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				94DC2F0BECC7C9F285168C9F8AEB9161 /* Frameworks */,
-				95CE26D386EBE88A717685E24817E3D1 /* Pods */,
-				F677EFB496188445F9DEAEC10FA75BF5 /* Products */,
+				AA1E0501821937DE0A9F45590EF2E153 /* Frameworks */,
+				119AA7A8B44A2B0381075BD58BCC664D /* Pods */,
+				640871E29AAEA347D33D7A270C8F190D /* Products */,
 				3275D92C1CCBAF7A11C3D8FCCD2F7ACC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D152D2521C3AF416D4F3D41057A110F9 /* Support Files */ = {
+		D5E62E8EA01EB02075118EB24AEFF629 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63DA22CE02BA660265B380725C499850 /* ResourceBundle-Fonts-TapFontsKit-Info.plist */,
-				0944629738542A4659F9532F4F16C6A5 /* TapFontsKit.modulemap */,
-				C36FF6F308D621840CEA376180C19742 /* TapFontsKit.xcconfig */,
-				8377A467DA0F59C74132BDA3364C7DB8 /* TapFontsKit-dummy.m */,
-				F35CAB81433351FAA9FC4D8AC7A44B56 /* TapFontsKit-Info.plist */,
-				1BC85D6D9EDD6DA196AE3011BA453980 /* TapFontsKit-prefix.pch */,
-				55AF4F8B15A666116919A9172221F651 /* TapFontsKit-umbrella.h */,
+				0C65F09E0E2E15A8A629365524AA3939 /* SwiftLint.debug.xcconfig */,
+				FC0E87FE63C5CBD034D70BD1149B14B4 /* SwiftLint.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/TapFontsKit";
+			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
-		D60680BB35EDEA67B7D8CCB4A9C96BDB /* Locale */ = {
+		E9849E66507A60B95A628AB43B9B5577 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8A31EBD2F684EC944FD42F5EC84A3902 /* Locale+Additions.swift */,
+				3430CA77FF878A652C6F1940EF2605E3 /* Circe-Bold.ttf */,
+				14C79F62CAB9DC114737D995FEF5440C /* Circe-ExtraBold.ttf */,
+				653D4B440DFA1036C203E3B98F2929EF /* Circe-ExtraLight.ttf */,
+				BE6903E9345BA95C85331E21DDAC8D57 /* Circe-Light.ttf */,
+				0F9FA62E75FD9045797F5CEE039FEC54 /* Circe-Regular.ttf */,
+				17DE12DDAF26FA3D34626A9E3F0E437C /* Circe-Thin.ttf */,
+				2D6D48DA68A31ABE77A41E698320D6AB /* HelveticaNeueLTW20-Bold.ttf */,
+				CF41AA0702339785DB328DDC51307DA4 /* HelveticaNeueLTW20-Light.ttf */,
+				FA05BAC6C98710EBD9D99B53DA29D753 /* HelveticaNeueLTW20-Roman.ttf */,
+				853C899D9DD10B9E2E02A51883AC91A0 /* Roboto-Black.ttf */,
+				D62B2C085C55621D28AC45BFB41DA8C0 /* Roboto-Bold.ttf */,
+				6650858F6F1285B2DE341733C48235EC /* Roboto-Light.ttf */,
+				AB3198419AD1C75A900EAEA1DB0FFDD9 /* Roboto-Medium.ttf */,
+				1AA64A009A85E2E19AE6D8A47945D385 /* Roboto-Regular.ttf */,
+				FC38FEA8E29F0D5B464571C221F0A5A2 /* Roboto-Thin.ttf */,
 			);
-			name = Locale;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		D938800A3FB46E6FE0A48AABB54D8E52 /* Support Files */ = {
+		ECB7D9A58D66E6CEBF82CCAD6276F67F /* TapFontKit-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6D586FA4276E08823448F0A6D3497C8D /* TapAdditionsKit.modulemap */,
-				01C21800D43672E03458776435D14ABB /* TapAdditionsKit.xcconfig */,
-				C99E1A1B6561E62138E8101F6C8E3AFB /* TapAdditionsKit-dummy.m */,
-				5CC3392E3220E00E72CC8EC61E760CB3 /* TapAdditionsKit-Info.plist */,
-				DCF942B51D4DA56A5A6AFC73D5D21CB7 /* TapAdditionsKit-prefix.pch */,
-				414AF8BDBD24A1FE32143582054C8B71 /* TapAdditionsKit-umbrella.h */,
+				D9A98C0B6DCC2C42A7D5E9C1BC0BEBE0 /* FontProvider.swift */,
+				F005B4AAAA02F9D9D92315A836690F00 /* TapFont.swift */,
+				E9849E66507A60B95A628AB43B9B5577 /* Resources */,
+				033E552A62D49400DBF5C75135652C60 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TapAdditionsKit";
-			sourceTree = "<group>";
-		};
-		DAB29319EF09C86B07B7B29D548AE303 /* TapFontsKit */ = {
-			isa = PBXGroup;
-			children = (
-				A740602C45FCAA08AEB450BC04AEE7FC /* FontProvider.swift */,
-				32211AC015068E7929622FBBFDA0909B /* TapFont.swift */,
-				8FD6ACEE8FEB383E252635CA4C9D8556 /* Resources */,
-				D152D2521C3AF416D4F3D41057A110F9 /* Support Files */,
-			);
-			name = TapFontsKit;
-			path = TapFontsKit;
-			sourceTree = "<group>";
-		};
-		F677EFB496188445F9DEAEC10FA75BF5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C814ED325A563C0ADE4E6F360E70F077 /* Fonts.bundle */,
-				94BEB02876B701D94F72110FABD5A9CF /* LocalisationManagerKit_iOS.framework */,
-				DD14677158C2606A0B21E876F390B3E1 /* Pods_TapThemeManager2020.framework */,
-				50B786D679D98BD587C799F71229AC7F /* Pods_TapThemeManagerObjCDemo.framework */,
-				4342F6833B52BA93E3396BD8B3E9EFFE /* Pods_TapThemeManagerSwiftDemo.framework */,
-				C44E24C9F843BC889ACA3B58803F84BC /* TapAdditionsKit.framework */,
-				6B106B90E5482E5DC9BD3589EF6CD32E /* TapFontsKit.framework */,
-				BC351459408AB40B38BF862855183ADF /* TapSwiftFixes.framework */,
-			);
-			name = Products;
+			name = "TapFontKit-iOS";
+			path = "TapFontKit-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2754B3DB9A60B3BC220F7EC8370CAD2E /* Headers */ = {
+		2F373097B6EF540BBA5D13536083C4AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2E57E68C5E01F6040B1769839D20FA7 /* TapFontsKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		32056CDCF1F87A4CAA91F8AEB7798CE2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E19788427F2A8BDD892D4234F6EFFBCD /* Pods-TapThemeManagerObjCDemo-umbrella.h in Headers */,
+				C8DD0DDD47E8A58FE2ADCE432090AA35 /* Pods-TapThemeManagerSwiftDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,35 +581,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EDFC8046A93BB86929384823935389C /* Headers */ = {
+		5FAF4B59548B638F71C135C7930C4FB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9833452C9C66F93784393FF6E65A84C5 /* Pods-TapThemeManagerSwiftDemo-umbrella.h in Headers */,
+				D5FEA5BBA4B758E6F48954437CA60AC5 /* TapFontKit-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		995CAFE48FAECA5A4E4A4133585C80D2 /* Headers */ = {
+		6A79E09CCDDF6A297ABEF8244C6819F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62CD7B5339F7EA1DEAE74B8D16738E23 /* TapAdditionsKit-umbrella.h in Headers */,
+				7948EA26B6D64877EAAE4F0CBE1B1D27 /* CoreGraphicsFixes.h in Headers */,
+				5D7413DB3476D0425DE9C16A6023776E /* ExceptionCatcher.h in Headers */,
+				6D69B06C3B7BAF9332CB3EB1D5BEE029 /* TapSwiftFixes-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC98C0C7BA913D4CAAAC87C10A6DAEB2 /* Headers */ = {
+		A869D20B73DAD6A2E967EDD4905930E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AF1E633604F844DF9AECE6485497162 /* Pods-TapThemeManager2020-umbrella.h in Headers */,
+				0D1AC08002480A7E8FABD944857ED13F /* Pods-TapThemeManager2020-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E088F713B2B5E82D1808984DED1C66FC /* Headers */ = {
+		FA170EACA41F706E9CDF7E27A571CE75 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FBB00A64856668B8CC43C0A532B35BC /* TapSwiftFixes-umbrella.h in Headers */,
+				C93061B92BDA914BA9E8FDC54975DD58 /* Pods-TapThemeManagerObjCDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,20 +620,20 @@
 /* Begin PBXNativeTarget section */
 		07A4A5B9E7C06D169890B8C51C594295 /* Pods-TapThemeManager2020 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05F7C5CE6E86223BAEF11231B5C28F88 /* Build configuration list for PBXNativeTarget "Pods-TapThemeManager2020" */;
+			buildConfigurationList = 0FB0B7D0024EACCC9D33721A7169BBCD /* Build configuration list for PBXNativeTarget "Pods-TapThemeManager2020" */;
 			buildPhases = (
-				DC98C0C7BA913D4CAAAC87C10A6DAEB2 /* Headers */,
-				9E5D7CAABC94F505D098E35A076566A4 /* Sources */,
-				618FCE5F0D93A9E5B532BE2F24B44814 /* Frameworks */,
-				BA52834380EB36D97A45E67E47F97A56 /* Resources */,
+				A869D20B73DAD6A2E967EDD4905930E6 /* Headers */,
+				FAD3650D942F3BC279536DD168D72331 /* Sources */,
+				2BFD0FBF42B0C3CAFBC9FAC46DC68D5E /* Frameworks */,
+				9E854ECDCEB5A0CC7764321A28BF336D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F24A895956CD1C450836485530519793 /* PBXTargetDependency */,
-				99A6FD9A08F4A7E4C922CF3DCEB6A523 /* PBXTargetDependency */,
-				02098BC520FDC7220FEBE9FD31D86D51 /* PBXTargetDependency */,
-				7B7E6DD23985B7CFCC2B3C245D737D7B /* PBXTargetDependency */,
+				522DF14406CA42F35D0908FA7311C593 /* PBXTargetDependency */,
+				0CD42E095C55337E8E3CF28BBD0B93AB /* PBXTargetDependency */,
+				4FFE18F00FF10862823A5D974A1BD1C9 /* PBXTargetDependency */,
+				40C45410F5DC818D6238C319246BB8AA /* PBXTargetDependency */,
 			);
 			name = "Pods-TapThemeManager2020";
 			productName = "Pods-TapThemeManager2020";
@@ -658,20 +642,20 @@
 		};
 		22D4AF4C3B682F3B12A9159DD4026E02 /* Pods-TapThemeManagerSwiftDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C42D5B144F8514F7D08D9A2379D1457 /* Build configuration list for PBXNativeTarget "Pods-TapThemeManagerSwiftDemo" */;
+			buildConfigurationList = AB0B86C6530F8B1173E6488318BB9E0B /* Build configuration list for PBXNativeTarget "Pods-TapThemeManagerSwiftDemo" */;
 			buildPhases = (
-				6EDFC8046A93BB86929384823935389C /* Headers */,
-				8903832A5604E1863188093436497BED /* Sources */,
-				B95C38DF9EAB3DF470F064D89979F211 /* Frameworks */,
-				9826D7EB4686E408C310CD92BB182ACC /* Resources */,
+				2F373097B6EF540BBA5D13536083C4AA /* Headers */,
+				E95FAFAE80DF641B7553372412A09504 /* Sources */,
+				6641B55DC3790773E41FC08CE6A75663 /* Frameworks */,
+				3319E643F0B7D557B9CD084BEB265275 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				264C317FB9AC1E7DCBB9E9618932315E /* PBXTargetDependency */,
-				C3A207E014854E651A15A7006C01C704 /* PBXTargetDependency */,
-				394214B12A3CB1C59CB57B7EE3A2CF48 /* PBXTargetDependency */,
-				2A51CBA80AAA6B79773D3E842966FFA5 /* PBXTargetDependency */,
+				8AD322B40B872A570FF69C0BB9E4649B /* PBXTargetDependency */,
+				C8403F2AD8E16B0052CABCBB653D3491 /* PBXTargetDependency */,
+				ACB811625081C878ED91633E76CC1C3D /* PBXTargetDependency */,
+				1C8B157858B51BA58654C9A30F6864FB /* PBXTargetDependency */,
 			);
 			name = "Pods-TapThemeManagerSwiftDemo";
 			productName = "Pods-TapThemeManagerSwiftDemo";
@@ -680,12 +664,12 @@
 		};
 		2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B01807E59AFDD62DB47D86509226376 /* Build configuration list for PBXNativeTarget "TapSwiftFixes" */;
+			buildConfigurationList = D8FCA48E60AE74B516B84DC3155C951F /* Build configuration list for PBXNativeTarget "TapSwiftFixes" */;
 			buildPhases = (
-				E088F713B2B5E82D1808984DED1C66FC /* Headers */,
-				1C6D9F168AB2081C38B9C3FDA68E461C /* Sources */,
-				0F1C531193C034128CD7AD3A3FF1BB57 /* Frameworks */,
-				B10690860A9A73F074CD85739C177AB8 /* Resources */,
+				6A79E09CCDDF6A297ABEF8244C6819F4 /* Headers */,
+				ECB7C82B51CE72B5D854D7AA17B28255 /* Sources */,
+				79E82E1DCFE77D33246074CE1B80DDA0 /* Frameworks */,
+				105DA3B914430ECE1DC4406D5565AC87 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -716,81 +700,45 @@
 		};
 		5528FF4FA05F3C6DAEAC83C231FD3503 /* Pods-TapThemeManagerObjCDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5635449C56893A364B397B8FF1846290 /* Build configuration list for PBXNativeTarget "Pods-TapThemeManagerObjCDemo" */;
+			buildConfigurationList = 6EB0C7F8E4C1D2477D4CA68E67223BA2 /* Build configuration list for PBXNativeTarget "Pods-TapThemeManagerObjCDemo" */;
 			buildPhases = (
-				32056CDCF1F87A4CAA91F8AEB7798CE2 /* Headers */,
-				B5657080D4946227912380904F4872A8 /* Sources */,
-				3D4FA460CFD1AB0DB90D02D17419C97E /* Frameworks */,
-				DDB163D75B7F9AE7CEAAEE389B930E74 /* Resources */,
+				FA170EACA41F706E9CDF7E27A571CE75 /* Headers */,
+				0E3CA63A83763DF1D7BCD891109F04DA /* Sources */,
+				E75EFABB5C18A0AFF1357802766F9B39 /* Frameworks */,
+				EA41F77DEDF2EBB270C5B49016F86AB7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DB3B37C8F03D41C3AC9E8C6ABFB90CCF /* PBXTargetDependency */,
-				D8198B0871315C8B13F15559A63B6F64 /* PBXTargetDependency */,
-				D86779325BE9C9CDEE5EB38DA3E0D0EB /* PBXTargetDependency */,
-				745BC07E4455A7CDFEF628F78FA7E83E /* PBXTargetDependency */,
+				57D2A1EFC4DFB9490CF153CBD20BA7E3 /* PBXTargetDependency */,
+				7E3088808E9F73460EAE6B6E30A2FEDD /* PBXTargetDependency */,
+				E5BB2C5792DC85F6F43E4E9C923EE53E /* PBXTargetDependency */,
+				4237B5EC4E120AD1997C2720AEEEADFE /* PBXTargetDependency */,
 			);
 			name = "Pods-TapThemeManagerObjCDemo";
 			productName = "Pods-TapThemeManagerObjCDemo";
 			productReference = 50B786D679D98BD587C799F71229AC7F /* Pods_TapThemeManagerObjCDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A564F72B9F83B7886A6EFD425AE86A67 /* TapFontsKit */ = {
+		F533AA510B62E4F3B56C094378F820D6 /* TapFontKit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7816FF6AC26A740F588CA4789B0BD066 /* Build configuration list for PBXNativeTarget "TapFontsKit" */;
+			buildConfigurationList = BD21CBF40854186E8B357D466C6FA225 /* Build configuration list for PBXNativeTarget "TapFontKit-iOS" */;
 			buildPhases = (
-				2754B3DB9A60B3BC220F7EC8370CAD2E /* Headers */,
-				5CE2E9F951DB32F591FF7B4E0DB9AF67 /* Sources */,
-				C4D3F91A9FDBC0A5F806A3FF18485623 /* Frameworks */,
-				ED2D91977AAE8DB944B36A3B5C4EE641 /* Resources */,
+				5FAF4B59548B638F71C135C7930C4FB3 /* Headers */,
+				70650BE7E11351B4D2894650C692C20C /* Sources */,
+				A665CE722AC3EF4E7EA1766F0DC7CC12 /* Frameworks */,
+				63AED011130725BB400D46250B957C4D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				95EEA3ACE89B3909755F601475AD9029 /* PBXTargetDependency */,
-				559C0CDF9F546B4E1C9C873B990F34DC /* PBXTargetDependency */,
-				97FE1694CF2B34145E04A5AC0A97604F /* PBXTargetDependency */,
+				F2C85214D2BE3683ACA453B0690FBDFF /* PBXTargetDependency */,
+				B31F3F210B670994485632AD7AF8433A /* PBXTargetDependency */,
 			);
-			name = TapFontsKit;
-			productName = TapFontsKit;
-			productReference = 6B106B90E5482E5DC9BD3589EF6CD32E /* TapFontsKit.framework */;
+			name = "TapFontKit-iOS";
+			productName = "TapFontKit-iOS";
+			productReference = 88F30235A5F5067E94B9AB6E8028F9B6 /* TapFontKit_iOS.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		CEC31B282F90C69F53420404D6675630 /* TapAdditionsKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF13A4392BAC574908020990EE5A6DB6 /* Build configuration list for PBXNativeTarget "TapAdditionsKit" */;
-			buildPhases = (
-				995CAFE48FAECA5A4E4A4133585C80D2 /* Headers */,
-				A71266216774C240A7AFF921438D2AEA /* Sources */,
-				A3E09F2D71C6877692D8DE9DC512BCF1 /* Frameworks */,
-				CA0CB229D32C2EBEC86D6C6C04013424 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TapAdditionsKit;
-			productName = TapAdditionsKit;
-			productReference = C44E24C9F843BC889ACA3B58803F84BC /* TapAdditionsKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DE9307273B3B780230AD7388832D92B7 /* TapFontsKit-Fonts */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 06049B435B6B864924D0C56814B673FE /* Build configuration list for PBXNativeTarget "TapFontsKit-Fonts" */;
-			buildPhases = (
-				458101BAFB9ABB67070CB159D218190A /* Sources */,
-				0212F577CA1C3DCBD74F9288C7A95409 /* Frameworks */,
-				A1CBFA23FC35C345F9D7E57166CB690E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TapFontsKit-Fonts";
-			productName = "TapFontsKit-Fonts";
-			productReference = C814ED325A563C0ADE4E6F360E70F077 /* Fonts.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -802,7 +750,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -810,7 +758,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F677EFB496188445F9DEAEC10FA75BF5 /* Products */;
+			productRefGroup = 640871E29AAEA347D33D7A270C8F190D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -818,9 +766,8 @@
 				07A4A5B9E7C06D169890B8C51C594295 /* Pods-TapThemeManager2020 */,
 				5528FF4FA05F3C6DAEAC83C231FD3503 /* Pods-TapThemeManagerObjCDemo */,
 				22D4AF4C3B682F3B12A9159DD4026E02 /* Pods-TapThemeManagerSwiftDemo */,
-				CEC31B282F90C69F53420404D6675630 /* TapAdditionsKit */,
-				A564F72B9F83B7886A6EFD425AE86A67 /* TapFontsKit */,
-				DE9307273B3B780230AD7388832D92B7 /* TapFontsKit-Fonts */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+				F533AA510B62E4F3B56C094378F820D6 /* TapFontKit-iOS */,
 				2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */,
 			);
 		};
@@ -834,99 +781,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9826D7EB4686E408C310CD92BB182ACC /* Resources */ = {
+		105DA3B914430ECE1DC4406D5565AC87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1CBFA23FC35C345F9D7E57166CB690E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EEF1104D95B090F970DA5E06932CF06B /* Circe-Bold.ttf in Resources */,
-				D399F16BD1935F4BDE701A0037DD91D7 /* Circe-ExtraBold.ttf in Resources */,
-				A8735B7D000F8A6BB33078AE8F61BE3A /* Circe-ExtraLight.ttf in Resources */,
-				E7F284E8131DB75FC4AFB79E4EA883F3 /* Circe-Light.ttf in Resources */,
-				86D1AF53885EADF4B685F19682844E6B /* Circe-Regular.ttf in Resources */,
-				BCCCAB25910416DDC6378713CEECE984 /* Circe-Thin.ttf in Resources */,
-				5F5A0F92BFA30D5A82D97F6F123D483C /* HelveticaNeueLTW20-Bold.ttf in Resources */,
-				AE0FAC1A4F18446CA40FA16E27FD98CD /* HelveticaNeueLTW20-Light.ttf in Resources */,
-				5452201E02F57D8C5AC4485BC7CF2C39 /* HelveticaNeueLTW20-Roman.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B10690860A9A73F074CD85739C177AB8 /* Resources */ = {
+		3319E643F0B7D557B9CD084BEB265275 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA52834380EB36D97A45E67E47F97A56 /* Resources */ = {
+		63AED011130725BB400D46250B957C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBB94F1BBC32AF7CDB861590C8387C9 /* Circe-Bold.ttf in Resources */,
+				2C11469478DA172756B26089F8EF5BDA /* Circe-ExtraBold.ttf in Resources */,
+				DE5C50E7CC3E96E2982522C455704372 /* Circe-ExtraLight.ttf in Resources */,
+				7A76275CFABD678B7D6686BA2D222783 /* Circe-Light.ttf in Resources */,
+				5E4AC4E6F30641A07F871D1F9F6FFB2B /* Circe-Regular.ttf in Resources */,
+				F08B87E5545B9D6728903AA167B6371B /* Circe-Thin.ttf in Resources */,
+				97A67A6F7F6F739B4707910C0A25EF49 /* HelveticaNeueLTW20-Bold.ttf in Resources */,
+				C1A3D1C30DD1CB85D99E30618C29647A /* HelveticaNeueLTW20-Light.ttf in Resources */,
+				EEA0B353E32E0D08170A3F932209383F /* HelveticaNeueLTW20-Roman.ttf in Resources */,
+				A809469B6F4A9D350254A59B5B8BDB0E /* Roboto-Black.ttf in Resources */,
+				1FD3B1D0BCAB32BBD29475E814D7041F /* Roboto-Bold.ttf in Resources */,
+				9D38F0B7B54BF4C21E897E4EF6FC83DA /* Roboto-Light.ttf in Resources */,
+				C1377F108F1D4DCD6D55F8AB68C51D5A /* Roboto-Medium.ttf in Resources */,
+				5A1795B5B248E82EE3BB663E00D98BAB /* Roboto-Regular.ttf in Resources */,
+				8E4286E593026D0134E7EC9360AAD28E /* Roboto-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E854ECDCEB5A0CC7764321A28BF336D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA0CB229D32C2EBEC86D6C6C04013424 /* Resources */ = {
+		EA41F77DEDF2EBB270C5B49016F86AB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDB163D75B7F9AE7CEAAEE389B930E74 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED2D91977AAE8DB944B36A3B5C4EE641 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27B7055F3029F35305614F4AE2EC5967 /* Fonts.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C6D9F168AB2081C38B9C3FDA68E461C /* Sources */ = {
+		0E3CA63A83763DF1D7BCD891109F04DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ECA21E8B943D5E553524E696E2C9AF4 /* TapSwiftFixes-dummy.m in Sources */,
-				DFBDB224C7C77E113C0253724D1F7E30 /* ThreadingFixes.swift in Sources */,
+				82319AE7E1B966B19347A11D52D47E52 /* Pods-TapThemeManagerObjCDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		458101BAFB9ABB67070CB159D218190A /* Sources */ = {
+		70650BE7E11351B4D2894650C692C20C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CE2E9F951DB32F591FF7B4E0DB9AF67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3F7C6D455E2627306626AB9448CA3D8 /* FontProvider.swift in Sources */,
-				883933C76928A3EFD60E4FD166108700 /* TapFont.swift in Sources */,
-				C213FC0BF9F2616958CC33C8E56CC348 /* TapFontsKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8903832A5604E1863188093436497BED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C851DF0014E69E16AC2FC673B8EBD667 /* Pods-TapThemeManagerSwiftDemo-dummy.m in Sources */,
+				1235DF7AB88B191F671FC8EFE9474DCE /* FontProvider.swift in Sources */,
+				EA5B15BACF4B758967D4C78E66B1D3FB /* TapFont.swift in Sources */,
+				733BE8D49ABACB58578A7818F809498C /* TapFontKit-iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -940,124 +862,119 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E5D7CAABC94F505D098E35A076566A4 /* Sources */ = {
+		E95FAFAE80DF641B7553372412A09504 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08F073A29EAA44D5373F7717B167937A /* Pods-TapThemeManager2020-dummy.m in Sources */,
+				D38D77D16B19448AD03B4EB52B156900 /* Pods-TapThemeManagerSwiftDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A71266216774C240A7AFF921438D2AEA /* Sources */ = {
+		ECB7C82B51CE72B5D854D7AA17B28255 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA770873EA32B496E4021FBD2C125BA7 /* Bundle+Additions.swift in Sources */,
-				02FC58C6EEA739133D8A1B6699F4E030 /* Locale+Additions.swift in Sources */,
-				C9CEEFB71CC12AFB5A5D9996216DEFF7 /* TapAdditionsKit-dummy.m in Sources */,
+				E5C30929AF956517D81638E47A48C807 /* CoreGraphicsFixes.m in Sources */,
+				17A622B1BA287D4AE3AA3672D4B0E512 /* ExceptionCatcher.m in Sources */,
+				A7B4565D86554562F11B0E6AF6555740 /* TapSwiftFixes-dummy.m in Sources */,
+				23F5BF1F35FC39E638C6FD789992E5A0 /* ThreadingFixes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5657080D4946227912380904F4872A8 /* Sources */ = {
+		FAD3650D942F3BC279536DD168D72331 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAC7F613FB399B44CCFE7D517E728A67 /* Pods-TapThemeManagerObjCDemo-dummy.m in Sources */,
+				5F833422A449FF36DE6B060FB615E199 /* Pods-TapThemeManager2020-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02098BC520FDC7220FEBE9FD31D86D51 /* PBXTargetDependency */ = {
+		0CD42E095C55337E8E3CF28BBD0B93AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TapFontsKit;
-			target = A564F72B9F83B7886A6EFD425AE86A67 /* TapFontsKit */;
-			targetProxy = 026271D6004C9C6A8A80572088F711A7 /* PBXContainerItemProxy */;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = FAB208332CA8023EE2233B203205A922 /* PBXContainerItemProxy */;
 		};
-		264C317FB9AC1E7DCBB9E9618932315E /* PBXTargetDependency */ = {
+		1C8B157858B51BA58654C9A30F6864FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapSwiftFixes;
+			target = 2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */;
+			targetProxy = B44FCC461C9853D4E2ECBF3A6DAB1ACF /* PBXContainerItemProxy */;
+		};
+		40C45410F5DC818D6238C319246BB8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapSwiftFixes;
+			target = 2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */;
+			targetProxy = 68464657F5FCC8A75020DCE6CDA9404C /* PBXContainerItemProxy */;
+		};
+		4237B5EC4E120AD1997C2720AEEEADFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapSwiftFixes;
+			target = 2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */;
+			targetProxy = A9BE055FEC2364A296F46C15FC0F8D8E /* PBXContainerItemProxy */;
+		};
+		4FFE18F00FF10862823A5D974A1BD1C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TapFontKit-iOS";
+			target = F533AA510B62E4F3B56C094378F820D6 /* TapFontKit-iOS */;
+			targetProxy = DD096010B35115F279066DC847D5F0D1 /* PBXContainerItemProxy */;
+		};
+		522DF14406CA42F35D0908FA7311C593 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LocalisationManagerKit-iOS";
 			target = 48D7FFECE792D5C478227EFA6E2D5A43 /* LocalisationManagerKit-iOS */;
-			targetProxy = 63100027BC0AD09AD6A0968F4F2B3538 /* PBXContainerItemProxy */;
+			targetProxy = BFCF9F7132626BA8AC8D07D4F2C9FBED /* PBXContainerItemProxy */;
 		};
-		2A51CBA80AAA6B79773D3E842966FFA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapSwiftFixes;
-			target = 2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */;
-			targetProxy = 0213B644A40BD35FF9B676FD27E03672 /* PBXContainerItemProxy */;
-		};
-		394214B12A3CB1C59CB57B7EE3A2CF48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapFontsKit;
-			target = A564F72B9F83B7886A6EFD425AE86A67 /* TapFontsKit */;
-			targetProxy = 1BE18F04D70F1FC43A1754DD2616538F /* PBXContainerItemProxy */;
-		};
-		559C0CDF9F546B4E1C9C873B990F34DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TapFontsKit-Fonts";
-			target = DE9307273B3B780230AD7388832D92B7 /* TapFontsKit-Fonts */;
-			targetProxy = 502BE8352880C102CDC6BFCEAE36ACDD /* PBXContainerItemProxy */;
-		};
-		745BC07E4455A7CDFEF628F78FA7E83E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapSwiftFixes;
-			target = 2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */;
-			targetProxy = 6B21BC1CDAB23193BAE9140CADAED920 /* PBXContainerItemProxy */;
-		};
-		7B7E6DD23985B7CFCC2B3C245D737D7B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapSwiftFixes;
-			target = 2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */;
-			targetProxy = 70549E35894A8353F9E8E6BDB0D0A1E2 /* PBXContainerItemProxy */;
-		};
-		95EEA3ACE89B3909755F601475AD9029 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapAdditionsKit;
-			target = CEC31B282F90C69F53420404D6675630 /* TapAdditionsKit */;
-			targetProxy = 3C5009C987027ACA902319F6B51A535E /* PBXContainerItemProxy */;
-		};
-		97FE1694CF2B34145E04A5AC0A97604F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapSwiftFixes;
-			target = 2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */;
-			targetProxy = B7087998642FAB0FA005BF180F03E3DF /* PBXContainerItemProxy */;
-		};
-		99A6FD9A08F4A7E4C922CF3DCEB6A523 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapAdditionsKit;
-			target = CEC31B282F90C69F53420404D6675630 /* TapAdditionsKit */;
-			targetProxy = B774D0535A1131F945F22E6D842B43D9 /* PBXContainerItemProxy */;
-		};
-		C3A207E014854E651A15A7006C01C704 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapAdditionsKit;
-			target = CEC31B282F90C69F53420404D6675630 /* TapAdditionsKit */;
-			targetProxy = 702F9DCA6A14B9D356E3E891A4022C0F /* PBXContainerItemProxy */;
-		};
-		D8198B0871315C8B13F15559A63B6F64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapAdditionsKit;
-			target = CEC31B282F90C69F53420404D6675630 /* TapAdditionsKit */;
-			targetProxy = 70BA0260C485D65800C48BC32B481FF7 /* PBXContainerItemProxy */;
-		};
-		D86779325BE9C9CDEE5EB38DA3E0D0EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TapFontsKit;
-			target = A564F72B9F83B7886A6EFD425AE86A67 /* TapFontsKit */;
-			targetProxy = B6B23A143773A152F76EF47EA5AC096E /* PBXContainerItemProxy */;
-		};
-		DB3B37C8F03D41C3AC9E8C6ABFB90CCF /* PBXTargetDependency */ = {
+		57D2A1EFC4DFB9490CF153CBD20BA7E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LocalisationManagerKit-iOS";
 			target = 48D7FFECE792D5C478227EFA6E2D5A43 /* LocalisationManagerKit-iOS */;
-			targetProxy = 3FC3160451F713A8C30DDE62B0501D9D /* PBXContainerItemProxy */;
+			targetProxy = 659C79A9136BF2673F76E18F0FBFA39A /* PBXContainerItemProxy */;
 		};
-		F24A895956CD1C450836485530519793 /* PBXTargetDependency */ = {
+		7E3088808E9F73460EAE6B6E30A2FEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = F3EBA325CA49CBAE4EBF4E456E2B1D2C /* PBXContainerItemProxy */;
+		};
+		8AD322B40B872A570FF69C0BB9E4649B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "LocalisationManagerKit-iOS";
 			target = 48D7FFECE792D5C478227EFA6E2D5A43 /* LocalisationManagerKit-iOS */;
-			targetProxy = 4AE2CC9B0457DE51AFEA73B125139F0D /* PBXContainerItemProxy */;
+			targetProxy = A88C4906E9DC2706587E9BD2B0098E04 /* PBXContainerItemProxy */;
+		};
+		ACB811625081C878ED91633E76CC1C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TapFontKit-iOS";
+			target = F533AA510B62E4F3B56C094378F820D6 /* TapFontKit-iOS */;
+			targetProxy = BFC50C7B77C28F0461CC488247AD22C5 /* PBXContainerItemProxy */;
+		};
+		B31F3F210B670994485632AD7AF8433A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapSwiftFixes;
+			target = 2A84B9D796D0D04B87F4B7C8561AAF92 /* TapSwiftFixes */;
+			targetProxy = 3E60AC2E60D49F310B2F99FC258BBF73 /* PBXContainerItemProxy */;
+		};
+		C8403F2AD8E16B0052CABCBB653D3491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = BF71721B08F5969636F8E998240503A7 /* PBXContainerItemProxy */;
+		};
+		E5BB2C5792DC85F6F43E4E9C923EE53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TapFontKit-iOS";
+			target = F533AA510B62E4F3B56C094378F820D6 /* TapFontKit-iOS */;
+			targetProxy = 1C4B555627F39C9E1D052566E67C4CC5 /* PBXContainerItemProxy */;
+		};
+		F2C85214D2BE3683ACA453B0690FBDFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = A7D50A6C5C8867A758657E010BCA8577 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1126,10 +1043,11 @@
 			};
 			name = Debug;
 		};
-		1655045139E85A0565F23F86882F1AAD /* Debug */ = {
+		26CEF970E39077717CD0799C9E1ED5CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36FF6F308D621840CEA376180C19742 /* TapFontsKit.xcconfig */;
+			baseConfigurationReference = F15C3398A2AB2D93D76613E0C0AC9CEF /* LocalisationManagerKit-iOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1139,31 +1057,101 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TapFontsKit/TapFontsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TapFontsKit/TapFontsKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/TapFontsKit/TapFontsKit.modulemap";
-				PRODUCT_MODULE_NAME = TapFontsKit;
-				PRODUCT_NAME = TapFontsKit;
+				MODULEMAP_FILE = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = LocalisationManagerKit_iOS;
+				PRODUCT_NAME = LocalisationManagerKit_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		358B781C9E0FB2059B4B63ECB18481B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39800087BA880B36E9D681D20F5C3D4D /* LocalisationManagerKit-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = LocalisationManagerKit_iOS;
+				PRODUCT_NAME = LocalisationManagerKit_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		1F1156A73D9AC57E2A92455936A7D2C2 /* Release */ = {
+		46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36FF6F308D621840CEA376180C19742 /* TapFontsKit.xcconfig */;
+			baseConfigurationReference = 0C65F09E0E2E15A8A629365524AA3939 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DD740115BE746C8DBB7753806D85D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0E87FE63C5CBD034D70BD1149B14B4 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		572CC40029AD9B778D0666A47CC1DD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25FCF52B52CE337395B41CACBE04544 /* TapSwiftFixes.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1174,8 +1162,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TapFontsKit/TapFontsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TapFontsKit/TapFontsKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TapSwiftFixes/TapSwiftFixes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1183,9 +1171,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/TapFontsKit/TapFontsKit.modulemap";
-				PRODUCT_MODULE_NAME = TapFontsKit;
-				PRODUCT_NAME = TapFontsKit;
+				MODULEMAP_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes.modulemap";
+				PRODUCT_MODULE_NAME = TapSwiftFixes;
+				PRODUCT_NAME = TapSwiftFixes;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1197,7 +1185,45 @@
 			};
 			name = Release;
 		};
-		2F3FAD70BD93231E597CFDCBCE52ACA9 /* Release */ = {
+		682A4667CB90676DE9D192609D33951A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9DDB7789DC8DDE455AA6DF25EEE1B6 /* Pods-TapThemeManagerSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		710523D4E38C9B2129BB6F133538F114 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD11C87B1FA2445AFE0DAA755097333B /* Pods-TapThemeManager2020.release.xcconfig */;
 			buildSettings = {
@@ -1236,98 +1262,7 @@
 			};
 			name = Release;
 		};
-		4A9B1EB25994631E0A9FEA1D1C5FBEC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01C21800D43672E03458776435D14ABB /* TapAdditionsKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TapAdditionsKit/TapAdditionsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TapAdditionsKit/TapAdditionsKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TapAdditionsKit/TapAdditionsKit.modulemap";
-				PRODUCT_MODULE_NAME = TapAdditionsKit;
-				PRODUCT_NAME = TapAdditionsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		592B6B6C4F68D5805A5459148FD1B82A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA17C2AAFC2115CCA245047DB80D493E /* Pods-TapThemeManagerSwiftDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		66833E12D99FDECE91CF827134C60065 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36FF6F308D621840CEA376180C19742 /* TapFontsKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TapFontsKit";
-				IBSC_MODULE = TapFontsKit;
-				INFOPLIST_FILE = "Target Support Files/TapFontsKit/ResourceBundle-Fonts-TapFontsKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Fonts;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		68BAD630B348538EFA36A58236746DB0 /* Release */ = {
+		74C5AEE71A9CEF1A86BE7659B781FEC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE16D20779435A5B0DA0BBF6DD20B410 /* Pods-TapThemeManagerObjCDemo.release.xcconfig */;
 			buildSettings = {
@@ -1366,9 +1301,9 @@
 			};
 			name = Release;
 		};
-		6A93EDB913348FA33AEB6308B2BA61B4 /* Release */ = {
+		8D5C64481EB8B4E90B836B7FD6B018B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB71E0E7B927E57677C016233B391FC9 /* LocalisationManagerKit-iOS.xcconfig */;
+			baseConfigurationReference = C8772CD15AFF0B1FD576E0F3B550076A /* TapFontKit-iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1380,8 +1315,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TapFontKit-iOS/TapFontKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TapFontKit-iOS/TapFontKit-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1389,23 +1324,22 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS.modulemap";
-				PRODUCT_MODULE_NAME = LocalisationManagerKit_iOS;
-				PRODUCT_NAME = LocalisationManagerKit_iOS;
+				MODULEMAP_FILE = "Target Support Files/TapFontKit-iOS/TapFontKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = TapFontKit_iOS;
+				PRODUCT_NAME = TapFontKit_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		6D95271ADFC63A0455AA18256EAEC4C8 /* Debug */ = {
+		B82B9B5AEF19B8BB1DBC27D9A9A437EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12C1E81D8BF0688E2EDF5BEB6E4F2022 /* Pods-TapThemeManagerObjCDemo.debug.xcconfig */;
+			baseConfigurationReference = 661160E9C59D5A627E8DDBB9440BEACD /* Pods-TapThemeManager2020.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1418,7 +1352,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1427,7 +1361,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1441,116 +1375,9 @@
 			};
 			name = Debug;
 		};
-		9B0DAA00A0BC61AF70C78088B2EA5F27 /* Release */ = {
+		C122D86860945FA85E3D614FC4E069D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D5AF17C763260FA66C6252DA717DB22 /* TapSwiftFixes.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TapSwiftFixes/TapSwiftFixes-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes.modulemap";
-				PRODUCT_MODULE_NAME = TapSwiftFixes;
-				PRODUCT_NAME = TapSwiftFixes;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A3D6A10B68D6778FBBDC1D37A8624116 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D5AF17C763260FA66C6252DA717DB22 /* TapSwiftFixes.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TapSwiftFixes/TapSwiftFixes-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes.modulemap";
-				PRODUCT_MODULE_NAME = TapSwiftFixes;
-				PRODUCT_NAME = TapSwiftFixes;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AD050D154C0E99AA21E5E5D373389BBE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB71E0E7B927E57677C016233B391FC9 /* LocalisationManagerKit-iOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LocalisationManagerKit-iOS/LocalisationManagerKit-iOS.modulemap";
-				PRODUCT_MODULE_NAME = LocalisationManagerKit_iOS;
-				PRODUCT_NAME = LocalisationManagerKit_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0E5D5577F83C3AC3025B230FB4B96BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C9DDB7789DC8DDE455AA6DF25EEE1B6 /* Pods-TapThemeManagerSwiftDemo.debug.xcconfig */;
+			baseConfigurationReference = AA17C2AAFC2115CCA245047DB80D493E /* Pods-TapThemeManagerSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1581,31 +1408,87 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6C1C186DDC656331B387C66F298429D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8875091CB25409C1782D7049A6C9E7 /* TapSwiftFixes.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TapSwiftFixes/TapSwiftFixes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes.modulemap";
+				PRODUCT_MODULE_NAME = TapSwiftFixes;
+				PRODUCT_NAME = TapSwiftFixes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C01CE914AAC46A408CC9D9CF1F801F4C /* Release */ = {
+		EC5F1A0D496AD84B0A4EDD8D29FBA09E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C36FF6F308D621840CEA376180C19742 /* TapFontsKit.xcconfig */;
+			baseConfigurationReference = 4DEFFEA8B8116F38B5B8DDF828E3CA52 /* TapFontKit-iOS.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TapFontsKit";
-				IBSC_MODULE = TapFontsKit;
-				INFOPLIST_FILE = "Target Support Files/TapFontsKit/ResourceBundle-Fonts-TapFontsKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = Fonts;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TapFontKit-iOS/TapFontKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TapFontKit-iOS/TapFontKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TapFontKit-iOS/TapFontKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = TapFontKit_iOS;
+				PRODUCT_NAME = TapFontKit_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D686B026D830757F2DEA2E28513EB63E /* Debug */ = {
+		F013DDB8F4F629D584264E585478045C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 661160E9C59D5A627E8DDBB9440BEACD /* Pods-TapThemeManager2020.debug.xcconfig */;
+			baseConfigurationReference = 12C1E81D8BF0688E2EDF5BEB6E4F2022 /* Pods-TapThemeManagerObjCDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1618,7 +1501,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1627,7 +1510,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1701,59 +1584,14 @@
 			};
 			name = Release;
 		};
-		F0DE21F1E7A930745CC489C958EEA96F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01C21800D43672E03458776435D14ABB /* TapAdditionsKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TapAdditionsKit/TapAdditionsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TapAdditionsKit/TapAdditionsKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TapAdditionsKit/TapAdditionsKit.modulemap";
-				PRODUCT_MODULE_NAME = TapAdditionsKit;
-				PRODUCT_NAME = TapAdditionsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05F7C5CE6E86223BAEF11231B5C28F88 /* Build configuration list for PBXNativeTarget "Pods-TapThemeManager2020" */ = {
+		0FB0B7D0024EACCC9D33721A7169BBCD /* Build configuration list for PBXNativeTarget "Pods-TapThemeManager2020" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D686B026D830757F2DEA2E28513EB63E /* Debug */,
-				2F3FAD70BD93231E597CFDCBCE52ACA9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		06049B435B6B864924D0C56814B673FE /* Build configuration list for PBXNativeTarget "TapFontsKit-Fonts" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66833E12D99FDECE91CF827134C60065 /* Debug */,
-				C01CE914AAC46A408CC9D9CF1F801F4C /* Release */,
+				B82B9B5AEF19B8BB1DBC27D9A9A437EE /* Debug */,
+				710523D4E38C9B2129BB6F133538F114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1767,38 +1605,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5635449C56893A364B397B8FF1846290 /* Build configuration list for PBXNativeTarget "Pods-TapThemeManagerObjCDemo" */ = {
+		6EB0C7F8E4C1D2477D4CA68E67223BA2 /* Build configuration list for PBXNativeTarget "Pods-TapThemeManagerObjCDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D95271ADFC63A0455AA18256EAEC4C8 /* Debug */,
-				68BAD630B348538EFA36A58236746DB0 /* Release */,
+				F013DDB8F4F629D584264E585478045C /* Debug */,
+				74C5AEE71A9CEF1A86BE7659B781FEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B01807E59AFDD62DB47D86509226376 /* Build configuration list for PBXNativeTarget "TapSwiftFixes" */ = {
+		AB0B86C6530F8B1173E6488318BB9E0B /* Build configuration list for PBXNativeTarget "Pods-TapThemeManagerSwiftDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3D6A10B68D6778FBBDC1D37A8624116 /* Debug */,
-				9B0DAA00A0BC61AF70C78088B2EA5F27 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7816FF6AC26A740F588CA4789B0BD066 /* Build configuration list for PBXNativeTarget "TapFontsKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1655045139E85A0565F23F86882F1AAD /* Debug */,
-				1F1156A73D9AC57E2A92455936A7D2C2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7C42D5B144F8514F7D08D9A2379D1457 /* Build configuration list for PBXNativeTarget "Pods-TapThemeManagerSwiftDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B0E5D5577F83C3AC3025B230FB4B96BF /* Debug */,
-				592B6B6C4F68D5805A5459148FD1B82A /* Release */,
+				682A4667CB90676DE9D192609D33951A /* Debug */,
+				C122D86860945FA85E3D614FC4E069D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1806,17 +1626,35 @@
 		AE226BAD9013003E22585FBC7C4FC1F8 /* Build configuration list for PBXNativeTarget "LocalisationManagerKit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD050D154C0E99AA21E5E5D373389BBE /* Debug */,
-				6A93EDB913348FA33AEB6308B2BA61B4 /* Release */,
+				358B781C9E0FB2059B4B63ECB18481B5 /* Debug */,
+				26CEF970E39077717CD0799C9E1ED5CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF13A4392BAC574908020990EE5A6DB6 /* Build configuration list for PBXNativeTarget "TapAdditionsKit" */ = {
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A9B1EB25994631E0A9FEA1D1C5FBEC6 /* Debug */,
-				F0DE21F1E7A930745CC489C958EEA96F /* Release */,
+				46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */,
+				55DD740115BE746C8DBB7753806D85D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD21CBF40854186E8B357D466C6FA225 /* Build configuration list for PBXNativeTarget "TapFontKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5C64481EB8B4E90B836B7FD6B018B8 /* Debug */,
+				EC5F1A0D496AD84B0A4EDD8D29FBA09E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FCA48E60AE74B516B84DC3155C951F /* Build configuration list for PBXNativeTarget "TapSwiftFixes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C1C186DDC656331B387C66F298429D /* Debug */,
+				572CC40029AD9B778D0666A47CC1DD8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
