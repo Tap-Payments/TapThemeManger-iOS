@@ -79,7 +79,7 @@ class ViewController: UIViewController {
         customView3.tap_theme_backgroundColor = "CustomView3.backgroundColor"
         customLabel3.tap_theme_font = "CustomLabel3.font"
         customLabel3.tap_theme_textColor = "CustomLabel3.textColor"
-        customImage3.tap_theme_image = "CustomUIImageView3.image"
+        customImage3.tap_theme_image = "CustomUIImageView3.image"//ThemeImageSelector.init(keyPath: "CustomUIImageView3.image", from: Bundle.main)
         
         
         NextThemeButton.tap_theme_backgroundColor = "NextThemeButton.buttonBackgroundColor"

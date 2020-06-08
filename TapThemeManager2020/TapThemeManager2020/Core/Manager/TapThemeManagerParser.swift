@@ -120,8 +120,13 @@ import class LocalisationManagerKit_iOS.TapLocalisationManager
        - Parameter keyPath: The key of the UIImage needed
        - Returns: The UIImage value of the key, and nil if doesn't exist
        */
-    public class func imageValue(for keyPath: String) -> UIImage? {
+    public class func imageValue(for keyPath: String,from bundle:Bundle? = nil) -> UIImage? {
         guard let parsedImageName = stringValue(for: keyPath) else { return nil }
+        // Check if the user passed the Bundle of assets we need to get the image from
+        if let bundle = bundle {
+            guard let image =  UIImage(named: parsedImageName, in: bundle, compatibleWith: nil) else { return nil }
+            return image
+        }
         // Incase we will add afterwards reading from different paths other than the Main Bundle
         if let filePath = TapThemePath.themeURL?.appendingPathComponent(parsedImageName).path {
            return imageValue(fromLocalURL: filePath)
