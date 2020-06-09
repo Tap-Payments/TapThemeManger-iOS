@@ -70,6 +70,7 @@
 		E8BC12D92417ABA100CCC5C6 /* MyNavigatioController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */; };
 		E8E92B36248E511B00DD7DBB /* Piedra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8E92B35248E511B00DD7DBB /* Piedra-Regular.ttf */; };
 		E8E92B37248E511B00DD7DBB /* Piedra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8E92B35248E511B00DD7DBB /* Piedra-Regular.ttf */; };
+		E8E92B46248F7C4900DD7DBB /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E92B45248F7C4900DD7DBB /* images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,6 +195,7 @@
 		E8BC12D72417ABA100CCC5C6 /* MyNavigatioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigatioController.h; sourceTree = "<group>"; };
 		E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigatioController.m; sourceTree = "<group>"; };
 		E8E92B35248E511B00DD7DBB /* Piedra-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piedra-Regular.ttf"; sourceTree = "<group>"; };
+		E8E92B45248F7C4900DD7DBB /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		F1E2DA292564DB3EA937ABC1 /* Pods_TapThemeManagerSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapThemeManagerSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -392,6 +394,7 @@
 			children = (
 				E8AFD978246145C900005F44 /* DefaultDarkTheme.json */,
 				E8AFD979246145C900005F44 /* DefaultLightTheme.json */,
+				E8E92B45248F7C4900DD7DBB /* images.xcassets */,
 			);
 			path = assets;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E92B46248F7C4900DD7DBB /* images.xcassets in Resources */,
 				E8AFD97B246145C900005F44 /* DefaultLightTheme.json in Resources */,
 				E8AFD97A246145C900005F44 /* DefaultDarkTheme.json in Resources */,
 			);

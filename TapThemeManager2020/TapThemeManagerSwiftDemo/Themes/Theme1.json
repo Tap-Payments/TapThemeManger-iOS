@@ -41,7 +41,7 @@
     "font":"Piedra-Regular,24"
   },
   "CustomUIImageView3": {
-    "image": "icon_theme_1"
+    "image": "tapHandlerImage"
   },
   "Global": {
       "UIStatusBarStyle": "LightContent",
