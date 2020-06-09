@@ -104,7 +104,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "TapThemeManager2020/TapThemeManager2020/Core/assets/**/*.{json}"
+  spec.resources = "TapThemeManager2020/TapThemeManager2020/Core/assets/**/*.{json,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
