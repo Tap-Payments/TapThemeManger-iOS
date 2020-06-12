@@ -76,7 +76,7 @@ import class LocalisationManagerKit_iOS.TapLocalisationManager
         // We need to check did the theme pass a hex color or a name of a saved color
         guard let parsedColor = try? UIColor(tap_hex: parsedRGBString) else {
             // This means, the user didn't pass a valid HEX value, could be the a name of a registered color in theme file in the path Global.Colors
-            print("TapThemeManager WARNING: Not convert RGBA Hex string \(parsedRGBString) at key path: \(keyPath). Will check if there is a valid color provided in the path GlobalValues.Colors.\(parsedRGBString)")
+            // print("TapThemeManager WARNING: Not convert RGBA Hex string \(parsedRGBString) at key path: \(keyPath). Will check if there is a valid color provided in the path GlobalValues.Colors.\(parsedRGBString)")
             return globalColorValue(for: "GlobalValues.Colors.\(parsedRGBString)")
         }
         return parsedColor
@@ -92,7 +92,7 @@ import class LocalisationManagerKit_iOS.TapLocalisationManager
         guard let parsedRGBString = stringValue(for: keyPath) else { return nil }
         // let us check if the user provided a valid hex color
         guard let parsedColor = try? UIColor(tap_hex: parsedRGBString) else {
-            print("TapThemeManager WARNING: Not convert RGBA Hex string \(parsedRGBString) at key path: \(keyPath)")
+            //print("TapThemeManager WARNING: Not convert RGBA Hex string \(parsedRGBString) at key path: \(keyPath)")
             return nil
         }
         return parsedColor
@@ -145,18 +145,19 @@ import class LocalisationManagerKit_iOS.TapLocalisationManager
      - Parameter keyPath: The key of the UIFont needed
      - Returns: The UIFont value of the key, and nil if doesn't exist
      */
-    public class func fontValue(for keyPath: String) -> UIFont? {
+    public class func fontValue(for keyPath: String,shouldLocalise: Bool = true) -> UIFont? {
         // First of all, check if the font textual info presented
         guard let parsedFontString = stringValue(for: keyPath) else { return nil }
-        return fontValue(from: parsedFontString)
+        return fontValue(from: parsedFontString,shouldLocalise: shouldLocalise)
     }
     
-    internal class func fontValue(from string: String) -> UIFont {
+    internal class func fontValue(from string: String,shouldLocalise: Bool = true) -> UIFont {
         // Check if the theme file provides both font name and font size
         let elements = string.components(separatedBy: ",")
         if elements.count == 2 {
             // First we check it in our default common fonts kit
-            if let fontFromFontKit = FontProvider.localizedFont(.TapFont(from: elements[0]), size: CGFloat(Float(elements[1]) ?? 12), languageIdentifier: TapLocalisationManager.shared.localisationLocale ?? "en") {
+            let languageIdentefier = shouldLocalise ? (TapLocalisationManager.shared.localisationLocale ?? "en") : "en"
+            if let fontFromFontKit = FontProvider.localizedFont(.TapFont(from: elements[0]), size: CGFloat(Float(elements[1]) ?? 12), languageIdentifier: languageIdentefier) {
                 return fontFromFontKit
             }else {
                 // If not, we Check if the font exists in the caller main bundle
