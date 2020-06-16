@@ -8,7 +8,12 @@
             "greyishBrown" : "#4b4847",
             "veryLightPinkTwo" : "#dfdfdf",
             "brownGrey" : "#a8a8a8",
-            "whiteTwo": "#f4f4f4"
+            "whiteTwo": "#f4f4f4",
+            "deepSkyBlue": "#007aff",
+            "white30":"#ffffff4D",
+            "lightPeriwinkle": "d9d9da",
+            "white80":"#ffffffcc",
+            "vibrantGreen" : "#2ace00"
         }
     },
     "inlineCard": {
@@ -182,5 +187,85 @@
         },
         "itemsNumberButtonCorner" : 10,
         "backgroundColor" : "black"
+    },
+    "horizontalList": {
+        "backgroundColor" : "whiteTwo",
+        "itemSpacing" : 10,
+        "margin" : 18,
+        "chips": {
+            "radius" : 8,
+            "currencyChip": {
+                "selected": {
+                    "backgroundColor" : "white",
+                    "shadow": {
+                        "color" : "deepSkyBlue",
+                        "radius" : 5
+                    },
+                    "labelTextFont": "Roboto-Regular,12",
+                    "labelTextColor": "greyishBrown"
+                },
+                "unSelected": {
+                    "backgroundColor" : "white30",
+                    "shadow": {
+                        "color" : "lightPeriwinkle",
+                        "radius" : 5
+                    },
+                    "labelTextFont": "Roboto-Regular,12",
+                    "labelTextColor": "greyishBrown"
+                }
+            },
+            "gatewayChip": {
+                "backgroundColor" : "white",
+                "shadow": {
+                    "color" : "lightPeriwinkle",
+                    "radius" : 2,
+                    "offsetWidth": 0,
+                    "offsetHeight": 0,
+                    "opacity": 0.2
+                }
+            },
+            "goPayChip": {
+                "shadow": {
+                    "color" : "lightPeriwinkle",
+                    "radius" : 2,
+                    "offsetWidth": 0,
+                    "offsetHeight": 0,
+                    "opacity": 0.2
+                },
+                "logIn": {
+                    "backgroundColor" : "vibrantGreen",
+                    "labelTextFont": "Roboto-Regular,12",
+                    "labelTextColor": "white"
+                },
+                "loggedIn": {
+                    "backgroundColor" : "deepSkyBlue",
+                    "labelTextFont": "Roboto-Regular,12",
+                    "labelTextColor": "white"
+                }
+            },
+            "applePayChip": {
+                "backgroundColor" : "black"
+            },
+            "savedCardChip": {
+                "selected": {
+                    "backgroundColor" : "white",
+                    "shadow": {
+                        "color" : "deepSkyBlue",
+                        "radius" : 5
+                    },
+                    "labelTextFont": "Roboto-Regular,12",
+                    "labelTextColor": "greyishBrown"
+                },
+                "unSelected": {
+                    "backgroundColor" : "white80",
+                    "shadow": {
+                        "color" : "lightPeriwinkle",
+                        "radius" : 5
+                    },
+                    "labelTextFont": "Roboto-Regular,12",
+                    "labelTextColor": "greyishBrown"
+                }
+            }
+        }
     }
 }

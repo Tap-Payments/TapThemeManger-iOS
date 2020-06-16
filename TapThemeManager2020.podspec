@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapThemeManager2020"
-  spec.version      = "1.0.14"
+  spec.version      = "1.0.15"
   spec.summary      = "TapThemeManager2020 is a part of Tap Payments 2020 vision. Allowing dynamic and responsive theming for iOS apps."
 
   # This description is used to generate tags and improve search results.
