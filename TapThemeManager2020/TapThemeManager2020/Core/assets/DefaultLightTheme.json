@@ -191,7 +191,7 @@
     },
     "horizontalList": {
         "backgroundColor" : "whiteTwo",
-        "itemSpacing" : 15,
+        "itemSpacing" : 10,
         "margin" : 18,
         "headers": {
             "gatewayHeader": {
@@ -209,23 +209,26 @@
         "chips": {
             "radius" : 8,
             "currencyChip": {
+                "backgroundColor" : "white",
+                "labelTextFont": "Roboto-Regular,12",
+                "labelTextColor": "greyishBrown",
                 "selected": {
-                    "backgroundColor" : "white",
                     "shadow": {
                         "color" : "deepSkyBlue",
-                        "radius" : 3
-                    },
-                    "labelTextFont": "Roboto-Regular,12",
-                    "labelTextColor": "greyishBrown"
+                        "radius" : 3,
+                        "offsetWidth": 0,
+                        "offsetHeight": 0,
+                        "opacity": 1
+                    }
                 },
                 "unSelected": {
-                    "backgroundColor" : "white30",
                     "shadow": {
                         "color" : "lightPeriwinkle",
-                        "radius" : 3
-                    },
-                    "labelTextFont": "Roboto-Regular,12",
-                    "labelTextColor": "greyishBrown"
+                        "radius" : 3,
+                        "offsetWidth": 0,
+                        "offsetHeight": 0,
+                        "opacity": 1
+                    }
                 }
             },
             "gatewayChip": {
