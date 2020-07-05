@@ -15,7 +15,7 @@ class FileDownloader: NSObject {
     
     /// This is the session used to download the file content
     private lazy var downloadSession: URLSession = {
-      let configuration = URLSessionConfiguration.default
+        let configuration = URLSessionConfiguration.background(withIdentifier: "tap.theme.download.background")
       return URLSession(configuration: configuration,
                         delegate: self,
                         delegateQueue: nil)
