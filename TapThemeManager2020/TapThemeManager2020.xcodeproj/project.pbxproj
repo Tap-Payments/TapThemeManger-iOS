@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62E9476924B206AD0097CD60 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9476824B206AD0097CD60 /* FileDownloader.swift */; };
 		6CF7E25C423CDB1F9AB18E32 /* Pods_TapThemeManagerObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3156736F91DE720676425B29 /* Pods_TapThemeManagerObjCDemo.framework */; };
 		E831DA352417A9D400E21FBE /* Theme1.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE2602416780C00E621BF /* Theme1.json */; };
 		E831DA362417A9D400E21FBE /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
@@ -130,6 +131,7 @@
 		1A799C5527E0B32CD9131448 /* Pods-TapThemeManagerSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManagerSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1D1C2C7C6B02609C274D7B7A /* Pods-TapThemeManagerObjCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManagerObjCDemo.debug.xcconfig"; path = "Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3156736F91DE720676425B29 /* Pods_TapThemeManagerObjCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapThemeManagerObjCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E9476824B206AD0097CD60 /* FileDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
 		83DFDDAE675B3133D4704C1A /* Pods-TapThemeManagerSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManagerSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-TapThemeManagerSwiftDemo/Pods-TapThemeManagerSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8B27D39905F47565C9307122 /* Pods-TapThemeManager2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManager2020.debug.xcconfig"; path = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020.debug.xcconfig"; sourceTree = "<group>"; };
 		B094935691467A0283BC73E7 /* Pods-TapThemeManager2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManager2020.release.xcconfig"; path = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,6 +244,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		62E9476724B206950097CD60 /* FlieDownload */ = {
+			isa = PBXGroup;
+			children = (
+				62E9476824B206AD0097CD60 /* FileDownloader.swift */,
+			);
+			path = FlieDownload;
+			sourceTree = "<group>";
+		};
 		E860F6462414C46A00214C3C = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +287,7 @@
 		E860F6602414CAE000214C3C /* TapThemeManagerSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				62E9476724B206950097CD60 /* FlieDownload */,
 				E89CE2622416781200E621BF /* Themes */,
 				E860F6612414CAE000214C3C /* AppDelegate.swift */,
 				E860F6632414CAE000214C3C /* SceneDelegate.swift */,
@@ -716,6 +727,7 @@
 				E89CE26A2416B7D800E621BF /* MyNavigationController.swift in Sources */,
 				E860F6622414CAE000214C3C /* AppDelegate.swift in Sources */,
 				E860F6642414CAE000214C3C /* SceneDelegate.swift in Sources */,
+				62E9476924B206AD0097CD60 /* FileDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

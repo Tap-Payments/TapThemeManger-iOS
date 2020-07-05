@@ -36,6 +36,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+//        downloadFile()
     }
 
     
@@ -97,6 +98,12 @@ class ViewController: UIViewController {
     @IBAction func nextThemeClicked(_ sender: Any) {
         currentThemeIndex += 1
         applyTheme()
+    }
+    
+    //MARK:- FileDownloading
+    func downloadFile() {
+        let downloader = FileDownloader(fileUrl: "https://sdk-assets.b-cdn.net/theme")
+        downloader.startDownloading()
     }
     
 }
