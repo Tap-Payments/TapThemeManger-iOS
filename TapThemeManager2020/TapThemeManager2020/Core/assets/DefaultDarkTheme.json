@@ -15,17 +15,15 @@
             "white80":"#ffffffcc",
             "vibrantGreen" : "#2ace00",
             "vibrantGreenTwo" : "#00d300",
-            "paleLilac":"#e4e4e5",
-            "clear":"#00000000",
-            "brownGreyTwo":"#b2b2b2"
+            "paleLilac":"#e4e4e5"
         }
     },
     "inlineCard": {
         "commonAttributes": {
             "backgroundColor": "black",
-            "borderColor": "clear",
+            "borderColor": "white",
             "cornerRadius":0,
-            "borderWidth": 0,
+            "borderWidth": 1,
             "itemSpacing": 5,
             "shadow":{
                 "color": "white",
@@ -47,8 +45,8 @@
         "textFields": {
             "textColor": "white",
             "errorTextColor": "#FF0000",
-            "font": "15",
-            "placeHolderColor" : "whiteAA"
+            "font" : "Roboto-Light,17",
+            "placeHolderColor" : "white"
         },
         "saveCardOption": {
             "labelTextColor": "white",
