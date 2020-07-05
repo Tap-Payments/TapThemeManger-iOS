@@ -15,15 +15,17 @@
             "white80":"#ffffffcc",
             "vibrantGreen" : "#2ace00",
             "vibrantGreenTwo" : "#00d300",
-            "paleLilac":"#e4e4e5"
+            "paleLilac":"#e4e4e5",
+            "clear":"#00000000",
+            "brownGreyTwo":"#b2b2b2"
         }
     },
     "inlineCard": {
         "commonAttributes": {
             "backgroundColor": "black",
-            "borderColor": "white",
+            "borderColor": "clear",
             "cornerRadius":0,
-            "borderWidth": 1,
+            "borderWidth": 0,
             "itemSpacing": 5,
             "shadow":{
                 "color": "white",
@@ -35,7 +37,7 @@
             "widthMargin": 7
         },
         "iconImage": {
-            "image": "bank",
+            "image": "card",
             "width": 32
         },
         "scanImage": {
@@ -320,7 +322,6 @@
         "backgroundColor": "white",
         "separatorColor": "veryLightPinkTwo",
         "item":{
-            "descriptionBackgroundColor" : "whiteTwo",
             "backgroundColor": "white",
             "titleLabelFont" : "Roboto-Regular,14",
             "titleLabelColor" : "greyishBrown",
