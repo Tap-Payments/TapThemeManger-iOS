@@ -8,8 +8,13 @@
 
 import Foundation
 
-class FileDownloader: NSObject {
+//protocol FileDownloaderDelegate: class {
+//    func didFinishDownloading(at path: String)
+//}
+
+internal class FileDownloader: NSObject {
     
+    public var completion: ((Data) -> ())?
     /// This is file url used to download
     private var fileUrl: String
     
@@ -22,7 +27,7 @@ class FileDownloader: NSObject {
     }()
     
     private var downloadingTask: URLSessionDownloadTask?
-    
+//    weak var delegate: FileDownloaderDelegate?
     // MARK: Init
     init(fileUrl: String) {
         self.fileUrl = fileUrl
@@ -61,11 +66,18 @@ extension FileDownloader: URLSessionDownloadDelegate {
         print("destinationURL: \(destinationUrl.absoluteString)")
         
         saveDownloadedFile(at: destinationUrl, from: location)
+        do {
+            let fileContent = try Data(contentsOf: destinationUrl)
+            completion?(fileContent)
+        } catch {
+            print("error loading ontent of file")
+        }
+        
     }
     
     func localFilePath(for url: URL) -> URL {
         let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-        let fullName = url.lastPathComponent + ".json"
+        let fullName = url.lastPathComponent
         return documentsPath.appendingPathComponent(fullName)
     }
 }

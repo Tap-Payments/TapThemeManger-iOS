@@ -71,7 +71,19 @@ public extension TapThemeManager {
      - The method for setting a theme from a JSON file
      - Parameter jsonName: The name of the JSON file that has the needed theme
      */
-    @objc class func setTapTheme(jsonName: String) {
+    @objc class func setTapTheme(jsonName: String? = nil) {
+        // Check if no file set
+        guard let jsonName = jsonName else {
+            self.loadJsonFromUrl { contentData in
+                print("file path after downloading: \(contentData)")
+                // Check if the file is correctly parsable
+                let json = try? JSONSerialization.jsonObject(with: contentData, options: .fragmentsAllowed)
+                let jsonDict = json as? NSDictionary
+                print("loaded json: \(jsonDict)")
+            }
+            print("jsonName empty")
+            return
+        }
         // Check if the file exists
         guard let jsonDict = loadThemeDict(from: jsonName) else {
             print("TapThemeManager WARNING: Can't find json '\(jsonName)'")
@@ -182,4 +194,10 @@ public extension TapThemeManager {
         applyThemeBasedOnDisplayMode()
     }
     
+    // MARK: Load from URL
+    internal class func loadJsonFromUrl(completion: ((Data) -> ())?) {
+        let downloader = FileDownloader(fileUrl: "https://sdk-assets.b-cdn.net/theme/theme.json")
+        downloader.completion = completion
+        downloader.startDownloading()
+    }
 }

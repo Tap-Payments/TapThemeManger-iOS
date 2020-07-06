@@ -49,7 +49,8 @@ class ViewController: UIViewController {
     /// Apply  the theme values from the theme file to the matching outlets
     private func applyTheme()
     {
-        TapThemeManager.setTapTheme(jsonName: jsonFiles[(currentThemeIndex%jsonFiles.count)])
+        TapThemeManager.setTapTheme()
+//        TapThemeManager.setTapTheme(jsonName: jsonFiles[(currentThemeIndex%jsonFiles.count)])
         self.setNeedsStatusBarAppearanceUpdate()
     }
     
@@ -101,10 +102,10 @@ class ViewController: UIViewController {
     }
     
     //MARK:- FileDownloading
-    func downloadFile() {
-        let downloader = FileDownloader(fileUrl: "https://sdk-assets.b-cdn.net/theme")
-        downloader.startDownloading()
-    }
+//    func downloadFile() {
+//        let downloader = FileDownloader(fileUrl: "https://sdk-assets.b-cdn.net/theme/theme.json")
+//        downloader.startDownloading()
+//    }
     
 }
 

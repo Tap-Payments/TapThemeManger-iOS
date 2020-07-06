@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		62E9476924B206AD0097CD60 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9476824B206AD0097CD60 /* FileDownloader.swift */; };
+		62F2BE5724B3607300B45994 /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9476824B206AD0097CD60 /* FileDownloader.swift */; };
 		6CF7E25C423CDB1F9AB18E32 /* Pods_TapThemeManagerObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3156736F91DE720676425B29 /* Pods_TapThemeManagerObjCDemo.framework */; };
 		E831DA352417A9D400E21FBE /* Theme1.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE2602416780C00E621BF /* Theme1.json */; };
 		E831DA362417A9D400E21FBE /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
@@ -287,7 +287,6 @@
 		E860F6602414CAE000214C3C /* TapThemeManagerSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				62E9476724B206950097CD60 /* FlieDownload */,
 				E89CE2622416781200E621BF /* Themes */,
 				E860F6612414CAE000214C3C /* AppDelegate.swift */,
 				E860F6632414CAE000214C3C /* SceneDelegate.swift */,
@@ -325,6 +324,7 @@
 		E860F6902414CD1100214C3C /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				62E9476724B206950097CD60 /* FlieDownload */,
 				E8AFD9772461456A00005F44 /* assets */,
 				E860F6CC24163B2E00214C3C /* enums */,
 				E860F6C92416321300214C3C /* Manager */,
@@ -691,6 +691,7 @@
 			files = (
 				E860F6AB2415021000214C3C /* ThemeBarStyleSelector.swift in Sources */,
 				E860F6B524151BB000214C3C /* ThemeKeyboardAppearanceSelector.swift in Sources */,
+				62F2BE5724B3607300B45994 /* FileDownloader.swift in Sources */,
 				E860F6BB2415207300214C3C /* ThemeStateSelector.swift in Sources */,
 				E860F6B924151E1C00214C3C /* ThemeScrollViewIndicatorStyleSelector.swift in Sources */,
 				E860F6B12415174100214C3C /* ThemeFontSelector.swift in Sources */,
@@ -727,7 +728,6 @@
 				E89CE26A2416B7D800E621BF /* MyNavigationController.swift in Sources */,
 				E860F6622414CAE000214C3C /* AppDelegate.swift in Sources */,
 				E860F6642414CAE000214C3C /* SceneDelegate.swift in Sources */,
-				62E9476924B206AD0097CD60 /* FileDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
