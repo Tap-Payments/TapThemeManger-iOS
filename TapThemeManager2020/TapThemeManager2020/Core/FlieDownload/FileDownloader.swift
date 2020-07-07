@@ -92,6 +92,9 @@ extension FileDownloader: URLSessionDownloadDelegate {
             }
             
         } catch {
+            DispatchQueue.main.async {
+                self.failed?(error)
+            }
             print("error loading ontent of file")
         }
         

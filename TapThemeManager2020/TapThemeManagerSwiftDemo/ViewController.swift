@@ -94,7 +94,11 @@ class ViewController: UIViewController {
         return TapThemeManager.themeStatusBarStyle(for: "Global.UIStatusBarStyle")
     }
     
-    
+    /// Listen to light/dark mde changes and apply the correct theme based on the new style
+    override public func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        TapThemeManager.changeThemeDisplay(for: self.traitCollection.userInterfaceStyle)
+    }
     
     @IBAction func nextThemeClicked(_ sender: Any) {
         currentThemeIndex += 1

@@ -79,6 +79,7 @@ public extension TapThemeManager {
             self.setTapThemeUrl()
             return
         }
+        
         // Check if the file exists
         guard let jsonDict = loadThemeDict(from: jsonName) else {
             print("TapThemeManager WARNING: Can't find json '\(jsonName)'")
@@ -196,7 +197,9 @@ public extension TapThemeManager {
         - Parameter faild: failued completion block when trying to download the file from url
      */
     internal class func loadJsonFromUrl(success: ((Data) -> ())?, fail: ((Error) -> ())?) {
-        let downloader = FileDownloader(fileUrl: "https://sdk-assets.b-cdn.net/theme/theme.json")
+//        https://kar-tempo.s3.ap-south-1.amazonaws.com/theme-tap.json
+//        "https://sdk-assets.b-cdn.net/theme/theme.json"
+        let downloader = FileDownloader(fileUrl: "https://kar-tempo.s3.ap-south-1.amazonaws.com/theme-tap.json")
         downloader.success = success
         downloader.failed = fail
         downloader.startDownloading()
@@ -216,7 +219,8 @@ public extension TapThemeManager {
             print("loaded json: \(jsonDict)")
 
             // All good, now change the theme :)
-            self.setTapTheme(themeDict: jsonDict)
+            self.setDefaultTapTheme(lightModeDictTheme: jsonDict["lightTheme"] as! NSDictionary, darkModeDictTheme: jsonDict["darkTheme"] as! NSDictionary)
+//            self.setTapTheme(themeDict: jsonDict)
         }) { error in
             // Failed loading from url
             loadLocalTheme()
