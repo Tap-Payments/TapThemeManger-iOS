@@ -74,14 +74,9 @@ public extension TapThemeManager {
     @objc class func setTapTheme(jsonName: String? = nil) {
         // Check if no file set
         guard let jsonName = jsonName else {
-            self.loadJsonFromUrl { contentData in
-                print("file path after downloading: \(contentData)")
-                // Check if the file is correctly parsable
-                let json = try? JSONSerialization.jsonObject(with: contentData, options: .fragmentsAllowed)
-                let jsonDict = json as? NSDictionary
-                print("loaded json: \(jsonDict)")
-            }
             print("jsonName empty")
+            // Load the theme from Url if jsonName empty
+            self.setTapThemeUrl()
             return
         }
         // Check if the file exists
@@ -195,9 +190,63 @@ public extension TapThemeManager {
     }
     
     // MARK: Load from URL
-    internal class func loadJsonFromUrl(completion: ((Data) -> ())?) {
+    /**
+     Call this method to load the theme from url
+        - Parameter success: success completion block after downloading the file returns the content data
+        - Parameter faild: failued completion block when trying to download the file from url
+     */
+    internal class func loadJsonFromUrl(success: ((Data) -> ())?, fail: ((Error) -> ())?) {
         let downloader = FileDownloader(fileUrl: "https://sdk-assets.b-cdn.net/theme/theme.json")
-        downloader.completion = completion
+        downloader.success = success
+        downloader.failed = fail
         downloader.startDownloading()
+    }
+    
+    /**
+     Call this method to set the theme from default tap url.
+     */
+    internal class func setTapThemeUrl() {
+        self.loadJsonFromUrl(success: { contentData in
+            print("file content after downloading: \(contentData)")
+            // Check if the file is correctly parsable
+            guard let jsonDict = try? JSONSerialization.jsonObject(with: contentData, options: .fragmentsAllowed) as? NSDictionary else {
+                self.loadLocalTheme()
+                return
+            }
+            print("loaded json: \(jsonDict)")
+
+            // All good, now change the theme :)
+            self.setTapTheme(themeDict: jsonDict)
+        }) { error in
+            // Failed loading from url
+            loadLocalTheme()
+        }
+    }
+    /**
+     Call this method to load the saved local theme
+     */
+    internal class func loadLocalTheme() {
+        if FileDownloader.localFileExist() {
+            do {
+                // Loading the saved local theme
+                let contentData = try Data(contentsOf: FileDownloader.localFilePath())
+            guard let jsonDict = try? JSONSerialization.jsonObject(with: contentData, options: .fragmentsAllowed) as? NSDictionary else {
+                self.setDefaultTapTheme()
+                return
+            }
+                
+                print("loaded json: \(jsonDict)")
+                
+                // All good, now change the theme :)
+                self.setTapTheme(themeDict: jsonDict)
+            } catch {
+                //set default theme of tap
+                self.setDefaultTapTheme()
+                print("failed loading old Theme")
+            }
+        } else {
+            //set default theme of tap
+            setDefaultTapTheme()
+        }
     }
 }

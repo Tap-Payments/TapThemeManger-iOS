@@ -14,9 +14,16 @@ import Foundation
 
 internal class FileDownloader: NSObject {
     
-    public var completion: ((Data) -> ())?
+    /// This is success closure to be called after downloading success
+    public var success: ((Data) -> ())?
+    
+    /// This is failure closure to be called if downloading process failed
+    public var failed: ((Error) -> ())?
+    
     /// This is file url used to download
     private var fileUrl: String
+    
+    private static var localFileName = "tap-theme"
     
     /// This is the session used to download the file content
     private lazy var downloadSession: URLSession = {
@@ -52,7 +59,20 @@ internal class FileDownloader: NSObject {
         do {
             try fileManager.copyItem(at: location, to: destinationUrl)
         } catch let error {
+            DispatchQueue.main.async {
+                self.failed?(error)
+            }
             print("Could not copy file to disk: \(error.localizedDescription)")
+        }
+    }
+    
+    class func localFileExist() -> Bool {
+        if FileManager.default.fileExists(atPath: FileDownloader.localFilePath().path) {
+            print("FILE AVAILABLE")
+            return true
+        }else        {
+            print("FILE NOT AVAILABLE")
+            return false;
         }
     }
 }
@@ -61,23 +81,24 @@ extension FileDownloader: URLSessionDownloadDelegate {
     
     func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didFinishDownloadingTo location: URL) {
         print("downloadLocation:", location)
-        guard let sourceUrl = downloadTask.originalRequest?.url else { return }
-        let destinationUrl = localFilePath(for: sourceUrl)
+        let destinationUrl = FileDownloader.localFilePath()
         print("destinationURL: \(destinationUrl.absoluteString)")
         
         saveDownloadedFile(at: destinationUrl, from: location)
         do {
             let fileContent = try Data(contentsOf: destinationUrl)
-            completion?(fileContent)
+            DispatchQueue.main.async {
+                self.success?(fileContent)
+            }
+            
         } catch {
             print("error loading ontent of file")
         }
         
     }
     
-    func localFilePath(for url: URL) -> URL {
+    class func localFilePath() -> URL {
         let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-        let fullName = url.lastPathComponent
-        return documentsPath.appendingPathComponent(fullName)
+        return documentsPath.appendingPathComponent(localFileName)
     }
 }
