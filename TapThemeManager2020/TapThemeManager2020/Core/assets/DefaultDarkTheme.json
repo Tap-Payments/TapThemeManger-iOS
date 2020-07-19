@@ -544,7 +544,12 @@
     "actionButton": {
         "Common": {
             "titleLabelFont" : "Roboto-Regular,16",
-            "titleLabelColor" : "white"
+            "titleLabelColor" : "white",
+            "assets": {
+                "loading": "3sec-white-loader-2.gif",
+                "error": "white-error-mob.gif",
+                "success": "white-success-mob.gif"
+            }
         },
         "Invalid" : {
             "backgroundColor" : "veryLightPinkThree"

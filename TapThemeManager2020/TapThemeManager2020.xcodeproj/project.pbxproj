@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6CF7E25C423CDB1F9AB18E32 /* Pods_TapThemeManagerObjCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3156736F91DE720676425B29 /* Pods_TapThemeManagerObjCDemo.framework */; };
+		E80C052F24C41EF200B12C00 /* 3sec-white-loader-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E80C052C24C41EF100B12C00 /* 3sec-white-loader-2.gif */; };
+		E80C053024C41EF200B12C00 /* white-error-mob.gif in Resources */ = {isa = PBXBuildFile; fileRef = E80C052D24C41EF100B12C00 /* white-error-mob.gif */; };
+		E80C053124C41EF200B12C00 /* white-success-mob.gif in Resources */ = {isa = PBXBuildFile; fileRef = E80C052E24C41EF100B12C00 /* white-success-mob.gif */; };
 		E831DA352417A9D400E21FBE /* Theme1.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE2602416780C00E621BF /* Theme1.json */; };
 		E831DA362417A9D400E21FBE /* Theme2.json in Resources */ = {isa = PBXBuildFile; fileRef = E89CE26724167ADC00E621BF /* Theme2.json */; };
 		E831DA372417A9D400E21FBE /* icon_theme_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E89CE263241678F200E621BF /* icon_theme_1.png */; };
@@ -135,6 +138,9 @@
 		B094935691467A0283BC73E7 /* Pods-TapThemeManager2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManager2020.release.xcconfig"; path = "Target Support Files/Pods-TapThemeManager2020/Pods-TapThemeManager2020.release.xcconfig"; sourceTree = "<group>"; };
 		C9A1B2A07E49E6E085AF2644 /* Pods_TapThemeManager2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapThemeManager2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC60D17D00B42C516CEA1A21 /* Pods-TapThemeManagerObjCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapThemeManagerObjCDemo.release.xcconfig"; path = "Target Support Files/Pods-TapThemeManagerObjCDemo/Pods-TapThemeManagerObjCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E80C052C24C41EF100B12C00 /* 3sec-white-loader-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "3sec-white-loader-2.gif"; sourceTree = "<group>"; };
+		E80C052D24C41EF100B12C00 /* white-error-mob.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "white-error-mob.gif"; sourceTree = "<group>"; };
+		E80C052E24C41EF100B12C00 /* white-success-mob.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "white-success-mob.gif"; sourceTree = "<group>"; };
 		E860F6502414C46A00214C3C /* TapThemeManager2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapThemeManager2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E860F6532414C46A00214C3C /* TapThemeManager2020.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapThemeManager2020.h; sourceTree = "<group>"; };
 		E860F6542414C46A00214C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -394,6 +400,9 @@
 			children = (
 				E8AFD978246145C900005F44 /* DefaultDarkTheme.json */,
 				E8AFD979246145C900005F44 /* DefaultLightTheme.json */,
+				E80C052C24C41EF100B12C00 /* 3sec-white-loader-2.gif */,
+				E80C052D24C41EF100B12C00 /* white-error-mob.gif */,
+				E80C052E24C41EF100B12C00 /* white-success-mob.gif */,
 				E8E92B45248F7C4900DD7DBB /* images.xcassets */,
 			);
 			path = assets;
@@ -533,7 +542,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E92B46248F7C4900DD7DBB /* images.xcassets in Resources */,
+				E80C053124C41EF200B12C00 /* white-success-mob.gif in Resources */,
+				E80C053024C41EF200B12C00 /* white-error-mob.gif in Resources */,
 				E8AFD97B246145C900005F44 /* DefaultLightTheme.json in Resources */,
+				E80C052F24C41EF200B12C00 /* 3sec-white-loader-2.gif in Resources */,
 				E8AFD97A246145C900005F44 /* DefaultDarkTheme.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

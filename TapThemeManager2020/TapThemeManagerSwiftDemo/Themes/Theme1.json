@@ -41,7 +41,7 @@
     "font":"Piedra-Regular,24"
   },
   "CustomUIImageView3": {
-    "image": "tapHandlerImage"
+    "image": "white-error-mob.gif"
   },
   "Global": {
       "UIStatusBarStyle": "LightContent",
