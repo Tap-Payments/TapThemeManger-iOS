@@ -27,7 +27,8 @@
             "cherryRed20":"#e12132",
             "deepSkyBlue15":"#007aff26",
             "brownGreyFive":"#aeaeae",
-            "deepSkyBlue15":"#007aff26"
+            "deepSkyBlue15":"#007aff26",
+            "veryLightPinkThree": "d7d7d7"
         }
     },
     "inlineCard": {
@@ -538,6 +539,23 @@
                     "backgroundColor" : "deepSkyBlue"
                 }
             }
+        }
+    },
+    "actionButton": {
+        "Common": {
+            "titleLabelFont" : "Roboto-Regular,16",
+            "titleLabelColor" : "white"
+        },
+        "Invalid" : {
+            "backgroundColor" : "veryLightPinkThree"
+        },
+        "Valid" : {
+            "goLoginBackgroundColor" : "deepSkyBlue",
+            "paymentBackgroundColor" : "vibrantGreen"
+        },
+        "BackgroundColor": {
+            "Otp" : "clear",
+            "default" : "whiteTwo"
         }
     }
 }
