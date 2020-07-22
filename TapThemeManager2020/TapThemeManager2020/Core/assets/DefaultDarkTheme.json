@@ -28,7 +28,8 @@
             "deepSkyBlue15":"#007aff26",
             "brownGreyFive":"#aeaeae",
             "deepSkyBlue15":"#007aff26",
-            "veryLightPinkThree": "#d7d7d7"
+            "veryLightPinkThree": "#d7d7d7",
+            "brownGreyFour": "#a6a6a6"
         }
     },
     "inlineCard": {
@@ -561,6 +562,89 @@
         "BackgroundColor": {
             "Otp" : "clear",
             "default" : "whiteTwo"
+        }
+    },
+    "TapOtpView": {
+        "backgroundColor": "clear",
+        "OtpController": {
+            "bottomLineColor": "brownGreyFour",
+            "activeBottomColor": "deepSkyBlue",
+            "textColor": "greyishBrown",
+            "textFont": "Roboto-Light,25"
+        },
+        "Timer": {
+            "textFont": "Roboto-Regular,16",
+            "textColor": "deepSkyBlue"
+        },
+        "Ready": {
+            "Message": {
+                "title": "greyishBrown",
+                "subtitle": "deepSkyBlue",
+                "textFont": "Roboto-Light,12"
+            }
+        },
+        "Expired": {
+            "Message": {
+                "title": "greyishBrown",
+                "subtitle": "deepSkyBlue",
+                "textFont": "Roboto-Light,12"
+            }
+        },
+        "Invalid": {
+            "Message": {
+                "title": "orange",
+                "subtitle": "orange",
+                "textFont": "Roboto-Light,12"
+            }
+        }
+    },
+    "TapSwitchView": {
+        "backgroundColor": "clear",
+        "CurvedSeparator": {
+            "BackgroundColor": "whiteTwo"
+        },
+        "main": {
+            "backgroundColor": "whiteTwo",
+            "title": {
+                "textFont": "Roboto-Light,12",
+                "textColor": "brownGreySix"
+            },
+            "subtitle": {
+                "textFont": "Roboto-Light,10",
+                "textColor": "brownGreySix"
+            }
+        },
+        "goPay": {
+            "backgroundColor": "clear",
+            "SwitchOnColor": "azure",
+            "title": {
+                "textFont": "Roboto-Light,14",
+                "textColor": "greyishBrown"
+            },
+            "subtitle": {
+                "textFont": "Roboto-Light,10",
+                "textColor": "brownGreySeven"
+            },
+            "notes": {
+                "textFont": "Roboto-Light,12",
+                "textColor": "greyishBrown"
+            }
+        },
+        "merchant": {
+            "backgroundColor": "clear",
+            "SwitchOnColor": "azure",
+            "title": {
+                "textFont": "Roboto-Light,14",
+                "textColor": "greyishBrown"
+            },
+            "subtitle": {
+                "textFont": "Roboto-Light,10",
+                "textColor": "greyishBrown"
+            },
+            "notes": {
+                "textFont": "Roboto-Light,12",
+                "textColor": "greyishBrown"
+            }
         }
     }
 }
