@@ -1,7 +1,7 @@
 PODS:
   - LocalisationManagerKit-iOS (1.0.0)
   - SwiftLint (0.39.2)
-  - TapFontKit-iOS (0.0.3):
+  - TapFontKit-iOS (0.0.4):
     - SwiftLint
     - TapSwiftFixes
   - TapSwiftFixes (1.0.9):
@@ -26,7 +26,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   LocalisationManagerKit-iOS: fe6a1f2e07d7bf73335675517d2f261f33124274
   SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
-  TapFontKit-iOS: 2810f6f66ad8a1fa9a2afc0e3cbaf6ecd5dc9d1f
+  TapFontKit-iOS: 8d509ebc025d060be7ade9b73e7ec6cf161bad10
   TapSwiftFixes: db2aeb21942dd81ee051a31ed319dab0d03547a2
 
 PODFILE CHECKSUM: 13d557cc66d97f280f20f85578057676d4438dc7
