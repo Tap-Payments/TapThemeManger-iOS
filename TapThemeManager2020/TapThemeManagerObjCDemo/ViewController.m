@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 @import TapThemeManager2020;
+#import <TapThemeManager2020/TapThemeManager2020.h>
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *CustomView1;
