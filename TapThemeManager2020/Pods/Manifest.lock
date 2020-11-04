@@ -1,6 +1,6 @@
 PODS:
   - LocalisationManagerKit-iOS (1.0.2)
-  - TapFontKit-iOS (0.0.6):
+  - TapFontKit-iOS (0.0.7):
     - TapSwiftFixes
   - TapSwiftFixes (1.0.9):
     - TapSwiftFixes/CoreGraphics (= 1.0.9)
@@ -22,7 +22,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   LocalisationManagerKit-iOS: cd702915c67faba899d4613d44ceb00cefccec6e
-  TapFontKit-iOS: 0c6ce54ee313299b7d5cc7adf18ac5ed84f61f91
+  TapFontKit-iOS: 7eba5c8159f5ec22b8bfc8bf8718928ceb758323
   TapSwiftFixes: db2aeb21942dd81ee051a31ed319dab0d03547a2
 
 PODFILE CHECKSUM: 13d557cc66d97f280f20f85578057676d4438dc7
