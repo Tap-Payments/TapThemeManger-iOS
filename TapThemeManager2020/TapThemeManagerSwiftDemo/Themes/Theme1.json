@@ -27,7 +27,7 @@
   },
   "CustomLabel2": {
     "textColor": "#F18904",
-    "font":"roboto-light,24"
+    "font":"Tajawal-Light,24"
   },
   "CustomSwitch2": {
     "onTint": "#F18904",
