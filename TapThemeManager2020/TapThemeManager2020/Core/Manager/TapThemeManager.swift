@@ -138,7 +138,7 @@ public extension TapThemeManager {
             if let nonNullData = data,
                let nonNullJsonDictionary = try? JSONSerialization.jsonObject(with: nonNullData, options: .allowFragments) as? NSDictionary {
                 // All good
-                result = NSMutableDictionary.init(dictionary: nonNullJsonDictionary)
+                result = NSMutableDictionary.init(dictionary: nonNullJsonDictionary ?? [:])
                 semaphore.signal()
             }else{
                 // Something happened
