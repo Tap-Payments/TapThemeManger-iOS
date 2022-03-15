@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="myK-LJ-gRM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="myK-LJ-gRM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Gn-kA-WKL">
-                                <rect key="frame" x="8" y="88" width="398" height="128"/>
+                                <rect key="frame" x="8" y="142" width="398" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This view theme is CustomView1 and the label is CustomLabel1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ji-ZL-pvO">
                                         <rect key="frame" x="8" y="43.5" width="382" height="41"/>
@@ -26,7 +27,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="9Ji-ZL-pvO" firstAttribute="centerX" secondItem="5Gn-kA-WKL" secondAttribute="centerX" id="JdD-IG-mqo"/>
                                     <constraint firstAttribute="height" constant="128" id="Wes-7M-dTP"/>
@@ -36,7 +37,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G0z-cX-6aB">
-                                <rect key="frame" x="8" y="224" width="398" height="128"/>
+                                <rect key="frame" x="8" y="278" width="398" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This view theme is CustomView2 and the label is CustomLabel2 and the switch is CustomSwitch2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gO9-Fb-9T7">
                                         <rect key="frame" x="8" y="44" width="382" height="40"/>
@@ -48,7 +49,7 @@
                                         <rect key="frame" x="341" y="89" width="51" height="31"/>
                                     </switch>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="gO9-Fb-9T7" firstAttribute="centerX" secondItem="G0z-cX-6aB" secondAttribute="centerX" id="2Ju-rW-acv"/>
                                     <constraint firstItem="gO9-Fb-9T7" firstAttribute="centerY" secondItem="G0z-cX-6aB" secondAttribute="centerY" id="6VJ-bn-TFY"/>
@@ -59,8 +60,8 @@
                                     <constraint firstAttribute="height" constant="128" id="cl8-cM-Aop"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wg3-zv-thZ">
-                                <rect key="frame" x="157" y="496" width="100" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wg3-zv-thZ">
+                                <rect key="frame" x="157" y="550" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="S8W-PP-WSQ"/>
                                     <constraint firstAttribute="width" constant="100" id="jKY-Yz-O3k"/>
@@ -71,7 +72,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qCN-xW-23Y">
-                                <rect key="frame" x="8" y="360" width="398" height="128"/>
+                                <rect key="frame" x="8" y="414" width="398" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This view theme is CustomView3 and the label is GlobalLabel and the UIImage is CustomUIImageView3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eby-Sq-YjR">
                                         <rect key="frame" x="8" y="33.5" width="382" height="61"/>
@@ -87,7 +88,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="kj5-Op-7DF" secondAttribute="trailing" constant="8" id="5BT-at-Kmr"/>
                                     <constraint firstItem="Eby-Sq-YjR" firstAttribute="centerY" secondItem="qCN-xW-23Y" secondAttribute="centerY" id="Zmp-BO-oBQ"/>
@@ -98,22 +99,37 @@
                                     <constraint firstAttribute="bottom" secondItem="kj5-Op-7DF" secondAttribute="bottom" constant="8" id="u49-3c-pwZ"/>
                                 </constraints>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a remote json theme url" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="u3G-3h-qhV">
+                                <rect key="frame" x="20" y="88" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="go"/>
+                            </textField>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="upm-B9-CFO">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="color" red="0.98431372549999996" green="0.0" blue="0.069672159849999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="G0z-cX-6aB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="2mR-1M-GTx"/>
                             <constraint firstAttribute="trailing" secondItem="qCN-xW-23Y" secondAttribute="trailing" constant="8" id="8nH-OX-nxh"/>
                             <constraint firstItem="Wg3-zv-thZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BWL-Sx-Fe4"/>
                             <constraint firstItem="5Gn-kA-WKL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="NLu-Mz-pdt"/>
                             <constraint firstItem="Wg3-zv-thZ" firstAttribute="top" secondItem="qCN-xW-23Y" secondAttribute="bottom" constant="8" id="ODV-Sh-PdP"/>
+                            <constraint firstItem="upm-B9-CFO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Phv-Kf-dCr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="u3G-3h-qhV" secondAttribute="trailing" constant="20" id="Poz-JM-sKU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Gn-kA-WKL" secondAttribute="trailing" constant="8" id="UUv-NW-di5"/>
                             <constraint firstItem="G0z-cX-6aB" firstAttribute="top" secondItem="5Gn-kA-WKL" secondAttribute="bottom" constant="8" id="Ujh-iA-euD"/>
+                            <constraint firstItem="upm-B9-CFO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UyH-2x-Zbd"/>
+                            <constraint firstItem="5Gn-kA-WKL" firstAttribute="top" secondItem="u3G-3h-qhV" secondAttribute="bottom" constant="20" id="Vhc-EL-zCH"/>
+                            <constraint firstItem="u3G-3h-qhV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fwo-gv-qUK"/>
                             <constraint firstItem="qCN-xW-23Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="g1g-qe-oOS"/>
-                            <constraint firstItem="5Gn-kA-WKL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mw4-l0-kae"/>
+                            <constraint firstItem="u3G-3h-qhV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jpN-0R-fEY"/>
                             <constraint firstItem="qCN-xW-23Y" firstAttribute="top" secondItem="G0z-cX-6aB" secondAttribute="bottom" constant="8" id="rLu-71-u2k"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G0z-cX-6aB" secondAttribute="trailing" constant="8" id="vmz-hp-gYt"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Attributed Title" id="qnh-Ic-ln3"/>
                     <connections>
@@ -126,6 +142,8 @@
                         <outlet property="customView1" destination="5Gn-kA-WKL" id="2Bp-6J-BA1"/>
                         <outlet property="customView2" destination="G0z-cX-6aB" id="KcC-zi-YNb"/>
                         <outlet property="customView3" destination="qCN-xW-23Y" id="G0p-Dv-LLX"/>
+                        <outlet property="loadingActivity" destination="upm-B9-CFO" id="Sff-px-c0G"/>
+                        <outlet property="remoteThemeUrlTextField" destination="u3G-3h-qhV" id="oLj-Zj-bWd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -151,4 +169,9 @@
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

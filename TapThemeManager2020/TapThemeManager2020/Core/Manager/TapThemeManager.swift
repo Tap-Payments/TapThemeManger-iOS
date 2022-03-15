@@ -82,6 +82,76 @@ public extension TapThemeManager {
         self.setTapTheme(themeDict: jsonDict)
     }
     
+    
+    /**
+     - The method for setting a theme from a remote url pointing to a theme JSON file
+     - Parameter remoteURL: The URL to load the theme json file from
+     */
+    @objc class func setTapTheme(remoteURL: URL) {
+        // Validate the given string to be a valid URL and of a json file
+        guard validateJsonRemoteURL(remoteURL: remoteURL) else {
+            print("TapThemeManager WARNING: Can't find json from the url '\(remoteURL)'")
+            return
+        }
+        
+        // All good, now let us load the conent of the JSON file first
+        
+        // Check if the loading function did successed in loading a valid parsable json
+        guard let dictTheme = loadRemoteJsonTheme(remoteURL: remoteURL) else {
+            // Use the default
+            print("TapThemeManager WARNING: The json loaded from '\(remoteURL)' is not a valid parsable json text")
+            return
+        }
+        // Set the theme
+        self.setTapTheme(themeDict: dictTheme)
+    }
+    
+    /**
+     Decides if the given URL is a valid url and is pointing to a json file
+     - Parameter remoteURL : The url to be checked
+     - Returns: True if the remoteURL is a valid URL and points to a Json file, false otherwise
+     */
+    internal class func validateJsonRemoteURL(remoteURL: URL) -> Bool {
+        // Validate the given string to be a valid URL and of a json file
+        guard remoteURL.absoluteString.isValidURL,
+              remoteURL.absoluteString.hasSuffix("json") else {
+                  return false
+              }
+        return true
+    }
+    
+    /**
+     Loads the remote json and converts it into a theme dictionaty
+     - Parameter remoteURL : The url to fetch the json theme from
+     - Returns: A valid theme dictionary from the loaded json, will return NULL in any errors happens
+     */
+    internal class func loadRemoteJsonTheme(remoteURL:URL) -> NSDictionary? {
+        // Load the data first
+        
+        // Make it a sync call
+        let semaphore = DispatchSemaphore(value: 0)
+        
+        var result:NSMutableDictionary? = nil
+        
+        let task = URLSession.shared.dataTask(with: remoteURL) {(data, response, error) in
+            // Check the data is loaded properly, no errors, and the data is a parsable json format
+            if let nonNullData = data,
+               let nonNullJsonDictionary = try? JSONSerialization.jsonObject(with: nonNullData, options: .allowFragments) as? NSDictionary {
+                // All good
+                result = NSMutableDictionary.init(dictionary: nonNullJsonDictionary)
+                semaphore.signal()
+            }else{
+                // Something happened
+                semaphore.signal()
+            }
+        }
+        
+        task.resume()
+        semaphore.wait()
+        
+        return result
+    }
+    
     /**
      Converts a JSON file into a Theme Dictionary
      - Parameter jsonName: The name of the needed json file.
@@ -188,4 +258,19 @@ public extension TapThemeManager {
         applyThemeBasedOnDisplayMode()
     }
     
+}
+
+
+fileprivate extension String {
+    /// Decides if the given string is a valid URL format
+    var isValidURL: Bool {
+        // Define a charachter set that defines all availble charachters in a link
+        let detector = try! NSDataDetector(types: NSTextCheckingResult.CheckingType.link.rawValue)
+        if let match = detector.firstMatch(in: self, options: [], range: NSRange(location: 0, length: self.utf16.count)) {
+            // it is a link, if the match covers the whole string
+            return match.range.length == self.utf16.count
+        } else {
+            return false
+        }
+    }
 }

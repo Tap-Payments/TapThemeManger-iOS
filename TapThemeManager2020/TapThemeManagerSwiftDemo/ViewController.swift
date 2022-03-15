@@ -25,7 +25,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var NextThemeButton: UIButton!
     
+    @IBOutlet weak var remoteThemeUrlTextField: UITextField!
     
+    @IBOutlet weak var loadingActivity: UIActivityIndicatorView!
     // MARK:- Variables
     /// The list of themes you want to provide
     let jsonFiles = ["Theme1","Theme2"]
@@ -36,6 +38,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        remoteThemeUrlTextField.delegate = self
+        loadingActivity.isHidden = true
     }
 
     
@@ -50,6 +54,13 @@ class ViewController: UIViewController {
     {
         TapThemeManager.setTapTheme(jsonName: jsonFiles[(currentThemeIndex%jsonFiles.count)])
         self.setNeedsStatusBarAppearanceUpdate()
+    }
+    
+    func loadRemoteTheme(remoteURL:URL) {
+        loadingActivity.isHidden = false
+        TapThemeManager.setTapTheme(remoteURL: remoteURL)
+        self.setNeedsStatusBarAppearanceUpdate()
+        loadingActivity.isHidden = true
     }
     
     private func matchThemeAttributes()
@@ -92,12 +103,19 @@ class ViewController: UIViewController {
         return TapThemeManager.themeStatusBarStyle(for: "Global.UIStatusBarStyle")
     }
     
-    
-    
     @IBAction func nextThemeClicked(_ sender: Any) {
         currentThemeIndex += 1
         applyTheme()
     }
-    
 }
 
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if let url:URL = URL(string: textField.text ?? "") {
+            loadRemoteTheme(remoteURL:url)
+        }
+        textField.resignFirstResponder()
+        return true
+    }
+}
