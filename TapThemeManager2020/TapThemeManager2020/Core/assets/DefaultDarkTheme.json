@@ -568,6 +568,13 @@
             "actionButtonTextFont" : "Roboto-Regular,12"
         }
     },
+    "poweredByTap": {
+        "powerLabel": {
+            "textColor": "greyishBrown",
+            "font" : "Roboto-Light,10"
+        },
+        "tapLogo":"poweredByTapLogo"
+    },
     "goPay": {
         "loginBar" :{
             "backgroundColor" : "whiteTwo",
