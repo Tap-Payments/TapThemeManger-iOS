@@ -81,8 +81,8 @@
             "placeHolderColor" : "brownGreyTwo"
         },
         "saveCardOption": {
-            "labelTextColor": "black",
-            "labelTextFont": "20",
+            "labelTextColor": "greyishBrown",
+            "labelTextFont": "Roboto-Light,14",
             "switchTintColor": "white",
             "switchThumbColor": "white",
             "switchOnThumbColor": "#2ACE00"
