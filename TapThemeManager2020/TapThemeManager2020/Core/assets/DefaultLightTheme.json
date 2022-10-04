@@ -79,6 +79,7 @@
             "textColor": "greyishBrown",
             "errorTextColor": "#FF0000",
             "font" : "Roboto-Light,14",
+            "saveCardFontDots" : "Roboto-Bold,24",
             "placeHolderColor" : "brownGreyTwo"
         },
         "saveCardOption": {
@@ -363,13 +364,13 @@
                 "labelTextColor": "greyishBrown",
                 "selected": {
                     "shadow": {
-                        "color" : "deepSkyBlue",
-                        "radius" : 3,
+                        "color" : "black15",
+                        "radius" : 4,
                         "offsetWidth": 0,
                         "offsetHeight": 0,
                         "opacity": 1,
-                        "borderColor":"clear",
-                        "borderWidth":0
+                        "borderColor":"vibrantGreenTwo",
+                        "borderWidth":1
                     }
                 },
                 "unSelected": {
@@ -572,9 +573,9 @@
         "Error":
         {
             "textFont": "Roboto-Light,12",
-            "textColor": "cherryRed",
-            "backgroundColor": "cherryRed10",
-            "borderColor": "cherryRed20",
+            "textColor": "#EA611C",
+            "backgroundColor": "#EA611C33",
+            "borderColor": "clear",
             "actionButtonTextColor" : "clear",
             "actionButtonTextFont" : "Roboto-Regular,12"
         },
