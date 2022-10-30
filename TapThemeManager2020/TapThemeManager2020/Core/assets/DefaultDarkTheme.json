@@ -33,7 +33,8 @@
             "brownGreySix": "#a7a7a7",
             "brownGreySeven": "#7e7e7e",
             "white78": "#f9f9f9C6",
-            "brownGreyFour": "#a6a6a6"
+            "brownGreyFour": "#a6a6a6",
+            "cancelBorder": "#DEDEDE"
         }
     },
     "inlineCard": {
@@ -659,7 +660,14 @@
                 "success": "white-success-mob.gif",
                 "faceID": "faceID",
                 "touchID": "touchID"
-            }
+            },
+            "borderColor": "clear"
+        },
+        "Cancel" : {
+            "goLoginBackgroundColor" : "clear",
+            "backgroundColor" : "white",
+            "titleLabelColor" : "greyishBrown",
+            "borderColor": "cancelBorder"
         },
         "Invalid" : {
             "goLoginBackgroundColor" : "clear",
