@@ -90,6 +90,33 @@
             "infoButtonTintColor": "#626262"
         }
     },
+    "customerDataCollection": {
+        "backgroundColor":"white",
+        "shadow":{
+            "color": "#FFFFFF26",
+            "radius": 8,
+            "offsetWidth": 0,
+            "offsetHeight": 0,
+            "opacity": 1
+        },
+        "textfields":{
+            "font":"Roboto-Light,14",
+            "countryCodeLabelFont":"Roboto,14",
+            "color":"greyishBrown",
+            "placeHolderColor":"##9F9F9F"
+        },
+        "countryPicker": {
+            "countryCell":{
+                "backgroundColor":"clear",
+                "titleLabelFont":"Roboto,14",
+                "titleLabelColor":"greyishBrown"
+            },
+            "countryTable":{
+                "backgroundColor":"white"
+            }
+        },
+        "cornerRadius":8
+    },
     "phoneCard": {
         "commonAttributes": {
             "backgroundColor": "white",
@@ -291,7 +318,7 @@
         "footerView": {
             "pointsTextColor" : "#7E7E7E",
             "pointsFont" : "Roboto-Regular,11",
-            "amountTextColor" : "#greyishBrown",
+            "amountTextColor" : "greyishBrown",
             "amountFont" : "Roboto-Regular,11"
         }
     },
