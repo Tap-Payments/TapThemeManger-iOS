@@ -75,7 +75,7 @@
         },
         "textFields": {
             "textColor": "greyishBrown",
-            "errorTextColor": "#FF0000",
+            "errorTextColor": "greyishBrown",
             "font" : "Roboto-Light,14",
             "saveCardFontDots" : "Roboto-Bold,24",
             "placeHolderColor" : "cardPlaceHolder"
