@@ -470,11 +470,11 @@
                 }
             },
             "applePayChip": {
-                "backgroundColor" : "black",
+                "backgroundColor" : "#FFFFFF",
                 "applePayTitleFont": "Roboto-Regular,14",
-                "applePayTitleColor": "greyishBrown",
+                "applePayTitleColor": "#000000",
                 "appleLogoTitleFont": "Roboto-Regular,16",
-                "appleLogoTitleColor": "greyishBrown",
+                "appleLogoTitleColor": "#000000",
                 "selected": {
                     "shadow": {
                         "color" : "vibrantGreenTwo",
