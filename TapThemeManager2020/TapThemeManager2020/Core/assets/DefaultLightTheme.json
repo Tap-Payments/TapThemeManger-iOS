@@ -59,7 +59,8 @@
             "cornerRadius": 8,
             "borderWidth": 0,
             "itemSpacing": 5,
-            "cvvPlaceHolder": "light-cvv",
+            "cvvPlaceHolder": "cvv",
+            "savedCardCvvUnderLineColor": "#009AFF",
             "shadow":{
                 "color": "#00000026",
                 "radius": 8,
@@ -74,7 +75,7 @@
             "width": 32,
             "tint": "lightGrey"
         },
-        "closeSavedCardIcon" : "closeSavedCardInputIcon",
+        "closeSavedCardIcon" : "closeSavedCardInputIconArrow",
         "scanImage": {
             "image": "scanIcon",
             "selected": "selectedScan",
