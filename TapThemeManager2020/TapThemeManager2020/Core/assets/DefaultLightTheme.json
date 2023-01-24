@@ -721,7 +721,7 @@
         },
         "BackgroundColor": {
             "Otp" : "clear",
-            "default" : "whiteTwo"
+            "default" : "clear"
         }
     },
     "TapOtpView": {
