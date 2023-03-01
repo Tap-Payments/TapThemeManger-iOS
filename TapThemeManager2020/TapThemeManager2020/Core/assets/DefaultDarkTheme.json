@@ -102,7 +102,14 @@
             "labelTextFont": "Roboto-Light,12",
             "saveButtonActivatedTintColor": "azure",
             "saveButtonDeactivatedTintColor": "#626262",
-            "infoButtonTintColor": "#626262"
+            "infoButtonTintColor": "#626262",
+            "tooltip":{
+                "borderColor":"#FFFFFFBA",
+                "titleColor":"#FFFFFF",
+                "titleFont":"Roboto,17",
+                "subTitleColor":"#FFFFFFB2",
+                "subTitleFont":"Roboto-Light,13"
+            }
         }
     },
     "customerDataCollection": {
@@ -647,7 +654,7 @@
             "textColor": "greyishBrown",
             "font" : "Roboto-Light,10"
         },
-        "tapLogo":"poweredByTapLogoDark"
+        "tapLogo":"Powered-by-tap-Dark"
     },
     "goPay": {
         "loginBar" :{

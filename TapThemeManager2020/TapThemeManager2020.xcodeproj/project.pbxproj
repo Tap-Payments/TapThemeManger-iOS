@@ -71,9 +71,9 @@
 		E8AFD97A246145C900005F44 /* DefaultDarkTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = E8AFD978246145C900005F44 /* DefaultDarkTheme.json */; };
 		E8AFD97B246145C900005F44 /* DefaultLightTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = E8AFD979246145C900005F44 /* DefaultLightTheme.json */; };
 		E8BC12D92417ABA100CCC5C6 /* MyNavigatioController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BC12D82417ABA100CCC5C6 /* MyNavigatioController.m */; };
+		E8DA53B729AF536600003CFF /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E92B45248F7C4900DD7DBB /* images.xcassets */; };
 		E8E92B36248E511B00DD7DBB /* Piedra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8E92B35248E511B00DD7DBB /* Piedra-Regular.ttf */; };
 		E8E92B37248E511B00DD7DBB /* Piedra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8E92B35248E511B00DD7DBB /* Piedra-Regular.ttf */; };
-		E8E92B46248F7C4900DD7DBB /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E92B45248F7C4900DD7DBB /* images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -541,10 +541,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8E92B46248F7C4900DD7DBB /* images.xcassets in Resources */,
 				E80C053124C41EF200B12C00 /* white-success-mob.gif in Resources */,
 				E80C053024C41EF200B12C00 /* white-error-mob.gif in Resources */,
 				E8AFD97B246145C900005F44 /* DefaultLightTheme.json in Resources */,
+				E8DA53B729AF536600003CFF /* images.xcassets in Resources */,
 				E80C052F24C41EF200B12C00 /* 3sec-white-loader-2.gif in Resources */,
 				E8AFD97A246145C900005F44 /* DefaultDarkTheme.json in Resources */,
 			);

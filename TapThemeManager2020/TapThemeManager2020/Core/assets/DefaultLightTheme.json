@@ -44,7 +44,7 @@
             "textColor": "lightGrey",
             "font" : "Roboto-Light,10"
         },
-        "tapLogo":"poweredByTapLogo"
+        "tapLogo":"Powered-by-tap-Light"
     },
     "asyncView": {
         "labelsFont":"Roboto-Regular,20",
@@ -106,7 +106,14 @@
             "labelTextFont": "Roboto-Light,12",
             "saveButtonActivatedTintColor": "azure",
             "saveButtonDeactivatedTintColor": "lightGrey",
-            "infoButtonTintColor": "lightGrey"
+            "infoButtonTintColor": "lightGrey",
+            "tooltip":{
+                "borderColor":"#3C37371F",
+                "titleColor":"#4B4847",
+                "titleFont":"Roboto,17",
+                "subTitleColor":"#4B4847ED",
+                "subTitleFont":"Roboto-Light,13"
+            }
         }
     },
     "customerDataCollection": {
