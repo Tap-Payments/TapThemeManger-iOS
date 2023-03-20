@@ -589,6 +589,10 @@
             "tint": "lightGrey",
             "width": 32
         },
+        "blur3dsoverlay":{
+            "tint":"#FFFFFF",
+            "tintAlpha":0
+        },
         "saveCardForTapOption": {
             "infoButtonTintColor": "lightGrey",
             "labelTextColor": "#7E7E7E",
