@@ -76,9 +76,9 @@
         "Warning": {
             "actionButtonTextColor": "clear",
             "actionButtonTextFont": "Roboto-Regular,12",
-            "backgroundColor": "apricot30",
+            "backgroundColor": "#EA611CCC",
             "borderColor": "reddishOrange20",
-            "textColor": "orange",
+            "textColor": "#FBDFD2",
             "textFont": "Roboto-Light,12"
         }
     },
@@ -166,6 +166,7 @@
         }
     },
     "TapVerticalView": {
+        "backgroundOverlayColor": "#1C1C1CBF",
         "blurBackgroundColor": "clear",
         "defaultBackgroundColor": "whiteTwo"
     },
@@ -403,6 +404,7 @@
     },
     "horizontalList": {
         "backgroundColor": "whiteTwo",
+        "cardSDKBacgroundColor": "clear",
         "chips": {
             "applePayChip": {
                 "appleLogoTitleColor": "#000000",
@@ -563,6 +565,10 @@
         "margin": 18
     },
     "inlineCard": {
+        "blur3dsoverlay": {
+            "tint": "#000000",
+            "tintAlpha": 0.1
+        },
         "clearImage": {
             "image": "clearFormIcon",
             "tint": "cardPlaceHolder",
@@ -591,10 +597,7 @@
             "tint": "cardPlaceHolder",
             "width": 32
         },
-        "blur3dsoverlay":{
-            "tint":"#000000",
-            "tintAlpha":0.1
-        },
+        "loaderImage": "3sec-white-loader-2",
         "saveCardForTapOption": {
             "infoButtonTintColor": "#626262",
             "labelTextColor": "#7E7E7E",
@@ -735,6 +738,8 @@
         }
     },
     "poweredByTap": {
+        "backgroundColor": "#00000052",
+        "blurColor": "#00000052",
         "powerLabel": {
             "font": "Roboto-Light,10",
             "textColor": "greyishBrown"
