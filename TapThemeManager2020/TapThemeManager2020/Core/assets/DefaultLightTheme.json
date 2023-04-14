@@ -408,7 +408,7 @@
                 "appleLogoTitleFont": "Roboto-Regular,16",
                 "applePayTitleColor": "white",
                 "applePayTitleFont": "Roboto-Regular,14",
-                "backgroundColor": "black",
+                "backgroundColor": "white",
                 "selected": {
                     "shadow": {
                         "borderColor": "clear",
