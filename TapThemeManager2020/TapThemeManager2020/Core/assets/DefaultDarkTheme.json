@@ -82,6 +82,10 @@
             "textFont": "Roboto-Light,12"
         }
     },
+    "TapCurrencyPromptView": {
+        "backgroundColor": "#211F1F",
+        "glowColor": "#343232"
+    },
     "TapOtpView": {
         "Expired": {
             "Message": {
@@ -183,10 +187,10 @@
         },
         "Common": {
             "assets": {
-                "error": "white-error-mob.gif",
+                "error": "white-error-mob",
                 "faceID": "faceID",
-                "loading": "3sec-white-loader-2.gif",
-                "success": "white-success-mob.gif",
+                "loading": "Black-loader",
+                "success": "black-success-mob",
                 "touchID": "touchID"
             },
             "borderColor": "clear",
@@ -198,9 +202,9 @@
             "titleLabelColor": "#626262"
         },
         "Valid": {
-            "goLoginBackgroundColor": "deepSkyBlue",
-            "paymentBackgroundColor": "vibrantGreen",
-            "titleLabelColor": "greyishBrown"
+            "goLoginBackgroundColor": "#FFFFFF",
+            "paymentBackgroundColor": "#FFFFFF",
+            "titleLabelColor": "#000000"
         }
     },
     "amountSectionView": {
@@ -518,6 +522,11 @@
             "radius": 8,
             "savedCardChip": {
                 "backgroundColor": "black",
+                "blurOverlay": {
+                    "alpha": 0.5,
+                    "color": "#000000",
+                    "radius": 8
+                },
                 "editMode": {
                     "alpha": 0.8,
                     "deleteIcon": "deleteCardIconLight"
@@ -739,7 +748,8 @@
     },
     "poweredByTap": {
         "backgroundColor": "#00000052",
-        "blurColor": "#00000052",
+        "blurAlpha": 0.32,
+        "blurColor": "#000000",
         "powerLabel": {
             "font": "Roboto-Light,10",
             "textColor": "greyishBrown"
