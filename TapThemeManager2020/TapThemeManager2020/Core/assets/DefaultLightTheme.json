@@ -20,6 +20,7 @@
         },
         "currencyDropDown": {
             "arrowDownImageName": "chevrondown",
+            "arrowDownTint": "#626262",
             "arrowUpImageName": "chevronup",
             "backgroundColor": "#FFFFFFBA",
             "borderColor": "#3C37371F",
